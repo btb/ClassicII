@@ -711,12 +711,24 @@
       "ADB & Battery"
     ],
     [
-      "a1415c52-40c6-4657-bc46-3390674b2bf6",
-      "RAM"
+      "ddb6fb8e-56a1-4266-8842-a4dba604cfa2",
+      "CPU"
+    ],
+    [
+      "b49a02be-c91b-4a6e-be7d-697bb0d00944",
+      "EAGLE"
     ],
     [
       "eac7777a-8f57-4e3a-9b7f-78cfdf51e6bd",
       "ROM & FPU"
+    ],
+    [
+      "a1415c52-40c6-4657-bc46-3390674b2bf6",
+      "RAM"
+    ],
+    [
+      "6e5f4b54-3310-467e-95fd-ab392540b935",
+      "SCSI & Serial"
     ],
     [
       "e0da1480-45c0-42b9-b023-a290fb31e4d0",
@@ -727,24 +739,12 @@
       "Floppy"
     ],
     [
-      "ddb6fb8e-56a1-4266-8842-a4dba604cfa2",
-      "CPU"
-    ],
-    [
       "d909ad86-0934-4f76-8543-80157c36b198",
       "Sound"
     ],
     [
       "e3fee5a1-cf40-4697-883d-e8942f3ad207",
       "DFAC"
-    ],
-    [
-      "b49a02be-c91b-4a6e-be7d-697bb0d00944",
-      "EAGLE"
-    ],
-    [
-      "6e5f4b54-3310-467e-95fd-ab392540b935",
-      "SCSI & Serial"
     ]
   ],
   "text_variables": {}
