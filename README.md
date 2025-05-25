@@ -11,7 +11,7 @@ The board was severely damaged by battery and capacitor leakage, but I was able 
 
 The inner layers are used for various ground and power planes - you can make out a surprising amount of inner detail by backlighting the board and seeing what shines through the windows left by vias, etc., so these are also reproduced fairly accurately.
 
-The Bomarc schematics for this board were useful as a reference, but they are for the earlier revision, and they do contain some inaccuracies.
+The [Bomarc schematics](documents/Bomarc schematics - corrected.pdf) for this board were useful as a reference, but they are for the earlier revision, and they do contain some inaccuracies.
 
 ## Issues
 
