@@ -15,7 +15,7 @@ The Bomarc schematics for this board were useful as a reference, but they are fo
 
 ## Issues
 
-The layout of my schematic could use a little help, as I don't know enough about a lot of the signals on the undocumented Apple ASICs to classify them correctly.
+The layout of [my schematic](ClassicII.pdf) could use a little help, as I don't know enough about a lot of the signals on the undocumented Apple ASICs to classify them correctly.
 
 The silkscreen markings of the PCB aren't as nice as I'd like yet.
 
