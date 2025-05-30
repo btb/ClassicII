@@ -1,7 +1,8 @@
 # ClassicII
+
 Reproduction of Macintosh Classic II
 
-![Rendering of reproduced Class II logic board](ClassicII.png)
+![Rendering of reproduced Class II logic board](ClassicIIRevB/ClassicIIRevB.png)
 
 This was reverse-engineered from a later-revision Classic II logic board. All components on the front side, and a handful of components on the back side, were removed, and the board was scanned.
 
@@ -15,7 +16,7 @@ The [Bomarc schematics](documents/Bomarc%20schematics%20-%20corrected.pdf) for t
 
 ## Issues
 
-It's likely some of the signals of the undocumented Apple ASICs in [my schematic](ClassicII.pdf) aren't classified correctly.
+It's likely some of the signals of the undocumented Apple ASICs in [my schematic](ClassicIIRevB/ClassicIIRevB.pdf) aren't classified correctly.
 
 The silkscreen markings of the PCB aren't as nice as I'd like yet.
 
