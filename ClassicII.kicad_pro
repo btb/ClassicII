@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.5,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,7 +64,43 @@
           ""
         ],
         [
-          "via_dangling|169392600|122123200|403ec5d9-ba73-401d-95d3-b758f7663658|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|100272760|85114677|60d65588-83bf-4c09-9128-a11ecbe91c33|6b47d565-328a-4819-be65-288bcb841974",
+          ""
+        ],
+        [
+          "courtyards_overlap|111201600|105077600|b48aa251-8019-4ff1-95c7-85f03d55f320|debffafe-c085-4ede-bef5-77062cf387f4",
+          ""
+        ],
+        [
+          "courtyards_overlap|196094002|76162200|31b36789-c1d6-4629-a8e2-e9deca1e9ae7|8ee17030-7520-414d-a1cb-ac77b42ec3ac",
+          ""
+        ],
+        [
+          "courtyards_overlap|221532360|101904077|41e2f2bc-9639-4fad-a35c-767684f7e9b9|8ee17030-7520-414d-a1cb-ac77b42ec3ac",
+          ""
+        ],
+        [
+          "courtyards_overlap|28757962|151231200|276d4d13-0964-434a-9b58-d9f28ac0579e|d85e7aa9-498d-4b74-9491-287491b98b85",
+          ""
+        ],
+        [
+          "courtyards_overlap|33070964|147132389|d85e7aa9-498d-4b74-9491-287491b98b85|e06ad4df-f12a-481a-b8be-0c052593b21b",
+          ""
+        ],
+        [
+          "courtyards_overlap|33141400|28948571|a31cdcc7-f01d-4051-a46c-a20069a24666|e18fb5eb-2325-47d6-b449-f056a5e06c6a",
+          ""
+        ],
+        [
+          "courtyards_overlap|47648000|40689200|a31cdcc7-f01d-4051-a46c-a20069a24666|f5f3266c-08d4-4d4e-b179-c73c94e7202f",
+          ""
+        ],
+        [
+          "courtyards_overlap|69335560|115620077|287d4d36-76f7-4903-b5e4-494aa1c35485|6b47d565-328a-4819-be65-288bcb841974",
+          ""
+        ],
+        [
+          "track_dangling|27787600|154889200|3aeb99ab-98ed-4d5b-9ae4-aad4d5816238|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -97,7 +133,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -109,9 +145,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -250,7 +286,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|558800|558800|478a9b80-03a7-40e0-ae7a-abcfabb7a9d3|84826a64-ed15-479f-9d6e-538625320111|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -720,11 +761,23 @@
     ],
     [
       "eac7777a-8f57-4e3a-9b7f-78cfdf51e6bd",
-      "ROM & FPU"
+      "System ROM"
+    ],
+    [
+      "bc80051c-6830-456e-b0c4-e1f5b90e7af5",
+      "Expansion Slot"
+    ],
+    [
+      "aab3ea78-22fe-47e2-9e39-146455ca0720",
+      "RAM Transceivers"
     ],
     [
       "a1415c52-40c6-4657-bc46-3390674b2bf6",
       "RAM"
+    ],
+    [
+      "670995c9-a329-4b73-aabb-a47376e06fd3",
+      "RAM Expansion"
     ],
     [
       "6e5f4b54-3310-467e-95fd-ab392540b935",
@@ -745,6 +798,10 @@
     [
       "e3fee5a1-cf40-4697-883d-e8942f3ad207",
       "DFAC"
+    ],
+    [
+      "ed988263-0502-4bec-a35a-953cd115b8a7",
+      "Test Points"
     ]
   ],
   "text_variables": {}

@@ -15,8 +15,8 @@ The [Bomarc schematics](documents/Bomarc%20schematics%20-%20corrected.pdf) for t
 
 ## Issues
 
-The layout of [my schematic](ClassicII.pdf) could use a little help, as I don't know enough about a lot of the signals on the undocumented Apple ASICs to classify them correctly.
+It's likely some of the signals of the undocumented Apple ASICs in [my schematic](ClassicII.pdf) aren't classified correctly.
 
 The silkscreen markings of the PCB aren't as nice as I'd like yet.
 
-There should be a "reloaded" version that will better serve those who need to replace their existing board. It should have footprints for both the older and the newer revision ROM chips. The footprints for the electrolytic caps should be widened to make them friendlier to replace with tantalums. The battery should accommodate a 2032 coin cell.
+There should be a "reloaded" version that will better serve those who need to replace their damaged boards. It should have footprints for both the older and the newer revision ROM chips. The footprints for the electrolytic caps should be widened to make them friendlier to replace with tantalums. The battery should accommodate a 2032 coin cell.
