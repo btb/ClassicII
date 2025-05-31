@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II Revision B")
-		(date "2025-05-29")
+		(date "2025-05-31")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -14270,7 +14270,7 @@
 		)
 	)
 	(sheet
-		(at 127 25.4)
+		(at 114.3 25.4)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14286,7 +14286,7 @@
 		)
 		(uuid "040ed762-f009-4b79-aae0-9178ab7234ec")
 		(property "Sheetname" "ADB & Battery"
-			(at 127 24.6884 0)
+			(at 114.3 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14295,7 +14295,7 @@
 			)
 		)
 		(property "Sheetfile" "egret.kicad_sch"
-			(at 127 29.7946 0)
+			(at 114.3 29.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14312,7 +14312,49 @@
 		)
 	)
 	(sheet
-		(at 203.2 35.56)
+		(at 139.7 45.72)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51c9cb57-f150-4fef-8266-afe34f9a12a0")
+		(property "Sheetname" "System ROM 512K & 1M"
+			(at 139.7 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rom2.kicad_sch"
+			(at 139.7 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 45.72)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14328,7 +14370,7 @@
 		)
 		(uuid "551eba59-0a84-4518-a12c-92e7715cc602")
 		(property "Sheetname" "Floppy"
-			(at 203.2 34.8484 0)
+			(at 201.93 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14337,7 +14379,7 @@
 			)
 		)
 		(property "Sheetfile" "floppy.kicad_sch"
-			(at 203.2 39.9546 0)
+			(at 201.93 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14348,49 +14390,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 177.8 35.56)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "670995c9-a329-4b73-aabb-a47376e06fd3")
-		(property "Sheetname" "RAM Expansion"
-			(at 177.8 34.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "simm.kicad_sch"
-			(at 177.8 39.9546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "9")
+					(page "13")
 				)
 			)
 		)
@@ -14410,8 +14410,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "6e5f4b54-3310-467e-95fd-ab392540b935")
-		(property "Sheetname" "SCSI & Serial"
+		(uuid "670995c9-a329-4b73-aabb-a47376e06fd3")
+		(property "Sheetname" "RAM Expansion"
 			(at 177.8 45.0084 0)
 			(effects
 				(font
@@ -14420,7 +14420,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "scsi.kicad_sch"
+		(property "Sheetfile" "simm.kicad_sch"
 			(at 177.8 50.1146 0)
 			(effects
 				(font
@@ -14433,6 +14433,90 @@
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e5f4b54-3310-467e-95fd-ab392540b935")
+		(property "Sheetname" "SCSI & Serial"
+			(at 201.93 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "scsi.kicad_sch"
+			(at 201.93 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 35.56)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1415c52-40c6-4657-bc46-3390674b2bf6")
+		(property "Sheetname" "RAM"
+			(at 177.8 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ram.kicad_sch"
+			(at 177.8 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
+					(page "9")
 				)
 			)
 		)
@@ -14452,8 +14536,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a1415c52-40c6-4657-bc46-3390674b2bf6")
-		(property "Sheetname" "RAM"
+		(uuid "aab3ea78-22fe-47e2-9e39-146455ca0720")
+		(property "Sheetname" "RAM Transceivers"
 			(at 177.8 24.6884 0)
 			(effects
 				(font
@@ -14462,7 +14546,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ram.kicad_sch"
+		(property "Sheetfile" "xcvr.kicad_sch"
 			(at 177.8 29.7946 0)
 			(effects
 				(font
@@ -14480,49 +14564,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 45.72)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "aab3ea78-22fe-47e2-9e39-146455ca0720")
-		(property "Sheetname" "RAM Transceivers"
-			(at 152.4 45.0084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "xcvr.kicad_sch"
-			(at 152.4 50.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 45.72)
+		(at 114.3 45.72)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14538,7 +14580,7 @@
 		)
 		(uuid "b49a02be-c91b-4a6e-be7d-697bb0d00944")
 		(property "Sheetname" "EAGLE"
-			(at 127 45.0084 0)
+			(at 114.3 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14548,7 +14590,7 @@
 			)
 		)
 		(property "Sheetfile" "eagle.kicad_sch"
-			(at 127 50.1146 0)
+			(at 114.3 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +14607,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 35.56)
+		(at 139.7 25.4)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14580,8 +14622,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bc80051c-6830-456e-b0c4-e1f5b90e7af5")
-		(property "Sheetname" "Expansion Slot"
-			(at 152.4 34.8484 0)
+		(property "Sheetname" "Expansion Slot and Jumpers"
+			(at 139.7 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,7 +14632,7 @@
 			)
 		)
 		(property "Sheetfile" "romfpu.kicad_sch"
-			(at 152.4 39.9546 0)
+			(at 139.7 29.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14601,134 +14643,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 203.2 45.72)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d909ad86-0934-4f76-8543-80157c36b198")
-		(property "Sheetname" "Sound"
-			(at 203.2 45.0084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sound.kicad_sch"
-			(at 203.2 50.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 35.56)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ddb6fb8e-56a1-4266-8842-a4dba604cfa2")
-		(property "Sheetname" "CPU"
-			(at 127 34.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "cpu.kicad_sch"
-			(at 127 39.9546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 203.2 25.4)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e0da1480-45c0-42b9-b023-a290fb31e4d0")
-		(property "Sheetname" "Serial"
-			(at 203.2 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "serial.kicad_sch"
-			(at 203.2 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "11")
+					(page "5")
 				)
 			)
 		)
@@ -14748,17 +14663,18 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e3fee5a1-cf40-4697-883d-e8942f3ad207")
-		(property "Sheetname" "DFAC"
+		(uuid "d909ad86-0934-4f76-8543-80157c36b198")
+		(property "Sheetname" "Sound"
 			(at 228.6 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "dfac.kicad_sch"
+		(property "Sheetfile" "sound.kicad_sch"
 			(at 228.6 29.7946 0)
 			(effects
 				(font
@@ -14776,7 +14692,133 @@
 		)
 	)
 	(sheet
-		(at 152.4 25.4)
+		(at 114.3 35.56)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddb6fb8e-56a1-4266-8842-a4dba604cfa2")
+		(property "Sheetname" "CPU"
+			(at 114.3 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 114.3 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 35.56)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0da1480-45c0-42b9-b023-a290fb31e4d0")
+		(property "Sheetname" "Serial"
+			(at 201.93 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial.kicad_sch"
+			(at 201.93 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 35.56)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3fee5a1-cf40-4697-883d-e8942f3ad207")
+		(property "Sheetname" "DFAC"
+			(at 228.6 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dfac.kicad_sch"
+			(at 228.6 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 35.56)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14791,8 +14833,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "eac7777a-8f57-4e3a-9b7f-78cfdf51e6bd")
-		(property "Sheetname" "System ROM"
-			(at 152.4 24.6884 0)
+		(property "Sheetname" "System ROM 128K & 256K"
+			(at 139.7 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14801,7 +14843,7 @@
 			)
 		)
 		(property "Sheetfile" "rom.kicad_sch"
-			(at 152.4 29.7946 0)
+			(at 139.7 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14812,7 +14854,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -14854,7 +14896,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f"
-					(page "15")
+					(page "16")
 				)
 			)
 		)

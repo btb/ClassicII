@@ -693,6 +693,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Desc2",
+          "name": "Desc2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Desc",
+          "name": "Desc",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -760,12 +772,16 @@
       "EAGLE"
     ],
     [
-      "eac7777a-8f57-4e3a-9b7f-78cfdf51e6bd",
-      "System ROM"
+      "bc80051c-6830-456e-b0c4-e1f5b90e7af5",
+      "Expansion Slot and Jumpers"
     ],
     [
-      "bc80051c-6830-456e-b0c4-e1f5b90e7af5",
-      "Expansion Slot"
+      "eac7777a-8f57-4e3a-9b7f-78cfdf51e6bd",
+      "System ROM 128K & 256K"
+    ],
+    [
+      "51c9cb57-f150-4fef-8266-afe34f9a12a0",
+      "System ROM 512K & 1M"
     ],
     [
       "aab3ea78-22fe-47e2-9e39-146455ca0720",
