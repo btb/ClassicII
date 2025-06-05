@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II Revision B")
-		(date "2025-05-31")
+		(date "2025-06-04")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -6053,7 +6053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+		(property "Footprint" "MyPackage:Fiducial_1mm_Mask3mm_square"
 			(at 147.32 200.66 0)
 			(effects
 				(font
@@ -9284,7 +9284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+		(property "Footprint" "MyPackage:Fiducial_1mm_Mask3mm_square"
 			(at 147.32 175.26 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II Revision B")
-		(date "2025-05-31")
+		(date "2025-06-04")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -3195,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 40.64) (xy 101.6 40.64)
+			(xy 78.74 40.64) (xy 101.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 66.04) (xy 77.47 66.04)
+			(xy 66.04 66.04) (xy 76.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 82.55 66.04)
+			(xy 127 66.04) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 40.64) (xy 80.01 53.34)
+			(xy 78.74 40.64) (xy 78.74 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3915,7 +3915,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 114.3 53.34)
+			(xy 81.28 53.34) (xy 114.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3995,7 +3995,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 53.34) (xy 66.04 53.34)
+			(xy 76.2 53.34) (xy 66.04 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4753,7 +4753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyPackage:MacClassicROMFPU_2x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Imports:TE_5-102567-6"
 			(at 137.16 116.84 0)
 			(effects
 				(font
@@ -5007,7 +5007,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 80.01 58.42 90)
+		(at 78.74 58.42 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5017,7 +5017,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d0af1a7-036b-4c71-8576-4f772f56a7f1")
 		(property "Reference" "J13"
-			(at 85.09 58.4199 90)
+			(at 83.82 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5026,7 @@
 			)
 		)
 		(property "Value" "PROM select"
-			(at 85.09 60.9599 90)
+			(at 83.82 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5035,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 80.01 58.42 0)
+			(at 78.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 58.42 0)
+			(at 78.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5053,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 58.42 0)
+			(at 78.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5501,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 80.01 66.04 0)
+		(at 78.74 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5510,7 +5510,7 @@
 		(fields_autoplaced yes)
 		(uuid "80bf9084-176f-477b-9ff1-c566c4f3f4e6")
 		(property "Reference" "#PWR0199"
-			(at 80.01 72.39 0)
+			(at 78.74 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.0101 69.85 90)
+			(at 78.7401 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 66.04 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 66.04 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 80.01 66.04 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

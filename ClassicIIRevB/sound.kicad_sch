@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II Revision B")
-		(date "2025-05-31")
+		(date "2025-06-04")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -3578,6 +3578,26 @@
 			(justify left top)
 		)
 		(uuid "68294701-db2c-4402-b716-f82aba842157")
+	)
+	(text_box "3.5mm TRS with isolated DPDT switch.\nFairly common footprint but obsolete?/custom? center height of 0.300\" (7.62mm) above PCB."
+		(exclude_from_sim no)
+		(at 228.6 110.49 0)
+		(size 25.4 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8877dd0a-90dc-4c05-ac73-4de1398054a3")
 	)
 	(junction
 		(at 165.1 137.16)
@@ -10201,7 +10221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Mine:SJ3579AN"
+		(property "Footprint" "Connector_Mine:Jack_3.5mm_SameSky_SJ3589ANG"
 			(at 215.9 119.38 0)
 			(effects
 				(font

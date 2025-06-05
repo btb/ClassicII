@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II Revision B")
-		(date "2025-05-31")
+		(date "2025-06-04")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -8537,7 +8537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm"
+		(property "Footprint" "MyPackage:PLCC-44_16.6x16.6mm_P1.27mm_oval"
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -10078,7 +10078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "MyPackage:SOIC-20W_7.5x12.8mm_P1.27mm_oval"
 			(at 147.32 106.68 0)
 			(effects
 				(font

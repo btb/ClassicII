@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II Revision B")
-		(date "2025-05-31")
+		(date "2025-06-04")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -897,7 +897,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery"
+		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
 			)
@@ -917,7 +917,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery"
+			(property "Value" "Battery_Cell"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -944,7 +944,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multiple-cell battery"
+			(property "Description" "Single-cell battery"
 				(at 0 0 0)
 				(effects
 					(font
@@ -953,7 +953,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "batt voltage-source cell"
+			(property "ki_keywords" "battery cell"
 				(at 0 0 0)
 				(effects
 					(font
@@ -962,7 +962,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_0_1"
+			(symbol "Battery_Cell_0_1"
 				(rectangle
 					(start -2.286 1.778)
 					(end 2.286 1.524)
@@ -975,30 +975,8 @@
 					)
 				)
 				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 1.016)
 					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1021,31 +999,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1080,7 +1034,7 @@
 					)
 				)
 			)
-			(symbol "Battery_1_1"
+			(symbol "Battery_Cell_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -1100,7 +1054,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -4028,7 +3982,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "44d65b61-65ba-451f-9a83-5da3d832287e")
+		(uuid "46ab4418-104a-4215-b27a-f2cc442eedbb")
 	)
 	(wire
 		(pts
@@ -4119,6 +4073,16 @@
 			(type default)
 		)
 		(uuid "5a1c590a-2fa9-44b1-b708-77341c3f607b")
+	)
+	(wire
+		(pts
+			(xy 35.56 53.34) (xy 35.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5477d8-baee-4306-a901-9a036c3cee19")
 	)
 	(wire
 		(pts
@@ -8156,36 +8120,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 35.56 55.88 0)
+		(lib_id "Device:Battery_Cell")
+		(at 35.56 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a48f0715-a4cd-405d-ad6a-59165ea60439")
 		(property "Reference" "BT1"
-			(at 31.75 54.0384 0)
+			(at 27.94 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "3V"
-			(at 31.75 56.5784 0)
+			(at 27.94 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MyPackage:BatteryHolder_0.5xAA"
-			(at 35.56 54.356 90)
+		(property "Footprint" "MyPackage:BatteryHolder_Keystone_108_1_2xAA"
+			(at 35.56 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 54.356 90)
+			(at 35.56 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,8 +8165,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multiple-cell battery"
-			(at 35.56 55.88 0)
+		(property "Description" "Single-cell battery"
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

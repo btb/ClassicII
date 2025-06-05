@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II Revision B")
-		(date "2025-05-31")
+		(date "2025-06-04")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -149,7 +149,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MyRam:441000"
+		(symbol "MyRam:DRAM_1Mx4_26SOJ20"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -171,7 +171,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "MyPackage:SOJ-20_7.62x17.145mm_P1.27mm"
+			(property "Footprint" "MyPackage:SOJ-26-20_7.62x17.145mm_P1.27mm"
 				(at -26.67 -31.75 0)
 				(effects
 					(font
@@ -216,7 +216,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "441000_0_1"
+			(symbol "DRAM_1Mx4_26SOJ20_0_1"
 				(rectangle
 					(start -7.62 22.86)
 					(end 7.62 -20.32)
@@ -229,7 +229,7 @@
 					)
 				)
 			)
-			(symbol "441000_1_0"
+			(symbol "DRAM_1Mx4_26SOJ20_1_0"
 				(pin input line
 					(at -10.16 -7.62 0)
 					(length 2.54)
@@ -258,7 +258,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -267,7 +267,7 @@
 					)
 				)
 			)
-			(symbol "441000_1_1"
+			(symbol "DRAM_1Mx4_26SOJ20_1_1"
 				(text "1M"
 					(at -0.254 5.842 0)
 					(effects
@@ -296,7 +296,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -314,7 +314,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -332,7 +332,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -350,7 +350,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -368,7 +368,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,7 +386,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -404,7 +404,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -422,7 +422,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -440,7 +440,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -494,7 +494,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -512,7 +512,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -530,7 +530,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -584,7 +584,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,7 +602,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4868,7 +4868,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MyRam:441000")
+		(lib_id "MyRam:DRAM_1Mx4_26SOJ20")
 		(at 86.36 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4895,7 +4895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyPackage:SOJ-20_7.62x17.145mm_P1.27mm"
+		(property "Footprint" "MyPackage:SOJ-26-20_7.62x17.145mm_P1.27mm"
 			(at 59.69 116.84 0)
 			(effects
 				(font
@@ -4922,13 +4922,13 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
+		(pin "24"
 			(uuid "892f72dd-a8d7-45dd-b131-c0d34c08822b")
 		)
-		(pin "7"
+		(pin "25"
 			(uuid "9922f5f5-f475-4f5f-889e-4f77d0b56691")
 		)
-		(pin "8"
+		(pin "23"
 			(uuid "7209941c-4244-4d7c-8a03-e9e078e276a0")
 		)
 		(pin "13"
@@ -4961,7 +4961,7 @@
 		(pin "10"
 			(uuid "1d0e9871-4ef1-4cf3-83c6-8a765e7d1257")
 		)
-		(pin "20"
+		(pin "22"
 			(uuid "f3a5096e-967e-40df-8d60-b045d2ede0b6")
 		)
 		(pin "1"
@@ -4973,7 +4973,7 @@
 		(pin "18"
 			(uuid "11f4735b-ba75-43ab-9145-c7a28500d393")
 		)
-		(pin "19"
+		(pin "26"
 			(uuid "2b9e101b-314a-4f7f-89cb-0e6a5156a563")
 		)
 		(pin "4"
@@ -4992,7 +4992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MyRam:441000")
+		(lib_id "MyRam:DRAM_1Mx4_26SOJ20")
 		(at 215.9 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5019,7 +5019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyPackage:SOJ-20_7.62x17.145mm_P1.27mm"
+		(property "Footprint" "MyPackage:SOJ-26-20_7.62x17.145mm_P1.27mm"
 			(at 189.23 116.84 0)
 			(effects
 				(font
@@ -5046,13 +5046,13 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
+		(pin "23"
 			(uuid "f5e35d7f-8b47-43f2-8dba-d5759925a6e0")
 		)
-		(pin "7"
+		(pin "26"
 			(uuid "9396e78c-5b0c-435d-a188-d115cbaf0be5")
 		)
-		(pin "8"
+		(pin "24"
 			(uuid "a9d19f8d-d158-4625-bbeb-0947440d5f84")
 		)
 		(pin "13"
@@ -5085,7 +5085,7 @@
 		(pin "10"
 			(uuid "cb3fc1db-4965-425c-a16c-143c79397a9e")
 		)
-		(pin "20"
+		(pin "25"
 			(uuid "148f6c39-5f58-4f52-bb81-e33c3a07d5b6")
 		)
 		(pin "1"
@@ -5097,7 +5097,7 @@
 		(pin "18"
 			(uuid "5bd4f125-e0c9-400e-b288-bb9b22fc4927")
 		)
-		(pin "19"
+		(pin "22"
 			(uuid "0f111b93-b0b6-4e02-abbd-7f266a80059c")
 		)
 		(pin "4"
@@ -5659,7 +5659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MyRam:441000")
+		(lib_id "MyRam:DRAM_1Mx4_26SOJ20")
 		(at 129.54 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5686,7 +5686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyPackage:SOJ-20_7.62x17.145mm_P1.27mm"
+		(property "Footprint" "MyPackage:SOJ-26-20_7.62x17.145mm_P1.27mm"
 			(at 102.87 116.84 0)
 			(effects
 				(font
@@ -5713,13 +5713,13 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
+		(pin "23"
 			(uuid "a579b058-1415-44c8-8144-15be1d91a7e9")
 		)
-		(pin "7"
+		(pin "22"
 			(uuid "7c074cb2-f42f-4d21-8656-1d1e1b737cfc")
 		)
-		(pin "8"
+		(pin "26"
 			(uuid "e0f6f198-b9d7-4beb-a98b-c5cedfeb386c")
 		)
 		(pin "13"
@@ -5752,7 +5752,7 @@
 		(pin "10"
 			(uuid "d5cd488e-091e-4aac-9f7c-18e9cd4791ba")
 		)
-		(pin "20"
+		(pin "24"
 			(uuid "b569a01f-6d2b-460a-9c43-a8467e8f3d41")
 		)
 		(pin "1"
@@ -5764,7 +5764,7 @@
 		(pin "18"
 			(uuid "6427f4c4-d22c-44c3-944e-c3f8ce9e8abb")
 		)
-		(pin "19"
+		(pin "25"
 			(uuid "c0781653-f2bd-4858-ad16-dd0ccb8e5cd1")
 		)
 		(pin "4"
@@ -5985,7 +5985,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MyRam:441000")
+		(lib_id "MyRam:DRAM_1Mx4_26SOJ20")
 		(at 172.72 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6012,7 +6012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyPackage:SOJ-20_7.62x17.145mm_P1.27mm"
+		(property "Footprint" "MyPackage:SOJ-26-20_7.62x17.145mm_P1.27mm"
 			(at 146.05 116.84 0)
 			(effects
 				(font
@@ -6039,13 +6039,13 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
+		(pin "23"
 			(uuid "5e98e84f-f096-4c1a-b692-852a05dc2a8a")
 		)
-		(pin "7"
+		(pin "22"
 			(uuid "79f43471-3cc7-4acf-8ce0-a9634b61b19c")
 		)
-		(pin "8"
+		(pin "26"
 			(uuid "597e83f7-a882-4e96-ae67-6e115b05f758")
 		)
 		(pin "13"
@@ -6078,7 +6078,7 @@
 		(pin "10"
 			(uuid "b11680e5-038a-4ad1-a55b-d52c6415c6e5")
 		)
-		(pin "20"
+		(pin "24"
 			(uuid "74954222-f35e-4e0d-99e1-0cc85d390bba")
 		)
 		(pin "1"
@@ -6090,7 +6090,7 @@
 		(pin "18"
 			(uuid "8e1dddef-73f7-4903-a433-3305dca605d7")
 		)
-		(pin "19"
+		(pin "25"
 			(uuid "539d5f13-d6d3-4be7-a1cf-d62a82be5d2c")
 		)
 		(pin "4"

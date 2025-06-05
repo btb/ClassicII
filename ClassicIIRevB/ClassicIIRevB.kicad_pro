@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 3.2,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,6 +69,14 @@
         ],
         [
           "courtyards_overlap|111201600|105077600|b48aa251-8019-4ff1-95c7-85f03d55f320|debffafe-c085-4ede-bef5-77062cf387f4",
+          ""
+        ],
+        [
+          "courtyards_overlap|161493000|109015800|6f23eac4-08a6-4486-b76c-d8ff7083e358|d18cd88c-9148-4fa9-ab2a-f3c78fcd139c",
+          ""
+        ],
+        [
+          "courtyards_overlap|161493000|129437400|28f8985c-da1b-4267-8ebb-3cc1c4606beb|795808f9-6085-4349-84a0-e5052e25135a",
           ""
         ],
         [
@@ -102,6 +110,10 @@
         [
           "track_dangling|27787600|154889200|3aeb99ab-98ed-4d5b-9ae4-aad4d5816238|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "track_dangling|83413600|63423800|a3164eb2-48e3-4cc3-ba3d-5ad6fd74e214|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -126,7 +138,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
-        "holes_co_located": "warning",
+        "holes_co_located": "ignore",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
