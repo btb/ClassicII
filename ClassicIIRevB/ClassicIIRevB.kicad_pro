@@ -92,7 +92,7 @@
           ""
         ],
         [
-          "courtyards_overlap|33070964|147132389|d85e7aa9-498d-4b74-9491-287491b98b85|e06ad4df-f12a-481a-b8be-0c052593b21b",
+          "courtyards_overlap|32900600|146932767|d85e7aa9-498d-4b74-9491-287491b98b85|e06ad4df-f12a-481a-b8be-0c052593b21b",
           ""
         ],
         [
@@ -164,7 +164,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -301,6 +301,26 @@
     "erc_exclusions": [
       [
         "pin_to_pin|558800|558800|478a9b80-03a7-40e0-ae7a-abcfabb7a9d3|84826a64-ed15-479f-9d6e-538625320111|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f",
+        ""
+      ],
+      [
+        "same_local_global_label|381000|1803400|e89022fe-0f18-4803-b083-c597dcca0ba6|2da4cb6a-b8c4-4e4e-9d12-647a79ff51da|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f/e0da1480-45c0-42b9-b023-a290fb31e4d0",
+        ""
+      ],
+      [
+        "same_local_global_label|381000|1803400|e89022fe-0f18-4803-b083-c597dcca0ba6|8d545938-5ad9-4c21-a3d2-b19ece5a58f4|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f/e0da1480-45c0-42b9-b023-a290fb31e4d0",
+        ""
+      ],
+      [
+        "same_local_global_label|381000|1828800|4a4f7c06-4413-4442-b818-73466765c8bc|00009418-604a-4986-81c3-76e5c47ee387|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f/e0da1480-45c0-42b9-b023-a290fb31e4d0",
+        ""
+      ],
+      [
+        "same_local_global_label|850900|1701800|1a9b7548-13b7-405e-815d-fc68d3771ca8|7c95088c-2bb4-4bda-9bfd-e805f3fcfa83|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f/e0da1480-45c0-42b9-b023-a290fb31e4d0",
+        ""
+      ],
+      [
+        "same_local_global_label|850900|1727200|5659867a-853b-4cef-8a6b-7c5da330a01f|30a0b67d-9ad5-44af-b6df-c3b811fa2c2a|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f|/08c23af6-72f1-4a8f-a60c-b986fe71300f/e0da1480-45c0-42b9-b023-a290fb31e4d0",
         ""
       ]
     ],

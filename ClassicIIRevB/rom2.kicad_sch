@@ -2716,7 +2716,7 @@
 	)
 	(bus
 		(pts
-			(xy 195.58 139.7) (xy 241.3 139.7)
+			(xy 195.58 139.7) (xy 234.95 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4956,7 +4956,7 @@
 	)
 	(global_label "D[0..31]"
 		(shape output)
-		(at 241.3 139.7 0)
+		(at 234.95 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4966,7 +4966,7 @@
 		)
 		(uuid "1d2995ea-5ac4-467f-9c6e-99d5e64a3759")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.0867 139.7 0)
+			(at 245.7367 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5038,7 @@
 			)
 		)
 	)
-	(global_label "~{ROM}"
+	(global_label "~{ROM_SEL}"
 		(shape input)
 		(at 44.45 147.32 180)
 		(fields_autoplaced yes)
@@ -5050,7 +5050,7 @@
 		)
 		(uuid "d769a6a3-ffca-4bdf-9d8d-0c373f1870a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.9334 147.32 0)
+			(at 33.0587 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

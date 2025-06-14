@@ -2722,7 +2722,7 @@
 			)
 		)
 	)
-	(global_label "SOUND_IN"
+	(global_label "IV"
 		(shape input)
 		(at 38.1 104.14 180)
 		(fields_autoplaced yes)
@@ -2734,7 +2734,7 @@
 		)
 		(uuid "0ebe8ea3-75f6-4ca4-8637-f89aba29ab89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.7409 104.14 0)
+			(at 33.4214 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2785,7 @@
 			)
 		)
 	)
-	(global_label "~{REDUCEGAIN}"
+	(global_label "~{RED_GAIN}"
 		(shape output)
 		(at 241.3 109.22 0)
 		(fields_autoplaced yes)
@@ -2797,7 +2797,7 @@
 		)
 		(uuid "8d2930b4-3b18-4e20-bfe5-567609a93c2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.0176 109.22 0)
+			(at 253.2357 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2806,7 @@
 			)
 		)
 	)
-	(global_label "SOUND_OUT"
+	(global_label "SND_O"
 		(shape output)
 		(at 241.3 93.98 0)
 		(fields_autoplaced yes)
@@ -2818,7 +2818,7 @@
 		)
 		(uuid "a11ebd3b-c43e-4c37-9a35-82ca041aeadf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.3524 93.98 0)
+			(at 250.3933 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2827,7 @@
 			)
 		)
 	)
-	(global_label "~{RST}"
+	(global_label "~{RESET}"
 		(shape input)
 		(at 38.1 119.38 180)
 		(fields_autoplaced yes)
@@ -2839,7 +2839,7 @@
 		)
 		(uuid "b42f4111-50bc-4f25-b048-61645174d93a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6677 119.38 0)
+			(at 29.3697 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "093ccd1f-c5a5-4bc5-bb32-782235cc6a6e")
-		(property "Reference" "TP155"
+		(property "Reference" "TP87"
 			(at 246.38 136.5249 90)
 			(effects
 				(font
@@ -3042,7 +3042,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP155")
+					(reference "TP87")
 					(unit 1)
 				)
 			)
@@ -3336,7 +3336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a6f5ea8-6461-4c58-b21e-f4bbc9f63c45")
-		(property "Reference" "TP162"
+		(property "Reference" "TP45"
 			(at 246.38 131.4449 90)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP162")
+					(reference "TP45")
 					(unit 1)
 				)
 			)
@@ -3402,7 +3402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2176b167-2891-45ff-b8ab-f2b19820fc54")
-		(property "Reference" "TP158"
+		(property "Reference" "TP25"
 			(at 33.02 83.1849 90)
 			(effects
 				(font
@@ -3453,7 +3453,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP158")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -3738,7 +3738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cb02f36-4639-48bc-a99f-7d6b5e29419b")
-		(property "Reference" "TP148"
+		(property "Reference" "TP38"
 			(at 246.38 83.1849 90)
 			(effects
 				(font
@@ -3789,7 +3789,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP148")
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -3873,7 +3873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ee8a89-c020-42c7-acda-d2c82f934fea")
-		(property "Reference" "TP159"
+		(property "Reference" "TP91"
 			(at 33.02 107.3149 90)
 			(effects
 				(font
@@ -3924,7 +3924,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP159")
+					(reference "TP91")
 					(unit 1)
 				)
 			)
@@ -4359,7 +4359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d712ff4-856f-40a0-94d2-963c8d1069ad")
-		(property "Reference" "TP69"
+		(property "Reference" "TP92"
 			(at 34.798 156.21 90)
 			(effects
 				(font
@@ -4408,7 +4408,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP69")
+					(reference "TP92")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85823560-84ff-49dc-8a06-7de99efd18f5")
-		(property "Reference" "TP156"
+		(property "Reference" "TP93"
 			(at 246.38 88.2649 90)
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP156")
+					(reference "TP93")
 					(unit 1)
 				)
 			)
@@ -4851,7 +4851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884771b9-7801-45cd-b473-2bb464b6c8c0")
-		(property "Reference" "TP134"
+		(property "Reference" "TP88"
 			(at 246.38 103.5049 90)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP134")
+					(reference "TP88")
 					(unit 1)
 				)
 			)
@@ -5056,7 +5056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af32cf9-b82d-4637-a163-1296fe38d241")
-		(property "Reference" "TP160"
+		(property "Reference" "TP46"
 			(at 246.38 78.1049 90)
 			(effects
 				(font
@@ -5107,7 +5107,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP160")
+					(reference "TP46")
 					(unit 1)
 				)
 			)
@@ -5736,7 +5736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5bf0bd-1a95-490d-a3da-c1ff304c4a81")
-		(property "Reference" "TP157"
+		(property "Reference" "TP44"
 			(at 246.38 128.9049 90)
 			(effects
 				(font
@@ -5787,7 +5787,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/e3fee5a1-cf40-4697-883d-e8942f3ad207"
-					(reference "TP157")
+					(reference "TP44")
 					(unit 1)
 				)
 			)

@@ -3760,6 +3760,16 @@
 		)
 		(uuid "fff39e79-74f2-4025-99cc-745ac2935241")
 	)
+	(label "RD2"
+		(at 104.14 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01140c7f-0dc0-4ffe-b1fe-2834d992bfc4")
+	)
 	(label "BRA5"
 		(at 154.94 77.47 0)
 		(effects
@@ -3789,6 +3799,16 @@
 			(justify left bottom)
 		)
 		(uuid "06ea7f1d-73b7-48d9-a0cc-93c89096eea2")
+	)
+	(label "RD0"
+		(at 104.14 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08fc1c2a-0618-499f-aea1-093f5defb8b3")
 	)
 	(label "BRA7"
 		(at 68.58 82.55 0)
@@ -3820,16 +3840,6 @@
 		)
 		(uuid "152b0e00-b5f2-4d11-8940-6caaf74cc4de")
 	)
-	(label "BD16"
-		(at 104.14 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1852ac3a-987d-418d-9506-6e96f5894bbd")
-	)
 	(label "RA2"
 		(at 43.18 66.04 0)
 		(effects
@@ -3849,16 +3859,6 @@
 			(justify left bottom)
 		)
 		(uuid "19fd3b77-4937-44e6-a02a-ece70c2671b7")
-	)
-	(label "BD30"
-		(at 233.68 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1af4ee26-49f5-465a-8ef2-7db0ebb14677")
 	)
 	(label "RA6"
 		(at 43.18 86.36 0)
@@ -3890,6 +3890,16 @@
 		)
 		(uuid "1eaee089-e37f-4280-9fe9-04b637b68115")
 	)
+	(label "RD7"
+		(at 147.32 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29008ecd-2a75-4dbb-bbd1-b16878bba42a")
+	)
 	(label "BRA1"
 		(at 68.58 67.31 0)
 		(effects
@@ -3910,6 +3920,26 @@
 		)
 		(uuid "2bb26df1-b249-403a-9a9f-0892af2c9b90")
 	)
+	(label "RD13"
+		(at 233.68 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d78fdea-c66c-49eb-b0dd-65dcede294fb")
+	)
+	(label "RD6"
+		(at 147.32 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e474fba-767d-4d01-8bb6-00b54c8057cc")
+	)
 	(label "BRA3"
 		(at 68.58 72.39 0)
 		(effects
@@ -3919,6 +3949,16 @@
 			(justify left bottom)
 		)
 		(uuid "2ff096fc-a9c6-4472-8667-d26a5a7588a3")
+	)
+	(label "RD9"
+		(at 190.5 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37210aae-89d7-4386-8a8e-26110283d1e6")
 	)
 	(label "BRA6"
 		(at 68.58 80.01 0)
@@ -3960,6 +4000,26 @@
 		)
 		(uuid "3ebaf4fd-0484-43b5-ab39-1281e52686ee")
 	)
+	(label "RD12"
+		(at 233.68 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fb37048-e3ba-4b5d-b830-7a64406ffbc4")
+	)
+	(label "RD14"
+		(at 233.68 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40a3e050-2fac-413b-ae3a-c7d6ee697932")
+	)
 	(label "BRA7"
 		(at 198.12 82.55 0)
 		(effects
@@ -3969,16 +4029,6 @@
 			(justify left bottom)
 		)
 		(uuid "491690c3-37ed-4f5f-b198-b4e90ee957a4")
-	)
-	(label "BD21"
-		(at 147.32 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d45a0ec-fec9-4ca8-a656-bfad3102e32b")
 	)
 	(label "BRA10"
 		(at 60.96 106.68 180)
@@ -4000,15 +4050,25 @@
 		)
 		(uuid "56031c2c-e563-4f5d-9183-43085e2482f0")
 	)
-	(label "BD28"
-		(at 233.68 64.77 180)
+	(label "RD11"
+		(at 190.5 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5d18a2f4-cd1e-44ac-89e0-363bde0f72af")
+		(uuid "564357b2-4235-402b-a4e9-50230a8f6f65")
+	)
+	(label "RD1"
+		(at 104.14 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5be3797a-fd26-4947-bee4-1d3be75f57cc")
 	)
 	(label "BRA0"
 		(at 198.12 64.77 0)
@@ -4020,16 +4080,6 @@
 		)
 		(uuid "5dbcd7b4-0f2a-47bb-9ff1-69da38da53b4")
 	)
-	(label "BD27"
-		(at 190.5 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f867973-8e1d-4b8e-8196-64fcee626d4c")
-	)
 	(label "RA7"
 		(at 43.18 91.44 0)
 		(effects
@@ -4039,6 +4089,26 @@
 			(justify left bottom)
 		)
 		(uuid "612b06a3-5b38-4544-925a-ed9bb90a04c6")
+	)
+	(label "RD4"
+		(at 147.32 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62ff815c-b018-48a3-88e2-5fc0274cc029")
+	)
+	(label "RD15"
+		(at 233.68 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6419d137-8fb1-468c-b46c-3c3d7c84a54b")
 	)
 	(label "BRA1"
 		(at 111.76 67.31 0)
@@ -4060,16 +4130,6 @@
 		)
 		(uuid "699fc4a2-4481-487a-98f0-64c8b10e86ae")
 	)
-	(label "BD18"
-		(at 104.14 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ba20d8b-be3e-4b6c-9d9e-bc4f33ff99c6")
-	)
 	(label "BRA0"
 		(at 68.58 64.77 0)
 		(effects
@@ -4080,16 +4140,6 @@
 		)
 		(uuid "6cfabe62-519c-442a-8f39-f38d1bc26281")
 	)
-	(label "BD20"
-		(at 147.32 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "700c2078-5e3e-4e39-a437-34e7db3c102d")
-	)
 	(label "RA3"
 		(at 43.18 71.12 0)
 		(effects
@@ -4099,6 +4149,16 @@
 			(justify left bottom)
 		)
 		(uuid "700dbb18-a76e-4234-92ca-8331bc8e5d31")
+	)
+	(label "RD5"
+		(at 147.32 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77669bee-6b08-49bf-9d97-6509a0f4c735")
 	)
 	(label "BRA5"
 		(at 60.96 81.28 180)
@@ -4130,6 +4190,16 @@
 		)
 		(uuid "811bf0eb-b8f5-409c-b773-e714b9d6b965")
 	)
+	(label "RD8"
+		(at 190.5 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82484b78-4caa-474b-b953-f458462a1c5e")
+	)
 	(label "BRA9"
 		(at 68.58 87.63 0)
 		(effects
@@ -4139,16 +4209,6 @@
 			(justify left bottom)
 		)
 		(uuid "83ebcfcb-9e3a-4dc9-ad00-79dc3030c17b")
-	)
-	(label "BD24"
-		(at 190.5 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85f3081f-eb3b-47d9-9f76-6cc5e20b59a4")
 	)
 	(label "BRA3"
 		(at 60.96 71.12 180)
@@ -4180,36 +4240,6 @@
 		)
 		(uuid "9fdab405-67c8-4275-8db5-3914a94ad64b")
 	)
-	(label "BD25"
-		(at 190.5 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a20f36ce-5b9b-4c13-b443-b14d0e57f0d4")
-	)
-	(label "BD23"
-		(at 147.32 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2b7e930-0e5b-4d86-baeb-17e1b3ea44a7")
-	)
-	(label "BD26"
-		(at 190.5 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a58bf04f-86b2-4a62-99d9-14b5af9d797f")
-	)
 	(label "BRA4"
 		(at 154.94 74.93 0)
 		(effects
@@ -4230,16 +4260,6 @@
 		)
 		(uuid "a9ec713b-09b3-4f16-95dc-996d2c7fa68a")
 	)
-	(label "BD29"
-		(at 233.68 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aad3abc9-1fe5-4848-b683-c5cee6e52bd7")
-	)
 	(label "BRA4"
 		(at 68.58 74.93 0)
 		(effects
@@ -4259,6 +4279,16 @@
 			(justify left bottom)
 		)
 		(uuid "abff8036-1a62-454a-90c8-e83e9ccb8b32")
+	)
+	(label "RD10"
+		(at 190.5 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af33b8cd-25b1-4f85-b250-7e3f9437970a")
 	)
 	(label "BRA5"
 		(at 68.58 77.47 0)
@@ -4300,16 +4330,6 @@
 		)
 		(uuid "b3836854-b9a5-43d2-9eb9-58adc6186bd2")
 	)
-	(label "BD31"
-		(at 233.68 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4f9175e-e519-4ac8-b4de-f21333da1655")
-	)
 	(label "BRA8"
 		(at 154.94 85.09 0)
 		(effects
@@ -4330,15 +4350,15 @@
 		)
 		(uuid "bce7f867-9693-477a-b7b6-c6d7af5b8a14")
 	)
-	(label "BD17"
-		(at 104.14 67.31 180)
+	(label "RD3"
+		(at 104.14 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bd8c9470-f5d0-4034-a7ff-cb240b7ebbce")
+		(uuid "c489fa2f-bdb7-4fba-8598-d3ecefdda7f2")
 	)
 	(label "BRA8"
 		(at 60.96 96.52 180)
@@ -4379,16 +4399,6 @@
 			(justify left bottom)
 		)
 		(uuid "ce1cbb9c-a499-4441-ae89-61c198b33b63")
-	)
-	(label "BD19"
-		(at 104.14 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d2819d4c-d616-40b8-b29e-cd951090a8b4")
 	)
 	(label "BRA4"
 		(at 60.96 76.2 180)
@@ -4470,16 +4480,6 @@
 		)
 		(uuid "eb9c873e-c76f-440f-b56f-201a9ce23d3c")
 	)
-	(label "BD22"
-		(at 147.32 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed068cb1-0c1e-4735-b359-cebc7371d235")
-	)
 	(label "BRA0"
 		(at 111.76 64.77 0)
 		(effects
@@ -4540,7 +4540,7 @@
 		)
 		(uuid "ffe87b55-a3da-481e-93c8-413d73972ea6")
 	)
-	(global_label "~{CAS0H}"
+	(global_label "~{CAS1H}"
 		(shape input)
 		(at 38.1 124.46 180)
 		(fields_autoplaced yes)
@@ -4561,7 +4561,7 @@
 			)
 		)
 	)
-	(global_label "~{RAS0}"
+	(global_label "~{RAS1}"
 		(shape input)
 		(at 38.1 114.3 180)
 		(fields_autoplaced yes)
@@ -4582,7 +4582,7 @@
 			)
 		)
 	)
-	(global_label "BD[16..31]"
+	(global_label "RD[0..15]"
 		(shape output)
 		(at 241.3 134.62 0)
 		(fields_autoplaced yes)
@@ -4666,7 +4666,7 @@
 			)
 		)
 	)
-	(global_label "BD[16..31]"
+	(global_label "RD[0..15]"
 		(shape input)
 		(at 38.1 134.62 180)
 		(fields_autoplaced yes)
@@ -4687,7 +4687,7 @@
 			)
 		)
 	)
-	(global_label "~{CAS0L}"
+	(global_label "~{CAS1L}"
 		(shape input)
 		(at 38.1 119.38 180)
 		(fields_autoplaced yes)

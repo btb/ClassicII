@@ -2945,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 241.3 66.04)
+			(xy 154.94 66.04) (xy 234.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3015,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 142.24) (xy 241.3 142.24)
+			(xy 154.94 142.24) (xy 234.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3235,7 +3235,7 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 160.02) (xy 241.3 160.02)
+			(xy 157.48 160.02) (xy 234.95 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3585,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 53.34) (xy 241.3 53.34)
+			(xy 154.94 53.34) (xy 234.95 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3925,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 40.64) (xy 241.3 40.64)
+			(xy 101.6 40.64) (xy 234.95 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4264,7 +4264,7 @@
 		(uuid "a2ac77c3-7239-47ff-a9a1-ec8ac0825ac9")
 	)
 	(label "D22"
-		(at 124.46 137.16 0)
+		(at 121.92 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4456,7 +4456,7 @@
 	)
 	(global_label "D[0..31]"
 		(shape output)
-		(at 241.3 160.02 0)
+		(at 234.95 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4466,7 +4466,7 @@
 		)
 		(uuid "166a0f41-227d-4c75-8a37-b0a26dbc45ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.0867 160.02 0)
+			(at 245.7367 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4477,7 @@
 	)
 	(global_label "ROM_512K"
 		(shape output)
-		(at 241.3 66.04 0)
+		(at 234.95 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4487,7 +4487,7 @@
 		)
 		(uuid "30b3dc78-d8da-421f-90d8-1bd8c0508315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.8123 66.04 0)
+			(at 246.4623 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4517,7 @@
 			)
 		)
 	)
-	(global_label "~{RST}"
+	(global_label "~{RESET}"
 		(shape input)
 		(at 44.45 149.86 180)
 		(fields_autoplaced yes)
@@ -4529,7 +4529,7 @@
 		)
 		(uuid "55bb5c3a-d305-466b-bb8b-68cf92587564")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0177 149.86 0)
+			(at 35.7197 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4540,7 @@
 	)
 	(global_label "~{DSACK1}"
 		(shape output)
-		(at 241.3 142.24 0)
+		(at 234.95 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4550,7 +4550,7 @@
 		)
 		(uuid "68cf7443-399d-4ec9-8222-43fa84b37d0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.6028 142.24 0)
+			(at 245.2528 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4561,7 @@
 	)
 	(global_label "ROM_1MB"
 		(shape output)
-		(at 241.3 53.34 0)
+		(at 234.95 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4571,7 +4571,7 @@
 		)
 		(uuid "75ea879a-21a8-43e5-a63d-f7ba65b4d058")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.8123 53.34 0)
+			(at 246.4623 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4645,7 @@
 	)
 	(global_label "~{ROM_2+2}"
 		(shape output)
-		(at 241.3 40.64 0)
+		(at 234.95 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4655,7 +4655,7 @@
 		)
 		(uuid "ebd7b0ce-1c74-4ba3-a9f4-48afcdb79c7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.9333 40.64 0)
+			(at 246.5833 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "208e0fe8-883c-436e-8f51-8a50251303b6")
-		(property "Reference" "TP140"
+		(property "Reference" "TP240"
 			(at 147.32 58.42 0)
 			(effects
 				(font
@@ -4999,7 +4999,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/bc80051c-6830-456e-b0c4-e1f5b90e7af5"
-					(reference "TP140")
+					(reference "TP240")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72afac9-31fd-4699-a9dd-7ceb329371fb")
-		(property "Reference" "TP139"
+		(property "Reference" "TP239"
 			(at 147.32 45.72 0)
 			(effects
 				(font
@@ -5967,7 +5967,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/bc80051c-6830-456e-b0c4-e1f5b90e7af5"
-					(reference "TP139")
+					(reference "TP239")
 					(unit 1)
 				)
 			)
@@ -6050,7 +6050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f678b658-ac8c-478d-ae3b-8254f7c15d5b")
-		(property "Reference" "TP141"
+		(property "Reference" "TP241"
 			(at 157.48 49.4029 0)
 			(effects
 				(font
@@ -6101,7 +6101,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/bc80051c-6830-456e-b0c4-e1f5b90e7af5"
-					(reference "TP141")
+					(reference "TP241")
 					(unit 1)
 				)
 			)

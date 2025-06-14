@@ -759,7 +759,7 @@
 				(pin output line
 					(at 15.24 -5.08 180)
 					(length 2.54)
-					(name "5VDETC"
+					(name "5VDECT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4136,6 +4136,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7341beac-0c35-4b0b-9c29-4d9f27293cfa")
+	)
+	(wire
+		(pts
 			(xy 241.3 101.6) (xy 157.48 101.6)
 		)
 		(stroke
@@ -4714,6 +4724,16 @@
 		)
 		(uuid "21dbb519-34c0-4ca5-b3ce-f2e516ed175c")
 	)
+	(label "PA5"
+		(at 101.6 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f06bc7a-dd94-4442-9481-5e3240f9f21f")
+	)
 	(label "FB"
 		(at 38.1 111.76 0)
 		(effects
@@ -4850,7 +4870,7 @@
 			)
 		)
 	)
-	(global_label "FAST_RESET"
+	(global_label "~{TESTEN}"
 		(shape input)
 		(at 241.3 104.14 0)
 		(fields_autoplaced yes)
@@ -4976,7 +4996,7 @@
 			)
 		)
 	)
-	(global_label "~{RST}"
+	(global_label "~{RESET}"
 		(shape output)
 		(at 241.3 73.66 0)
 		(fields_autoplaced yes)
@@ -4988,7 +5008,7 @@
 		)
 		(uuid "fa03e77b-8dc9-4246-90cf-9d1a93429dac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7323 73.66 0)
+			(at 250.0303 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +5019,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 101.6 90)
+		(at 101.6 101.6 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5008,8 +5028,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "028d994a-51bd-4a31-82da-dc1938379ca1")
-		(property "Reference" "TP68"
-			(at 105.918 97.79 90)
+		(property "Reference" "TP41"
+			(at 98.298 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5037,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 105.918 99.06 90)
+			(at 98.298 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5045,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 106.68 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 106.68 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +5063,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 101.6 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5077,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/040ed762-f009-4b79-aae0-9178ab7234ec"
-					(reference "TP68")
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -6318,7 +6338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e040a7e-f645-4f6c-9e98-e67098c68a35")
-		(property "Reference" "TP58"
+		(property "Reference" "TP109"
 			(at 34.798 107.95 90)
 			(effects
 				(font
@@ -6367,7 +6387,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/040ed762-f009-4b79-aae0-9178ab7234ec"
-					(reference "TP58")
+					(reference "TP109")
 					(unit 1)
 				)
 			)
@@ -7661,7 +7681,7 @@
 				)
 			)
 		)
-		(property "Value" "S3238E"
+		(property "Value" "32.768K (S3238E)"
 			(at 68.58 87.63 0)
 			(effects
 				(font
@@ -8406,7 +8426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e9d017-3fb3-4f8c-ac8c-71902217810b")
-		(property "Reference" "TP152"
+		(property "Reference" "TP97"
 			(at 33.02 116.2049 90)
 			(effects
 				(font
@@ -8457,7 +8477,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/040ed762-f009-4b79-aae0-9178ab7234ec"
-					(reference "TP152")
+					(reference "TP97")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5b50cdc-a7b6-408f-94a5-05d2ef080519")
-		(property "Reference" "TP98"
+		(property "Reference" "TP71"
 			(at 34.798 67.31 90)
 			(effects
 				(font
@@ -9133,7 +9153,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/040ed762-f009-4b79-aae0-9178ab7234ec"
-					(reference "TP98")
+					(reference "TP71")
 					(unit 1)
 				)
 			)
@@ -9296,7 +9316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904"
+		(property "Value" "2N3904 (MMBT3904)"
 			(at 180.34 123.1899 0)
 			(effects
 				(font

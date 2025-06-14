@@ -537,7 +537,7 @@
 		(uuid "3a8c45d7-b7f8-404e-8a8d-178dcca1f5d4")
 	)
 	(bus_entry
-		(at 99.06 101.6)
+		(at 109.22 101.6)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -546,7 +546,7 @@
 		(uuid "00d2449a-ff8d-4beb-9924-2407712625b5")
 	)
 	(bus_entry
-		(at 99.06 68.58)
+		(at 109.22 68.58)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -555,7 +555,7 @@
 		(uuid "04fe6b9d-9b0b-4df8-8761-148051d3db57")
 	)
 	(bus_entry
-		(at 99.06 35.56)
+		(at 109.22 35.56)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -564,7 +564,7 @@
 		(uuid "062613b9-2e70-4d5e-aab1-8801c0fe4184")
 	)
 	(bus_entry
-		(at 99.06 40.64)
+		(at 109.22 40.64)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -582,7 +582,7 @@
 		(uuid "0cd606e8-c3b7-4904-a183-0923d63b61fb")
 	)
 	(bus_entry
-		(at 99.06 81.28)
+		(at 109.22 81.28)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -600,7 +600,7 @@
 		(uuid "1a2be072-4b4c-496e-bc5c-65b00399c7ab")
 	)
 	(bus_entry
-		(at 99.06 76.2)
+		(at 109.22 76.2)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -618,7 +618,7 @@
 		(uuid "32e93ee0-b8f8-45a1-8bce-7889164e370a")
 	)
 	(bus_entry
-		(at 99.06 43.18)
+		(at 109.22 43.18)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -645,7 +645,7 @@
 		(uuid "35be8550-8b3a-4d46-86d8-7f3d343b8b12")
 	)
 	(bus_entry
-		(at 99.06 86.36)
+		(at 109.22 86.36)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -672,7 +672,7 @@
 		(uuid "3c66402f-c7a0-49a1-ac03-f97de62074f8")
 	)
 	(bus_entry
-		(at 99.06 55.88)
+		(at 109.22 55.88)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -699,7 +699,7 @@
 		(uuid "450e4440-06e9-455f-9255-1881ff6f9996")
 	)
 	(bus_entry
-		(at 99.06 96.52)
+		(at 109.22 96.52)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -708,7 +708,7 @@
 		(uuid "45640104-e11c-4ebf-a443-9262f9aee523")
 	)
 	(bus_entry
-		(at 99.06 60.96)
+		(at 109.22 60.96)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -717,7 +717,7 @@
 		(uuid "479e6309-3474-4852-b52c-a2e7e68dd64d")
 	)
 	(bus_entry
-		(at 99.06 53.34)
+		(at 109.22 53.34)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -726,7 +726,7 @@
 		(uuid "47d2db07-21c7-4149-8c3a-427c55ee3c54")
 	)
 	(bus_entry
-		(at 99.06 50.8)
+		(at 109.22 50.8)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -744,7 +744,7 @@
 		(uuid "4faa97b0-c57d-4938-92e2-8ec9fa8e1680")
 	)
 	(bus_entry
-		(at 99.06 38.1)
+		(at 109.22 38.1)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -771,7 +771,7 @@
 		(uuid "7950f2b5-e4d8-4d06-b15a-938fcb24022b")
 	)
 	(bus_entry
-		(at 99.06 58.42)
+		(at 109.22 58.42)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -789,7 +789,7 @@
 		(uuid "8132a14d-9af5-4778-873b-2285f4284267")
 	)
 	(bus_entry
-		(at 99.06 71.12)
+		(at 109.22 71.12)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -807,7 +807,7 @@
 		(uuid "950b1bea-ee39-4f4c-b56b-8bd2a9de1e9e")
 	)
 	(bus_entry
-		(at 99.06 83.82)
+		(at 109.22 83.82)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -879,7 +879,7 @@
 		(uuid "c094296b-d842-4f04-9b36-eac749966192")
 	)
 	(bus_entry
-		(at 99.06 73.66)
+		(at 109.22 73.66)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -888,7 +888,7 @@
 		(uuid "c1825ea0-8cb5-4f72-83b4-94d3aaa81ea5")
 	)
 	(bus_entry
-		(at 99.06 78.74)
+		(at 109.22 78.74)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -897,7 +897,7 @@
 		(uuid "c6da1ef3-47c8-4488-914e-6447bc69c6d0")
 	)
 	(bus_entry
-		(at 99.06 33.02)
+		(at 109.22 33.02)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -915,7 +915,7 @@
 		(uuid "d33d36e5-cb27-4566-bf0b-9e83f4c389a1")
 	)
 	(bus_entry
-		(at 99.06 63.5)
+		(at 109.22 63.5)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -924,7 +924,7 @@
 		(uuid "d4bc7f35-6194-4f2a-8e66-040696c7ba24")
 	)
 	(bus_entry
-		(at 99.06 99.06)
+		(at 109.22 99.06)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -951,7 +951,7 @@
 		(uuid "dd7ed9c3-b5f7-4c97-80d3-8d65a78354ac")
 	)
 	(bus_entry
-		(at 99.06 27.94)
+		(at 109.22 27.94)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -969,7 +969,7 @@
 		(uuid "edbea3da-26a0-460f-8701-b0b88c3444c3")
 	)
 	(bus_entry
-		(at 99.06 48.26)
+		(at 109.22 48.26)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -978,7 +978,7 @@
 		(uuid "f004d04a-3f09-4e01-80d7-9448f3a83e38")
 	)
 	(bus_entry
-		(at 99.06 45.72)
+		(at 109.22 45.72)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -987,7 +987,7 @@
 		(uuid "f4f40227-b2fd-494a-b823-b4a3fd52a12c")
 	)
 	(bus_entry
-		(at 99.06 30.48)
+		(at 109.22 30.48)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1005,7 +1005,7 @@
 		(uuid "fe3a4748-fcf8-4cd9-97c5-16cd5d8eff1e")
 	)
 	(bus_entry
-		(at 99.06 66.04)
+		(at 109.22 66.04)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1025,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 99.06 99.06)
+			(xy 119.38 99.06) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1075,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 68.58) (xy 96.52 66.04)
+			(xy 106.68 68.58) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1105,23 +1105,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 25.4) (xy 185.42 25.4)
+			(xy 198.12 25.4) (xy 195.58 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d7af3af-f92a-40d2-ba83-5fe91647d1a9")
-	)
-	(wire
-		(pts
-			(xy 147.32 60.96) (xy 144.78 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1147f70d-56e0-48cd-87ae-bde8ac481c96")
 	)
 	(wire
 		(pts
@@ -1155,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 45.72) (xy 99.06 45.72)
+			(xy 119.38 45.72) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1195,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 45.72) (xy 144.78 45.72)
+			(xy 157.48 45.72) (xy 154.94 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1205,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 144.78 50.8)
+			(xy 157.48 50.8) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1225,17 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 144.78 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc82741-db01-43da-a710-1df863788a07")
-	)
-	(wire
-		(pts
-			(xy 109.22 40.64) (xy 99.06 40.64)
+			(xy 119.38 40.64) (xy 109.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1245,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 60.96) (xy 185.42 60.96)
+			(xy 198.12 60.96) (xy 195.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 68.58) (xy 99.06 68.58)
+			(xy 119.38 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1265,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 45.72) (xy 185.42 45.72)
+			(xy 198.12 45.72) (xy 195.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1283,19 +1263,9 @@
 		)
 		(uuid "3031bc8a-5127-4438-8992-f5e763a4c535")
 	)
-	(wire
-		(pts
-			(xy 187.96 101.6) (xy 185.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34a98c17-02a8-46b9-b0e3-20070971261d")
-	)
 	(bus
 		(pts
-			(xy 96.52 45.72) (xy 96.52 43.18)
+			(xy 106.68 45.72) (xy 106.68 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1305,17 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 55.88) (xy 144.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c76088-d71a-48dc-a77f-e73e60b315ce")
-	)
-	(wire
-		(pts
-			(xy 109.22 63.5) (xy 99.06 63.5)
+			(xy 119.38 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 147.32 91.44)
+			(xy 154.94 91.44) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 30.48) (xy 144.78 30.48)
+			(xy 157.48 30.48) (xy 154.94 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1375,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 99.06 73.66)
+			(xy 119.38 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 101.6) (xy 109.22 101.6)
+			(xy 109.22 101.6) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1365,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 35.56) (xy 96.52 33.02)
+			(xy 106.68 35.56) (xy 106.68 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1375,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 40.64) (xy 96.52 38.1)
+			(xy 106.68 40.64) (xy 106.68 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1395,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 93.98) (xy 92.71 93.98)
+			(xy 106.68 93.98) (xy 102.87 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1445,7 +1405,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 63.5) (xy 96.52 60.96)
+			(xy 106.68 63.5) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 109.22 96.52)
+			(xy 109.22 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1475,7 +1435,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 38.1) (xy 96.52 35.56)
+			(xy 106.68 38.1) (xy 106.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 43.18) (xy 99.06 43.18)
+			(xy 119.38 43.18) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1455,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 53.34) (xy 96.52 50.8)
+			(xy 106.68 53.34) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 99.06 33.02)
+			(xy 119.38 33.02) (xy 109.22 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 187.96 96.52)
+			(xy 195.58 96.52) (xy 198.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1485,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 50.8) (xy 96.52 48.26)
+			(xy 106.68 50.8) (xy 106.68 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1495,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 30.48) (xy 96.52 27.94)
+			(xy 106.68 30.48) (xy 106.68 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1555,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 25.4) (xy 144.78 25.4)
+			(xy 157.48 25.4) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 58.42) (xy 99.06 58.42)
+			(xy 119.38 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1615,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 76.2) (xy 99.06 76.2)
+			(xy 119.38 76.2) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 30.48) (xy 99.06 30.48)
+			(xy 119.38 30.48) (xy 109.22 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 35.56) (xy 99.06 35.56)
+			(xy 119.38 35.56) (xy 109.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 185.42 81.28)
+			(xy 198.12 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 99.06 86.36)
+			(xy 119.38 86.36) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1703,6 +1663,16 @@
 		)
 		(uuid "8729391c-9c03-4161-86ae-31b3cb388e51")
 	)
+	(wire
+		(pts
+			(xy 198.12 101.6) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876b5c2d-97dd-4e61-8c2f-258e7c6c0408")
+	)
 	(bus
 		(pts
 			(xy 48.26 63.5) (xy 48.26 60.96)
@@ -1715,7 +1685,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 96.52) (xy 96.52 93.98)
+			(xy 106.68 96.52) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 99.06 48.26)
+			(xy 119.38 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 71.12) (xy 185.42 71.12)
+			(xy 198.12 71.12) (xy 195.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1715,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 48.26) (xy 96.52 45.72)
+			(xy 106.68 48.26) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1725,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 33.02) (xy 96.52 30.48)
+			(xy 106.68 33.02) (xy 106.68 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1735,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 55.88) (xy 96.52 53.34)
+			(xy 106.68 55.88) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 99.06 66.04)
+			(xy 119.38 66.04) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1795,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 73.66) (xy 96.52 71.12)
+			(xy 106.68 73.66) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1805,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 27.94) (xy 96.52 25.4)
+			(xy 106.68 27.94) (xy 106.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +1815,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 76.2) (xy 96.52 73.66)
+			(xy 106.68 76.2) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 35.56) (xy 147.32 35.56)
+			(xy 154.94 35.56) (xy 157.48 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1865,13 +1835,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 53.34) (xy 99.06 53.34)
+			(xy 119.38 53.34) (xy 109.22 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9bd125fa-d96d-464f-b0f7-e0d557208b02")
+	)
+	(wire
+		(pts
+			(xy 198.12 106.68) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c35b86f-6126-4e0d-8a0c-bb0144275814")
 	)
 	(bus
 		(pts
@@ -1885,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 38.1) (xy 99.06 38.1)
+			(xy 119.38 38.1) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1905,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 185.42 50.8)
+			(xy 198.12 50.8) (xy 195.58 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1915,23 +1895,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 50.8) (xy 99.06 50.8)
+			(xy 119.38 50.8) (xy 109.22 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f09a15d-8791-4171-8ce2-85935fc2e337")
-	)
-	(wire
-		(pts
-			(xy 147.32 76.2) (xy 144.78 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd531a2-dbe9-4890-88dd-a5243fbdc720")
 	)
 	(bus
 		(pts
@@ -1955,23 +1925,13 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 60.96) (xy 96.52 58.42)
+			(xy 106.68 60.96) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a78c1d35-340c-427e-ae61-630737b41e2d")
-	)
-	(wire
-		(pts
-			(xy 187.96 91.44) (xy 185.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9236d38-0aba-4b52-a15f-b77b43e929d9")
 	)
 	(wire
 		(pts
@@ -1985,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 99.06 55.88)
+			(xy 119.38 55.88) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +1965,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 71.12) (xy 96.52 68.58)
+			(xy 106.68 71.12) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +1975,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 25.4) (xy 92.71 25.4)
+			(xy 106.68 25.4) (xy 102.87 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 27.94) (xy 99.06 27.94)
+			(xy 119.38 27.94) (xy 109.22 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 55.88) (xy 185.42 55.88)
+			(xy 198.12 55.88) (xy 195.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2015,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 99.06) (xy 96.52 96.52)
+			(xy 106.68 99.06) (xy 106.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 78.74) (xy 99.06 78.74)
+			(xy 119.38 78.74) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 147.32 86.36)
+			(xy 154.94 86.36) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2055,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 78.74) (xy 96.52 76.2)
+			(xy 106.68 78.74) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 60.96) (xy 99.06 60.96)
+			(xy 119.38 60.96) (xy 109.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 99.06 71.12)
+			(xy 119.38 71.12) (xy 109.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2095,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 43.18) (xy 96.52 40.64)
+			(xy 106.68 43.18) (xy 106.68 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 144.78 96.52)
+			(xy 157.48 96.52) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2165,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 99.06 83.82)
+			(xy 119.38 83.82) (xy 109.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2145,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 63.5) (xy 96.52 66.04)
+			(xy 106.68 63.5) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 40.64) (xy 144.78 40.64)
+			(xy 157.48 40.64) (xy 154.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 40.64) (xy 185.42 40.64)
+			(xy 198.12 40.64) (xy 195.58 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2235,17 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 86.36) (xy 185.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b6c752-42a8-4fef-8bcd-c668661932a1")
-	)
-	(wire
-		(pts
-			(xy 187.96 66.04) (xy 185.42 66.04)
+			(xy 198.12 66.04) (xy 195.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 99.06 81.28)
+			(xy 119.38 81.28) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2275,23 +2225,13 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 83.82) (xy 96.52 81.28)
+			(xy 106.68 83.82) (xy 106.68 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e158027f-7151-4e9d-81c1-df10e4867c66")
-	)
-	(wire
-		(pts
-			(xy 147.32 71.12) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33c98a7-63eb-4806-96ab-73c4b6c9199d")
 	)
 	(wire
 		(pts
@@ -2315,7 +2255,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 81.28) (xy 96.52 78.74)
+			(xy 106.68 81.28) (xy 106.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2265,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 58.42) (xy 96.52 55.88)
+			(xy 106.68 58.42) (xy 106.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 30.48) (xy 185.42 30.48)
+			(xy 198.12 30.48) (xy 195.58 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 35.56) (xy 185.42 35.56)
+			(xy 198.12 35.56) (xy 195.58 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2365,7 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 76.2) (xy 185.42 76.2)
+			(xy 198.12 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 147.32 81.28)
+			(xy 154.94 81.28) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2384,7 @@
 		(uuid "062bcec6-ef05-440f-88b4-f33a81bbab30")
 	)
 	(label "D15"
-		(at 99.06 66.04 0)
+		(at 109.22 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2454,7 +2394,7 @@
 		(uuid "08dd1474-e716-4d25-b7c3-4dd9df9bcd2d")
 	)
 	(label "D7"
-		(at 99.06 45.72 0)
+		(at 109.22 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2474,7 +2414,7 @@
 		(uuid "0c294316-31de-4247-8625-2a6a54ee9c2b")
 	)
 	(label "D12"
-		(at 99.06 58.42 0)
+		(at 109.22 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2504,7 +2444,7 @@
 		(uuid "192a91b4-0a36-4b72-9fce-961ed933ab30")
 	)
 	(label "D23"
-		(at 99.06 86.36 0)
+		(at 109.22 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2514,7 +2454,7 @@
 		(uuid "1c28801f-06cb-4b15-9ac1-0b4a90d0f174")
 	)
 	(label "D21"
-		(at 99.06 81.28 0)
+		(at 109.22 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2524,7 +2464,7 @@
 		(uuid "1d286917-7aa1-4fd3-9107-fb1740926eab")
 	)
 	(label "D20"
-		(at 99.06 78.74 0)
+		(at 109.22 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2544,7 +2484,7 @@
 		(uuid "2f9888fc-be30-440c-b8c1-683e6a5938ab")
 	)
 	(label "D6"
-		(at 99.06 43.18 0)
+		(at 109.22 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2564,7 +2504,7 @@
 		(uuid "338230de-c75e-4c89-b678-34c39c764cd1")
 	)
 	(label "D22"
-		(at 99.06 83.82 0)
+		(at 109.22 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2574,7 +2514,7 @@
 		(uuid "3ceedf5e-6afc-46c8-a54b-06a4bf15f994")
 	)
 	(label "D13"
-		(at 99.06 60.96 0)
+		(at 109.22 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2584,7 +2524,7 @@
 		(uuid "426e60bc-b59d-4273-b5a5-02d2fffdf357")
 	)
 	(label "D4"
-		(at 99.06 38.1 0)
+		(at 109.22 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2604,7 +2544,7 @@
 		(uuid "46d41f28-e4e4-493a-b1a0-cdc7f54dee3e")
 	)
 	(label "D10"
-		(at 99.06 53.34 0)
+		(at 109.22 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2614,7 +2554,7 @@
 		(uuid "501677f4-6884-495b-872a-1a7d781274ac")
 	)
 	(label "D5"
-		(at 99.06 40.64 0)
+		(at 109.22 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2644,7 +2584,7 @@
 		(uuid "52a0b997-e78e-445f-8621-a0e113120e3e")
 	)
 	(label "FC2"
-		(at 99.06 101.6 0)
+		(at 109.22 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2664,7 +2604,7 @@
 		(uuid "6096c7d3-34c0-4d2d-be80-004a1ddad8c7")
 	)
 	(label "D14"
-		(at 99.06 63.5 0)
+		(at 109.22 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2674,7 +2614,7 @@
 		(uuid "60ecf167-82a4-4ada-8d39-2c35e7a927f6")
 	)
 	(label "D17"
-		(at 99.06 71.12 0)
+		(at 109.22 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2694,7 +2634,7 @@
 		(uuid "6b7dbe82-52a4-4cf9-9b40-1e219200a1ab")
 	)
 	(label "D9"
-		(at 99.06 50.8 0)
+		(at 109.22 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2704,7 +2644,7 @@
 		(uuid "7619fd2a-394b-4f4d-9a1c-03b7aa82493f")
 	)
 	(label "D3"
-		(at 99.06 35.56 0)
+		(at 109.22 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2774,7 +2714,7 @@
 		(uuid "8d546989-13c6-4a1b-9aba-6d95a9d469f1")
 	)
 	(label "D16"
-		(at 99.06 68.58 0)
+		(at 109.22 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2814,7 +2754,7 @@
 		(uuid "9d037795-5f30-47e7-8b06-9308a4551cd6")
 	)
 	(label "D19"
-		(at 99.06 76.2 0)
+		(at 109.22 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2824,7 +2764,7 @@
 		(uuid "a761c8e9-2021-4e24-bad9-0d9fc90304db")
 	)
 	(label "D11"
-		(at 99.06 55.88 0)
+		(at 109.22 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2834,7 +2774,7 @@
 		(uuid "ac1ec8ba-bcd3-49bd-872d-55e73d281b5f")
 	)
 	(label "D1"
-		(at 99.06 30.48 0)
+		(at 109.22 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2844,7 +2784,7 @@
 		(uuid "b11c6b60-1475-4791-b130-808951f05999")
 	)
 	(label "D0"
-		(at 99.06 27.94 0)
+		(at 109.22 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2864,7 +2804,7 @@
 		(uuid "b8538ece-fae3-4d46-bb58-9a4b86958704")
 	)
 	(label "D8"
-		(at 99.06 48.26 0)
+		(at 109.22 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2884,7 +2824,7 @@
 		(uuid "c690a1fd-7768-404c-8417-8436811c1d5c")
 	)
 	(label "D18"
-		(at 99.06 73.66 0)
+		(at 109.22 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2914,7 +2854,7 @@
 		(uuid "d71ffe09-6d72-476b-a5a3-67c408e52215")
 	)
 	(label "FC1"
-		(at 99.06 99.06 0)
+		(at 109.22 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,7 +2864,7 @@
 		(uuid "e5517f03-5089-4cd0-a252-50980ba77d7d")
 	)
 	(label "FC0"
-		(at 99.06 96.52 0)
+		(at 109.22 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,7 +2884,7 @@
 		(uuid "f42a75b0-4646-4a39-a510-27c9ea7b81ad")
 	)
 	(label "D2"
-		(at 99.06 33.02 0)
+		(at 109.22 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2965,7 +2905,7 @@
 	)
 	(global_label "~{IWM_SEL}"
 		(shape input)
-		(at 185.42 35.56 180)
+		(at 195.58 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2975,7 +2915,7 @@
 		)
 		(uuid "05aab0dc-d321-4326-90ed-9fddc1efcf16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.8063 35.56 0)
+			(at 184.733 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2926,7 @@
 	)
 	(global_label "~{IPL0}"
 		(shape input)
-		(at 185.42 45.72 180)
+		(at 195.58 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2996,28 +2936,7 @@
 		)
 		(uuid "18959a9f-6272-4e62-a0d0-84d93e0b789a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.3224 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VIDEO"
-		(shape input)
-		(at 185.42 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26354d46-b9d5-40b3-a0d3-12848aadafae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9919 101.6 0)
+			(at 188.4824 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +2968,7 @@
 	)
 	(global_label "SIZ0"
 		(shape input)
-		(at 144.78 81.28 180)
+		(at 154.94 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3059,7 +2978,7 @@
 		)
 		(uuid "2df71f14-2858-431a-9457-f858652ff1c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.5615 81.28 0)
+			(at 147.7215 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +2989,7 @@
 	)
 	(global_label "C16M_SWIM"
 		(shape input)
-		(at 144.78 40.64 180)
+		(at 154.94 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3080,7 +2999,7 @@
 		)
 		(uuid "30e02b68-88e5-4179-b53e-20305f894623")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.9697 40.64 0)
+			(at 141.1297 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,9 +3008,9 @@
 			)
 		)
 	)
-	(global_label "~{CAS0H}"
+	(global_label "~{CAS1H}"
 		(shape input)
-		(at 144.78 50.8 180)
+		(at 154.94 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3101,7 +3020,7 @@
 		)
 		(uuid "32b4f6aa-dc2d-4f44-b0fc-ce1a902a30dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.6867 50.8 0)
+			(at 145.8467 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3031,7 @@
 	)
 	(global_label "FDDWR"
 		(shape input)
-		(at 144.78 25.4 180)
+		(at 154.94 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3122,7 +3041,28 @@
 		)
 		(uuid "357638a1-c44e-4221-b977-9a80caa9f6f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.4448 25.4 0)
+			(at 145.6048 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{EN245}"
+		(shape input)
+		(at 195.58 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44f7dbc9-a0d1-485c-b6aa-f75d195b299c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.4868 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3073,7 @@
 	)
 	(global_label "~{IOW}"
 		(shape input)
-		(at 185.42 40.64 180)
+		(at 195.58 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3143,7 +3083,7 @@
 		)
 		(uuid "450e108e-811b-464e-ac8b-d55f51f74928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.0481 40.64 0)
+			(at 189.2081 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3094,7 @@
 	)
 	(global_label "~{RAMRW}"
 		(shape input)
-		(at 144.78 45.72 180)
+		(at 154.94 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3164,7 +3104,7 @@
 		)
 		(uuid "4cae7d54-1506-4562-8628-2e6a9dad69ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.2634 45.72 0)
+			(at 145.4234 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,9 +3113,9 @@
 			)
 		)
 	)
-	(global_label "FDDWRIN"
+	(global_label "~{FDDWRIN}"
 		(shape input)
-		(at 185.42 50.8 180)
+		(at 195.58 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3185,28 +3125,7 @@
 		)
 		(uuid "5b55f2ae-3553-40d6-9052-50c815890398")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.1495 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RxDB-"
-		(shape input)
-		(at 144.78 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ed4f793-9053-4caf-afa6-13a244182d81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.3843 71.12 0)
+			(at 184.3095 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3136,7 @@
 	)
 	(global_label "~{HSYNC}"
 		(shape input)
-		(at 185.42 30.48 180)
+		(at 195.58 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3227,7 +3146,7 @@
 		)
 		(uuid "66a72c41-f62b-4665-a370-5fee1cb1a83a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.2057 30.48 0)
+			(at 186.3657 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3157,7 @@
 	)
 	(global_label "SER_CLK"
 		(shape input)
-		(at 185.42 60.96 180)
+		(at 195.58 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3248,7 +3167,7 @@
 		)
 		(uuid "66d274e3-0c47-4966-a8a6-11e9ad39ef39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2706 60.96 0)
+			(at 184.4306 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,30 +3176,9 @@
 			)
 		)
 	)
-	(global_label "HSKOB"
+	(global_label "PWM"
 		(shape input)
-		(at 144.78 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ece9e35-e604-4c21-a5f2-0173ebe1a8f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.3843 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PBL"
-		(shape input)
-		(at 144.78 96.52 180)
+		(at 154.94 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3290,7 +3188,7 @@
 		)
 		(uuid "6f9870f9-33aa-4402-9c68-44c06838c08f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.2267 96.52 0)
+			(at 147.782 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,9 +3197,9 @@
 			)
 		)
 	)
-	(global_label "FAST_RESET"
+	(global_label "~{TESTEN}"
 		(shape input)
-		(at 185.42 55.88 180)
+		(at 195.58 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3311,7 +3209,7 @@
 		)
 		(uuid "73f2a5d2-dd6f-4899-9b75-9afd6f080835")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.3678 55.88 0)
+			(at 185.8216 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3220,7 @@
 	)
 	(global_label "SAMP_CLK"
 		(shape input)
-		(at 185.42 71.12 180)
+		(at 195.58 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3332,7 +3230,7 @@
 		)
 		(uuid "7f92ea37-4bf6-4bd9-8cd9-2f9ff635e2fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8796 71.12 0)
+			(at 183.0396 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,9 +3239,9 @@
 			)
 		)
 	)
-	(global_label "SOUND_IN"
+	(global_label "IV"
 		(shape input)
-		(at 185.42 81.28 180)
+		(at 195.58 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3353,7 +3251,7 @@
 		)
 		(uuid "8ae8c347-3bb1-426e-bb32-23db09d1e464")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.0609 81.28 0)
+			(at 190.9014 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3262,7 @@
 	)
 	(global_label "CONF_CLK"
 		(shape input)
-		(at 185.42 66.04 180)
+		(at 195.58 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3374,7 +3272,7 @@
 		)
 		(uuid "8d27c48b-94d7-4cfd-b8b5-3b1bb3935bec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8795 66.04 0)
+			(at 183.0395 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,51 +3302,9 @@
 			)
 		)
 	)
-	(global_label "RxDB+"
-		(shape input)
-		(at 144.78 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b63872d-61ef-40d7-a88e-c67696ce16b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.3843 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HSKIA"
-		(shape input)
-		(at 185.42 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9db3a678-01c2-4bfc-9b7f-e127779e06bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9314 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SCCSOFT5"
 		(shape input)
-		(at 144.78 30.48 180)
+		(at 154.94 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3458,7 +3314,7 @@
 		)
 		(uuid "9ec08ccc-2d20-46d8-9fed-b0aea6948558")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2396 30.48 0)
+			(at 142.3996 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,30 +3323,9 @@
 			)
 		)
 	)
-	(global_label "HSKIB"
+	(global_label "~{ROM_SEL}"
 		(shape input)
-		(at 185.42 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a278bad3-43c9-4f0b-85b5-fec63a4fe4ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{ROM}"
-		(shape input)
-		(at 185.42 25.4 180)
+		(at 195.58 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3500,7 +3335,7 @@
 		)
 		(uuid "a5bb33b0-854b-49b1-bd54-02b6b48b88a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9034 25.4 0)
+			(at 184.1887 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,30 +3344,9 @@
 			)
 		)
 	)
-	(global_label "HSKOA"
+	(global_label "~{RAS1}"
 		(shape input)
-		(at 144.78 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9b1f931-3bbc-441d-9781-c6923b25b14d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.5657 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{RAS0}"
-		(shape input)
-		(at 144.78 35.56 180)
+		(at 154.94 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3542,7 +3356,7 @@
 		)
 		(uuid "b7994b9c-cd31-4431-9afc-51ca71a873b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0172 35.56 0)
+			(at 147.1772 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3367,7 @@
 	)
 	(global_label "~{DSACK0}"
 		(shape input)
-		(at 185.42 96.52 180)
+		(at 195.58 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3563,7 +3377,7 @@
 		)
 		(uuid "c1dabeb7-bffc-4938-9e47-be6e908267f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1172 96.52 0)
+			(at 185.2772 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3388,7 @@
 	)
 	(global_label "XCVR_SESSION"
 		(shape input)
-		(at 185.42 76.2 180)
+		(at 195.58 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3584,28 +3398,7 @@
 		)
 		(uuid "c8641aeb-6134-40c3-8d39-711157bbbbe2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.5858 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIA"
-		(shape input)
-		(at 144.78 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de585c87-07ac-4fa2-a2f7-e29326e93479")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.5614 55.88 0)
+			(at 178.7458 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3409,7 @@
 	)
 	(global_label "D[0..31]"
 		(shape input)
-		(at 92.71 25.4 180)
+		(at 102.87 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3626,7 +3419,7 @@
 		)
 		(uuid "e943cc68-553c-4353-9dfb-1ae17992b65d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9233 25.4 0)
+			(at 92.0833 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3430,7 @@
 	)
 	(global_label "~{BERR}"
 		(shape input)
-		(at 144.78 91.44 180)
+		(at 154.94 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3647,7 +3440,7 @@
 		)
 		(uuid "ef0f9aea-23c8-4513-a0cd-9067d75d6b91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 91.44 0)
+			(at 146.9958 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3451,7 @@
 	)
 	(global_label "SIZ1"
 		(shape input)
-		(at 144.78 86.36 180)
+		(at 154.94 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3668,7 +3461,28 @@
 		)
 		(uuid "f196fbc5-4a0f-4d43-8b18-7e3b952fa5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.5615 86.36 0)
+			(at 147.7215 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{SCSI_SEL}"
+		(shape input)
+		(at 195.58 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb48aaad-4824-44d2-ada8-3fb0ab033a57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.9468 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3493,7 @@
 	)
 	(global_label "FC[0..2]"
 		(shape input)
-		(at 92.71 93.98 180)
+		(at 102.87 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3689,7 +3503,7 @@
 		)
 		(uuid "fd4fb14f-ffd2-4390-9330-17f6c3ccbb94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.0442 93.98 0)
+			(at 92.2042 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03be9ab4-ef40-4c40-8bb7-46f549b618d2")
-		(property "Reference" "TP1"
+		(property "Reference" "TP401"
 			(at 144.78 189.2299 90)
 			(effects
 				(font
@@ -3759,7 +3573,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP1")
+					(reference "TP401")
 					(unit 1)
 				)
 			)
@@ -3767,7 +3581,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 96.52 270)
+		(at 119.38 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3776,7 +3590,7 @@
 		(fields_autoplaced yes)
 		(uuid "06bc54f7-7943-41d2-8a25-42567dee5461")
 		(property "Reference" "TP31"
-			(at 114.3 95.8849 90)
+			(at 124.46 95.8849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3599,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 97.79 90)
+			(at 124.46 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3608,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 101.6 0)
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 101.6 0)
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3626,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 96.52 0)
+			(at 119.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,17 +3648,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 66.04 270)
-		(mirror x)
+		(at 198.12 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08f0ff18-b207-4105-b9d8-157cc520b414")
-		(property "Reference" "TP151"
-			(at 193.04 65.4049 90)
+		(uuid "08709a6a-cd8c-48b5-885a-695a198074a8")
+		(property "Reference" "TP36"
+			(at 203.2 106.0449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3666,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 67.31 90)
+			(at 203.2 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 60.96 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 60.96 0)
+			(at 198.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3693,75 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 66.04 0)
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00d60d32-072e-4831-abc5-338f3dd85c23")
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 66.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08f0ff18-b207-4105-b9d8-157cc520b414")
+		(property "Reference" "TP32"
+			(at 203.2 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3775,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP151")
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -3902,7 +3783,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 96.52 270)
+		(at 198.12 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3910,8 +3791,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a1bde86-04ad-4db9-ae17-4070e13e0c3c")
-		(property "Reference" "TP34"
-			(at 193.04 95.8849 90)
+		(property "Reference" "TP147"
+			(at 203.2 95.8849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3801,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 97.79 90)
+			(at 203.2 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3810,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 101.6 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 101.6 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +3828,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 96.52 0)
+			(at 198.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3842,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP34")
+					(reference "TP147")
 					(unit 1)
 				)
 			)
@@ -3977,7 +3858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e06173c-50b7-480c-b5a3-ced2bbb4a6b8")
-		(property "Reference" "TP22"
+		(property "Reference" "TP218"
 			(at 132.08 187.3249 90)
 			(effects
 				(font
@@ -4028,7 +3909,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP22")
+					(reference "TP218")
 					(unit 1)
 				)
 			)
@@ -4036,7 +3917,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 40.64 270)
+		(at 198.12 40.64 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4045,8 +3926,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10282db8-178d-441a-8946-3a8db5b4eb0a")
-		(property "Reference" "TP101"
-			(at 193.04 40.0049 90)
+		(property "Reference" "TP100"
+			(at 203.2 40.0049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +3936,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 41.91 90)
+			(at 203.2 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +3945,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 35.56 0)
+			(at 198.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 35.56 0)
+			(at 198.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +3963,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 40.64 0)
+			(at 198.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +3977,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP101")
+					(reference "TP100")
 					(unit 1)
 				)
 			)
@@ -4104,7 +3985,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 71.12 270)
+		(at 198.12 71.12 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4113,8 +3994,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16700800-edd3-4266-8539-a5c91cf3191f")
-		(property "Reference" "TP153"
-			(at 193.04 70.4849 90)
+		(property "Reference" "TP141"
+			(at 203.2 70.4849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4004,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 72.39 90)
+			(at 203.2 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4013,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 66.04 0)
+			(at 198.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 66.04 0)
+			(at 198.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4031,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 71.12 0)
+			(at 198.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4045,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP153")
+					(reference "TP141")
 					(unit 1)
 				)
 			)
@@ -4172,7 +4053,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 96.52 270)
+		(at 157.48 96.52 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4181,8 +4062,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16e2769c-a85d-4485-8ca7-4d2ed0f73335")
-		(property "Reference" "TP74"
-			(at 152.4 95.8849 90)
+		(property "Reference" "TP135"
+			(at 162.56 95.8849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4072,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 97.79 90)
+			(at 162.56 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4081,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 91.44 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 91.44 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4099,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4113,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP74")
+					(reference "TP135")
 					(unit 1)
 				)
 			)
@@ -4249,7 +4130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c89a6b1-c08d-4d75-ae6e-b884e67ebac0")
-		(property "Reference" "TP11"
+		(property "Reference" "TP126"
 			(at 63.5 100.9649 90)
 			(effects
 				(font
@@ -4300,7 +4181,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP11")
+					(reference "TP126")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4189,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 48.26 270)
+		(at 119.38 48.26 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4317,8 +4198,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c8a6b87-037b-4dcb-8089-7063619e0606")
-		(property "Reference" "TP110"
-			(at 114.3 47.6249 90)
+		(property "Reference" "TP310"
+			(at 124.46 47.6249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4208,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 49.53 90)
+			(at 124.46 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4217,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 43.18 0)
+			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 43.18 0)
+			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4235,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4249,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP110")
+					(reference "TP310")
 					(unit 1)
 				)
 			)
@@ -4376,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 45.72 270)
+		(at 198.12 45.72 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4385,8 +4266,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ce7b62e-5bde-4b90-a9d4-22ecaa2f7ada")
-		(property "Reference" "TP137"
-			(at 193.04 45.0849 90)
+		(property "Reference" "TP110"
+			(at 203.2 45.0849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4276,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 46.99 90)
+			(at 203.2 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4285,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 40.64 0)
+			(at 198.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 40.64 0)
+			(at 198.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4303,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 45.72 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4317,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP137")
+					(reference "TP110")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4325,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 40.64 270)
+		(at 157.48 40.64 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4453,8 +4334,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22c1de56-1dd1-4a57-9498-c740679dccdf")
-		(property "Reference" "TP85"
-			(at 152.4 40.0049 90)
+		(property "Reference" "TP69"
+			(at 162.56 40.0049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4344,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 41.91 90)
+			(at 162.56 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4371,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 40.64 0)
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4385,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP85")
+					(reference "TP69")
 					(unit 1)
 				)
 			)
@@ -4521,7 +4402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "249621e3-2011-48b0-9786-512a08d460cd")
-		(property "Reference" "TP65"
+		(property "Reference" "TP265"
 			(at 63.5 70.4849 90)
 			(effects
 				(font
@@ -4572,7 +4453,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP65")
+					(reference "TP265")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "260368a2-b7d6-44d2-97ab-efb447b0676b")
-		(property "Reference" "TP9"
+		(property "Reference" "TP115"
 			(at 63.5 95.8849 90)
 			(effects
 				(font
@@ -4640,7 +4521,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP9")
+					(reference "TP115")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f0958f-0aa2-44af-b511-f43b9545217d")
-		(property "Reference" "TP78"
+		(property "Reference" "TP162"
 			(at 63.5 121.2849 90)
 			(effects
 				(font
@@ -4708,7 +4589,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP78")
+					(reference "TP162")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f814133-2870-4210-86fa-529972660fdf")
-		(property "Reference" "TP63"
+		(property "Reference" "TP263"
 			(at 63.5 62.8649 90)
 			(effects
 				(font
@@ -4776,7 +4657,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP63")
+					(reference "TP263")
 					(unit 1)
 				)
 			)
@@ -4793,7 +4674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fa99e7e-21db-4d21-83ed-617d44a87198")
-		(property "Reference" "TP75"
+		(property "Reference" "TP150"
 			(at 63.5 113.6649 90)
 			(effects
 				(font
@@ -4844,7 +4725,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP75")
+					(reference "TP150")
 					(unit 1)
 				)
 			)
@@ -4852,74 +4733,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3813d20b-6267-4aa8-ad45-916bc9f6a825")
-		(property "Reference" "TP60"
-			(at 194.31 100.9649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 194.31 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 187.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "978cf467-24d6-437d-b296-320ccaf6aa7b")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 78.74 270)
+		(at 119.38 78.74 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4928,8 +4742,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "384d574d-87ee-47d6-a8d4-76da35fa3aa3")
-		(property "Reference" "TP122"
-			(at 114.3 78.1049 90)
+		(property "Reference" "TP322"
+			(at 124.46 78.1049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4752,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 80.01 90)
+			(at 124.46 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4761,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 73.66 0)
+			(at 119.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 73.66 0)
+			(at 119.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4779,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 78.74 0)
+			(at 119.38 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +4793,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP122")
+					(reference "TP322")
 					(unit 1)
 				)
 			)
@@ -4987,7 +4801,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 81.28 270)
+		(at 198.12 81.28 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4996,8 +4810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39dd429d-9ff6-4afa-9b37-7c7d16d38ea7")
-		(property "Reference" "TP161"
-			(at 193.04 80.6449 90)
+		(property "Reference" "TP77"
+			(at 203.2 80.6449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +4820,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 82.55 90)
+			(at 203.2 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +4829,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +4838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +4847,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 81.28 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4861,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP161")
+					(reference "TP77")
 					(unit 1)
 				)
 			)
@@ -5055,7 +4869,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 63.5 270)
+		(at 119.38 63.5 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5064,8 +4878,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af60a48-c89a-4dfa-af79-9a44ace9224e")
-		(property "Reference" "TP116"
-			(at 114.3 62.8649 90)
+		(property "Reference" "TP316"
+			(at 124.46 62.8649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +4888,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 64.77 90)
+			(at 124.46 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +4897,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 58.42 0)
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +4906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 58.42 0)
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +4915,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 63.5 0)
+			(at 119.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +4929,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP116")
+					(reference "TP316")
 					(unit 1)
 				)
 			)
@@ -5132,7 +4946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b289561-2119-483b-a153-f5e1658a6118")
-		(property "Reference" "TP81"
+		(property "Reference" "TP149"
 			(at 63.5 128.9049 90)
 			(effects
 				(font
@@ -5183,7 +4997,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP81")
+					(reference "TP149")
 					(unit 1)
 				)
 			)
@@ -5200,7 +5014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed38309-4e46-473e-9b8c-abf1a57e759e")
-		(property "Reference" "TP64"
+		(property "Reference" "TP264"
 			(at 63.5 65.4049 90)
 			(effects
 				(font
@@ -5251,7 +5065,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP64")
+					(reference "TP264")
 					(unit 1)
 				)
 			)
@@ -5268,7 +5082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f771ad5-bcba-491b-a41f-043d7b434925")
-		(property "Reference" "TP83"
+		(property "Reference" "TP139"
 			(at 63.5 133.9849 90)
 			(effects
 				(font
@@ -5319,7 +5133,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP83")
+					(reference "TP139")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fbb14a5-a8eb-495c-ae23-194c8588c62c")
-		(property "Reference" "TP20"
+		(property "Reference" "TP216"
 			(at 132.08 182.2449 90)
 			(effects
 				(font
@@ -5386,7 +5200,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP20")
+					(reference "TP216")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5208,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 91.44 270)
+		(at 157.48 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5402,8 +5216,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff17bcb-f85c-4114-a756-5a7fc715f818")
-		(property "Reference" "TP32"
-			(at 152.4 90.8049 90)
+		(property "Reference" "TP152"
+			(at 162.56 90.8049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5226,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 92.71 90)
+			(at 162.56 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5235,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 96.52 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5253,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 91.44 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5267,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP32")
+					(reference "TP152")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d1c674-5c5a-4a88-b8c4-2e1fa0fc11b4")
-		(property "Reference" "TP61"
+		(property "Reference" "TP261"
 			(at 63.5 45.0849 90)
 			(effects
 				(font
@@ -5521,7 +5335,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP61")
+					(reference "TP261")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5343,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 30.48 270)
+		(at 119.38 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5538,8 +5352,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43131ed9-3456-4f4a-90b1-57d1342194a0")
-		(property "Reference" "TP103"
-			(at 114.3 29.8449 90)
+		(property "Reference" "TP303"
+			(at 124.46 29.8449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5362,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 31.75 90)
+			(at 124.46 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5371,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 25.4 0)
+			(at 119.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 25.4 0)
+			(at 119.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5389,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 30.48 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5403,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP103")
+					(reference "TP303")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5411,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 66.04 270)
+		(at 119.38 66.04 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5606,8 +5420,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d0df3c-34e7-4a5f-94a1-750577817e2d")
-		(property "Reference" "TP117"
-			(at 114.3 65.4049 90)
+		(property "Reference" "TP317"
+			(at 124.46 65.4049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +5430,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 67.31 90)
+			(at 124.46 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5439,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 60.96 0)
+			(at 119.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 60.96 0)
+			(at 119.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5457,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 66.04 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5471,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP117")
+					(reference "TP317")
 					(unit 1)
 				)
 			)
@@ -5665,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 27.94 270)
+		(at 119.38 27.94 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5674,8 +5488,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44cc8132-2c6f-43af-ae99-f597187906f1")
-		(property "Reference" "TP102"
-			(at 114.3 27.3049 90)
+		(property "Reference" "TP302"
+			(at 124.46 27.3049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5498,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 29.21 90)
+			(at 124.46 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5507,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 22.86 0)
+			(at 119.38 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 22.86 0)
+			(at 119.38 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5525,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 27.94 0)
+			(at 119.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5539,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP102")
+					(reference "TP302")
 					(unit 1)
 				)
 			)
@@ -5741,7 +5555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "468db2b6-0b33-45c6-8cae-49152b810001")
-		(property "Reference" "TP145"
+		(property "Reference" "TP124"
 			(at 119.38 189.8649 90)
 			(effects
 				(font
@@ -5792,7 +5606,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP145")
+					(reference "TP124")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "484ccede-2c7d-48ef-aeaa-1b0fe29b6b9f")
-		(property "Reference" "TP144"
+		(property "Reference" "TP90"
 			(at 119.38 179.7049 90)
 			(effects
 				(font
@@ -5859,7 +5673,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP144")
+					(reference "TP90")
 					(unit 1)
 				)
 			)
@@ -5867,7 +5681,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 40.64 270)
+		(at 119.38 40.64 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5876,8 +5690,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49d4eac4-9248-4e5f-a112-e08ac8c96e6a")
-		(property "Reference" "TP107"
-			(at 114.3 40.0049 90)
+		(property "Reference" "TP307"
+			(at 124.46 40.0049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +5700,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 41.91 90)
+			(at 124.46 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +5709,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +5718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +5727,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 40.64 0)
+			(at 119.38 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5741,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP107")
+					(reference "TP307")
 					(unit 1)
 				)
 			)
@@ -5935,7 +5749,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 81.28 270)
+		(at 157.48 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5943,8 +5757,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49dd7691-fbd5-4792-81c1-e260c63ea6ac")
-		(property "Reference" "TP41"
-			(at 152.4 80.6449 90)
+		(property "Reference" "TP172"
+			(at 162.56 80.6449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5767,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 82.55 90)
+			(at 162.56 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5776,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 86.36 0)
+			(at 157.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 86.36 0)
+			(at 157.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5794,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5808,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP41")
+					(reference "TP172")
 					(unit 1)
 				)
 			)
@@ -6011,7 +5825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd9b40a-15be-4aa6-8495-c9b1cf70b2d4")
-		(property "Reference" "TP70"
+		(property "Reference" "TP270"
 			(at 63.5 34.9249 90)
 			(effects
 				(font
@@ -6062,7 +5876,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP70")
+					(reference "TP270")
 					(unit 1)
 				)
 			)
@@ -6070,7 +5884,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 50.8 270)
+		(at 198.12 50.8 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6079,8 +5893,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e091cdb-9460-45df-98bb-7c4247dfe0ea")
-		(property "Reference" "TP143"
-			(at 193.04 50.1649 90)
+		(property "Reference" "TP119"
+			(at 203.2 50.1649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +5903,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 52.07 90)
+			(at 203.2 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +5912,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 45.72 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +5921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 45.72 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +5930,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 50.8 0)
+			(at 198.12 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +5944,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP143")
+					(reference "TP119")
 					(unit 1)
 				)
 			)
@@ -6138,7 +5952,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 53.34 270)
+		(at 119.38 53.34 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6147,8 +5961,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e907ac4-d440-4925-a1af-7fb5db438bd4")
-		(property "Reference" "TP112"
-			(at 114.3 52.7049 90)
+		(property "Reference" "TP312"
+			(at 124.46 52.7049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +5971,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 54.61 90)
+			(at 124.46 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +5980,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +5989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 48.26 0)
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +5998,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 53.34 0)
+			(at 119.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6012,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP112")
+					(reference "TP312")
 					(unit 1)
 				)
 			)
@@ -6206,7 +6020,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 50.8 270)
+		(at 157.48 50.8 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6215,8 +6029,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fa161ff-6ba7-4f70-a41f-bc38547fee3e")
-		(property "Reference" "TP87"
-			(at 152.4 50.1649 90)
+		(property "Reference" "TP183"
+			(at 162.56 50.1649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6039,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 52.07 90)
+			(at 162.56 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6048,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 45.72 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 45.72 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6066,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 50.8 0)
+			(at 157.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +6080,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP87")
+					(reference "TP183")
 					(unit 1)
 				)
 			)
@@ -6274,7 +6088,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 81.28 270)
+		(at 119.38 81.28 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6283,8 +6097,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5249d903-4c97-4b89-ac6f-b73a981e98f1")
-		(property "Reference" "TP123"
-			(at 114.3 80.6449 90)
+		(property "Reference" "TP323"
+			(at 124.46 80.6449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6107,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 82.55 90)
+			(at 124.46 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6116,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 76.2 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 76.2 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6134,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 81.28 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6148,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP123")
+					(reference "TP323")
 					(unit 1)
 				)
 			)
@@ -6342,7 +6156,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 55.88 270)
+		(at 119.38 55.88 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6351,8 +6165,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5624d6ff-e4a8-4202-af97-7f28a9fc1367")
-		(property "Reference" "TP113"
-			(at 114.3 55.2449 90)
+		(property "Reference" "TP313"
+			(at 124.46 55.2449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6175,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 57.15 90)
+			(at 124.46 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6184,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 50.8 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 50.8 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6202,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,75 +6216,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 187.96 91.44 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e798308-2b85-43e5-9071-d7f425191d20")
-		(property "Reference" "TP88"
-			(at 193.04 90.8049 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 193.04 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6114c405-6d50-4403-a16a-5b0094c8b187")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP88")
+					(reference "TP313")
 					(unit 1)
 				)
 			)
@@ -6553,7 +6299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61b01593-9082-4e6c-8972-229d1f1ee805")
-		(property "Reference" "TP6"
+		(property "Reference" "TP112"
 			(at 63.5 88.2649 90)
 			(effects
 				(font
@@ -6604,7 +6350,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP6")
+					(reference "TP112")
 					(unit 1)
 				)
 			)
@@ -6620,7 +6366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62b1c967-f96e-4270-967d-ed4981d2a04b")
-		(property "Reference" "TP23"
+		(property "Reference" "TP219"
 			(at 132.08 189.8649 90)
 			(effects
 				(font
@@ -6671,7 +6417,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP23")
+					(reference "TP219")
 					(unit 1)
 				)
 			)
@@ -6679,32 +6425,34 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 101.6 270)
+		(at 198.12 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68c9d56e-dbb4-4db7-bd09-eb21877100aa")
-		(property "Reference" "TP29"
-			(at 112.522 104.14 90)
+		(uuid "6610b739-1fc9-464c-875f-62beb1e9b771")
+		(property "Reference" "TP190"
+			(at 203.2 100.9649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 112.522 106.68 90)
+			(at 203.2 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 106.68 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +6461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 106.68 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6470,72 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 101.6 0)
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd1c2ff6-e039-4c80-b077-b08eae26dc99")
+		)
+		(instances
+			(project "ClassicIIRevB"
+				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
+					(reference "TP190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c9d56e-dbb4-4db7-bd09-eb21877100aa")
+		(property "Reference" "TP29"
+			(at 122.682 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 122.682 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c086115-b410-4b66-acb1-562f018e8ead")
-		(property "Reference" "TP66"
+		(property "Reference" "TP266"
 			(at 63.5 73.0249 90)
 			(effects
 				(font
@@ -6804,7 +6617,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP66")
+					(reference "TP266")
 					(unit 1)
 				)
 			)
@@ -6812,7 +6625,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 35.56 270)
+		(at 119.38 35.56 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6821,8 +6634,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c43d7ea-41b5-41e9-b130-a375b7bd371b")
-		(property "Reference" "TP105"
-			(at 114.3 34.9249 90)
+		(property "Reference" "TP305"
+			(at 124.46 34.9249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6644,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 36.83 90)
+			(at 124.46 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +6653,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 30.48 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +6662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 30.48 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +6671,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 35.56 0)
+			(at 119.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6685,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP105")
+					(reference "TP305")
 					(unit 1)
 				)
 			)
@@ -6880,7 +6693,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 60.96 270)
+		(at 119.38 60.96 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6889,8 +6702,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72190c37-3751-48d2-b296-19a197951954")
-		(property "Reference" "TP115"
-			(at 114.3 60.3249 90)
+		(property "Reference" "TP315"
+			(at 124.46 60.3249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6712,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 62.23 90)
+			(at 124.46 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +6721,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,7 +6730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6739,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 60.96 0)
+			(at 119.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6753,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP115")
+					(reference "TP315")
 					(unit 1)
 				)
 			)
@@ -6948,7 +6761,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 55.88 270)
+		(at 198.12 55.88 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6957,8 +6770,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7364b26e-7132-44ca-8b17-4f60f9fa6748")
-		(property "Reference" "TP146"
-			(at 193.04 55.2449 90)
+		(property "Reference" "TP189"
+			(at 203.2 55.2449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +6780,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 57.15 90)
+			(at 203.2 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6789,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 50.8 0)
+			(at 198.12 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +6798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 50.8 0)
+			(at 198.12 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,7 +6807,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +6821,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP146")
+					(reference "TP189")
 					(unit 1)
 				)
 			)
@@ -7016,7 +6829,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 60.96 270)
+		(at 198.12 60.96 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7025,8 +6838,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e677f95-9c5b-4ce8-9fdc-ebe1b70ef364")
-		(property "Reference" "TP150"
-			(at 193.04 60.3249 90)
+		(property "Reference" "TP131"
+			(at 203.2 60.3249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +6848,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 62.23 90)
+			(at 203.2 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +6857,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +6866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +6875,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 60.96 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +6889,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP150")
+					(reference "TP131")
 					(unit 1)
 				)
 			)
@@ -7084,7 +6897,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 45.72 270)
+		(at 157.48 45.72 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7093,8 +6906,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8377a49d-1545-42b1-8b8b-8fe53a9d6c2a")
-		(property "Reference" "TP86"
-			(at 152.4 45.0849 90)
+		(property "Reference" "TP165"
+			(at 162.56 45.0849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +6916,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 46.99 90)
+			(at 162.56 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +6925,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 40.64 0)
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +6934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 40.64 0)
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +6943,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 45.72 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +6957,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP86")
+					(reference "TP165")
 					(unit 1)
 				)
 			)
@@ -7152,7 +6965,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 33.02 270)
+		(at 119.38 33.02 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7161,8 +6974,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "862d17da-f4ee-4683-b74b-107cfbc1cb71")
-		(property "Reference" "TP104"
-			(at 114.3 32.3849 90)
+		(property "Reference" "TP304"
+			(at 124.46 32.3849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +6984,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 34.29 90)
+			(at 124.46 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +6993,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 27.94 0)
+			(at 119.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 27.94 0)
+			(at 119.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7011,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 33.02 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7025,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP104")
+					(reference "TP304")
 					(unit 1)
 				)
 			)
@@ -7228,7 +7041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "873032c8-0b4b-4f4b-bca4-5c68c6240ab0")
-		(property "Reference" "TP19"
+		(property "Reference" "TP215"
 			(at 132.08 179.7049 90)
 			(effects
 				(font
@@ -7279,7 +7092,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP19")
+					(reference "TP215")
 					(unit 1)
 				)
 			)
@@ -7295,7 +7108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e29b07-7d94-4c5d-8dd1-d27e5bdccd32")
-		(property "Reference" "TP17"
+		(property "Reference" "TP214"
 			(at 132.08 177.1649 90)
 			(effects
 				(font
@@ -7346,7 +7159,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP17")
+					(reference "TP214")
 					(unit 1)
 				)
 			)
@@ -7354,75 +7167,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 71.12 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "903368e3-ae60-44c7-9eea-4404668545f2")
-		(property "Reference" "TP90"
-			(at 152.4 70.4849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72cb4682-6800-4ae9-b2d0-3c503970ac48")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 43.18 270)
+		(at 119.38 43.18 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7431,8 +7176,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d9833b-b79a-4cff-9781-4d36fa71d0e6")
-		(property "Reference" "TP108"
-			(at 114.3 42.5449 90)
+		(property "Reference" "TP308"
+			(at 124.46 42.5449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7186,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 44.45 90)
+			(at 124.46 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +7195,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 38.1 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +7204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 38.1 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7213,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 43.18 0)
+			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7227,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP108")
+					(reference "TP308")
 					(unit 1)
 				)
 			)
@@ -7490,7 +7235,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 99.06 270)
+		(at 119.38 99.06 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7499,8 +7244,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "910c2e22-3d78-4094-9bba-04c7b874d9a6")
-		(property "Reference" "TP30"
-			(at 114.3 98.4249 90)
+		(property "Reference" "TP230"
+			(at 124.46 98.4249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +7254,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 100.33 90)
+			(at 124.46 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7263,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 109.22 93.98 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 93.98 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7281,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 99.06 0)
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +7295,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP30")
+					(reference "TP230")
 					(unit 1)
 				)
 			)
@@ -7558,7 +7303,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 35.56 270)
+		(at 198.12 35.56 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7567,8 +7312,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94579f45-889b-4d7d-9f4e-5f30446e5f4e")
-		(property "Reference" "TP96"
-			(at 193.04 34.9249 90)
+		(property "Reference" "TP79"
+			(at 203.2 34.9249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +7322,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 36.83 90)
+			(at 203.2 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7331,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 30.48 0)
+			(at 198.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 30.48 0)
+			(at 198.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7349,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 35.56 0)
+			(at 198.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,211 +7363,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 76.2 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "964b588a-c4af-4cc3-8dff-433801fdf4f2")
-		(property "Reference" "TP89"
-			(at 152.4 75.5649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 147.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2156d921-08a4-482e-90cd-420987e8ff9f")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 66.04 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cef235f-4ec8-4c1c-ae6f-8130073a5ac0")
-		(property "Reference" "TP91"
-			(at 152.4 65.4049 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88e1d6a4-23f8-424b-a63c-a717059f67fb")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 187.96 86.36 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ff32601-7d7e-4271-88ed-4b546a23a53a")
-		(property "Reference" "TP92"
-			(at 193.04 85.7249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 193.04 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfe2b04d-9471-4421-8bd5-798800d78218")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP92")
+					(reference "TP79")
 					(unit 1)
 				)
 			)
@@ -7839,20 +7380,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a27e38dc-bf7a-4213-9488-1878ae0f246a")
-		(property "Reference" "TP67"
-			(at 61.722 78.74 90)
+		(property "Reference" "TP267"
+			(at 63.5 75.5649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 61.722 81.28 90)
+			(at 63.5 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
@@ -7888,7 +7431,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP67")
+					(reference "TP267")
 					(unit 1)
 				)
 			)
@@ -7905,7 +7448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2bdd30e-c207-4593-aade-f07a35c3953e")
-		(property "Reference" "TP44"
+		(property "Reference" "TP178"
 			(at 63.5 27.3049 90)
 			(effects
 				(font
@@ -7956,7 +7499,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP44")
+					(reference "TP178")
 					(unit 1)
 				)
 			)
@@ -7973,7 +7516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3e284a3-85d9-49fc-8bbf-b4589421dd3b")
-		(property "Reference" "TP7"
+		(property "Reference" "TP125"
 			(at 63.5 90.8049 90)
 			(effects
 				(font
@@ -8024,7 +7567,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP7")
+					(reference "TP125")
 					(unit 1)
 				)
 			)
@@ -8041,20 +7584,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a71a7e88-44a5-4ea2-af82-83a4805703f4")
-		(property "Reference" "TP84"
-			(at 61.722 139.7 90)
+		(property "Reference" "TP121"
+			(at 63.5 136.5249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 61.722 142.24 90)
+			(at 63.5 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
@@ -8090,141 +7635,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7eae00f-fcfe-4c63-9b15-b91db4777732")
-		(property "Reference" "TP93"
-			(at 152.4 60.3249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "893c02d8-4cc3-42d7-b783-4034ba3a8da7")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad578875-ba7b-472c-8164-b231d3a579d8")
-		(property "Reference" "TP95"
-			(at 152.4 55.2449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf018edc-d410-4950-8199-e134d97f6c77")
-		)
-		(instances
-			(project "ClassicIIRevB"
-				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP95")
+					(reference "TP121")
 					(unit 1)
 				)
 			)
@@ -8241,7 +7652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1539758-a0dc-49a2-978e-28be9b966128")
-		(property "Reference" "TP8"
+		(property "Reference" "TP113"
 			(at 63.5 93.3449 90)
 			(effects
 				(font
@@ -8292,7 +7703,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP8")
+					(reference "TP113")
 					(unit 1)
 				)
 			)
@@ -8309,7 +7720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3263a5a-fcb7-41f8-9cf5-e908f97c72a2")
-		(property "Reference" "TP45"
+		(property "Reference" "TP181"
 			(at 63.5 83.1849 90)
 			(effects
 				(font
@@ -8360,7 +7771,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP45")
+					(reference "TP181")
 					(unit 1)
 				)
 			)
@@ -8377,7 +7788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3afde30-2575-4b23-9d94-ffd4e33faa91")
-		(property "Reference" "TP13"
+		(property "Reference" "TP127"
 			(at 63.5 106.0449 90)
 			(effects
 				(font
@@ -8428,7 +7839,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP13")
+					(reference "TP127")
 					(unit 1)
 				)
 			)
@@ -8436,7 +7847,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 73.66 270)
+		(at 119.38 73.66 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8445,8 +7856,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bf81f0-e291-4cf8-a857-c4a07ddd7d2a")
-		(property "Reference" "TP120"
-			(at 114.3 73.0249 90)
+		(property "Reference" "TP320"
+			(at 124.46 73.0249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +7866,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 74.93 90)
+			(at 124.46 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +7875,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 68.58 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +7884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 68.58 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +7893,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 73.66 0)
+			(at 119.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +7907,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP120")
+					(reference "TP320")
 					(unit 1)
 				)
 			)
@@ -8504,7 +7915,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 58.42 270)
+		(at 119.38 58.42 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8513,8 +7924,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9a7ce7f-0970-4d6c-891e-397a4a80b791")
-		(property "Reference" "TP114"
-			(at 114.3 57.7849 90)
+		(property "Reference" "TP314"
+			(at 124.46 57.7849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +7934,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 59.69 90)
+			(at 124.46 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +7943,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 53.34 0)
+			(at 119.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +7952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 53.34 0)
+			(at 119.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +7961,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 58.42 0)
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8564,7 +7975,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP114")
+					(reference "TP314")
 					(unit 1)
 				)
 			)
@@ -8572,7 +7983,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 35.56 270)
+		(at 157.48 35.56 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8581,8 +7992,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb644b2a-d923-47b3-94a3-bf58069f6a29")
-		(property "Reference" "TP82"
-			(at 152.4 34.9249 90)
+		(property "Reference" "TP179"
+			(at 162.56 34.9249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8002,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 36.83 90)
+			(at 162.56 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8011,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 30.48 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +8020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 30.48 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,7 +8029,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +8043,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP82")
+					(reference "TP179")
 					(unit 1)
 				)
 			)
@@ -8649,7 +8060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc24f760-1a62-4e7b-800b-5d4b073bdcac")
-		(property "Reference" "TP77"
+		(property "Reference" "TP163"
 			(at 63.5 118.7449 90)
 			(effects
 				(font
@@ -8700,7 +8111,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP77")
+					(reference "TP163")
 					(unit 1)
 				)
 			)
@@ -8708,7 +8119,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 38.1 270)
+		(at 119.38 38.1 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8717,8 +8128,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bceaddc0-7afb-461e-88f7-43fa7471cd50")
-		(property "Reference" "TP106"
-			(at 114.3 37.4649 90)
+		(property "Reference" "TP306"
+			(at 124.46 37.4649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8138,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 39.37 90)
+			(at 124.46 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +8147,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 33.02 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +8156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 33.02 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,7 +8165,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 38.1 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +8179,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP106")
+					(reference "TP306")
 					(unit 1)
 				)
 			)
@@ -8776,7 +8187,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 68.58 270)
+		(at 119.38 68.58 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8785,8 +8196,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd29aad4-9f57-4972-98d3-ca81ceafc532")
-		(property "Reference" "TP118"
-			(at 114.3 67.9449 90)
+		(property "Reference" "TP318"
+			(at 124.46 67.9449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,7 +8206,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 69.85 90)
+			(at 124.46 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,7 +8215,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 63.5 0)
+			(at 119.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8813,7 +8224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 63.5 0)
+			(at 119.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +8233,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 68.58 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8247,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP118")
+					(reference "TP318")
 					(unit 1)
 				)
 			)
@@ -8853,7 +8264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c446cc96-8a6b-48c4-a680-9fac624bbe1b")
-		(property "Reference" "TP40"
+		(property "Reference" "TP111"
 			(at 63.5 85.7249 90)
 			(effects
 				(font
@@ -8904,7 +8315,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP40")
+					(reference "TP111")
 					(unit 1)
 				)
 			)
@@ -8912,7 +8323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 86.36 270)
+		(at 119.38 86.36 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8921,8 +8332,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5e843f7-fe5a-4823-83be-b69930ffbfdc")
-		(property "Reference" "TP125"
-			(at 112.522 88.9 90)
+		(property "Reference" "TP325"
+			(at 122.682 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8341,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 112.522 91.44 90)
+			(at 122.682 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +8349,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 81.28 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,7 +8358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 81.28 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +8367,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 86.36 0)
+			(at 119.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +8381,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP125")
+					(reference "TP325")
 					(unit 1)
 				)
 			)
@@ -8987,7 +8398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c88c5baa-316e-4de3-9cfc-ba74b8d6abd2")
-		(property "Reference" "TP80"
+		(property "Reference" "TP177"
 			(at 63.5 126.3649 90)
 			(effects
 				(font
@@ -9038,7 +8449,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP80")
+					(reference "TP177")
 					(unit 1)
 				)
 			)
@@ -9046,7 +8457,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 50.8 270)
+		(at 119.38 50.8 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9055,8 +8466,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5fa08e-1e64-4c07-90db-58e5b7a284d5")
-		(property "Reference" "TP111"
-			(at 114.3 50.1649 90)
+		(property "Reference" "TP311"
+			(at 124.46 50.1649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +8476,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 52.07 90)
+			(at 124.46 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +8485,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 45.72 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +8494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 45.72 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +8503,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 50.8 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +8517,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP111")
+					(reference "TP311")
 					(unit 1)
 				)
 			)
@@ -9180,7 +8591,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 83.82 270)
+		(at 119.38 83.82 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9189,8 +8600,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de4da6ea-e053-44da-8800-e965f5740f45")
-		(property "Reference" "TP124"
-			(at 114.3 83.1849 90)
+		(property "Reference" "TP324"
+			(at 124.46 83.1849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +8610,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 85.09 90)
+			(at 124.46 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9208,7 +8619,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 78.74 0)
+			(at 119.38 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +8628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 78.74 0)
+			(at 119.38 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9226,7 +8637,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 83.82 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +8651,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP124")
+					(reference "TP324")
 					(unit 1)
 				)
 			)
@@ -9256,7 +8667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df055c9f-530d-464e-a274-f3764cdaa925")
-		(property "Reference" "TP21"
+		(property "Reference" "TP217"
 			(at 132.08 184.7849 90)
 			(effects
 				(font
@@ -9307,7 +8718,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP21")
+					(reference "TP217")
 					(unit 1)
 				)
 			)
@@ -9315,7 +8726,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 71.12 270)
+		(at 119.38 71.12 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9324,8 +8735,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e07788e4-126f-4d7c-8d7c-13f14ddb1859")
-		(property "Reference" "TP119"
-			(at 114.3 70.4849 90)
+		(property "Reference" "TP319"
+			(at 124.46 70.4849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,7 +8745,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 72.39 90)
+			(at 124.46 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +8754,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 66.04 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +8763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 66.04 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +8772,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 71.12 0)
+			(at 119.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +8786,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP119")
+					(reference "TP319")
 					(unit 1)
 				)
 			)
@@ -9383,7 +8794,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 76.2 270)
+		(at 119.38 76.2 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9392,8 +8803,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e40a26ea-6de5-4e0d-95d5-2365779b506b")
-		(property "Reference" "TP121"
-			(at 114.3 75.5649 90)
+		(property "Reference" "TP321"
+			(at 124.46 75.5649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +8813,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 77.47 90)
+			(at 124.46 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +8822,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 71.12 0)
+			(at 119.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +8831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 71.12 0)
+			(at 119.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +8840,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 76.2 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,7 +8854,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP121")
+					(reference "TP321")
 					(unit 1)
 				)
 			)
@@ -9460,7 +8871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4408477-b547-4f9d-b98b-cda2004abd87")
-		(property "Reference" "TP10"
+		(property "Reference" "TP114"
 			(at 63.5 98.4249 90)
 			(effects
 				(font
@@ -9511,7 +8922,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP10")
+					(reference "TP114")
 					(unit 1)
 				)
 			)
@@ -9586,7 +8997,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 76.2 270)
+		(at 198.12 76.2 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9595,8 +9006,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54c07b0-1912-43e3-b1b4-ebbbc1ede498")
-		(property "Reference" "TP154"
-			(at 193.04 75.5649 90)
+		(property "Reference" "TP80"
+			(at 203.2 75.5649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,7 +9016,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 77.47 90)
+			(at 203.2 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,7 +9025,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 71.12 0)
+			(at 198.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9034,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 71.12 0)
+			(at 198.12 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9043,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +9057,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP154")
+					(reference "TP80")
 					(unit 1)
 				)
 			)
@@ -9654,7 +9065,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 30.48 270)
+		(at 157.48 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9663,8 +9074,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78eb6fe-cee4-4bad-9cf4-9f03acb854c9")
-		(property "Reference" "TP73"
-			(at 152.4 29.8449 90)
+		(property "Reference" "TP78"
+			(at 162.56 29.8449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9084,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 31.75 90)
+			(at 162.56 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +9093,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 25.4 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 25.4 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +9111,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 30.48 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +9125,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP73")
+					(reference "TP78")
 					(unit 1)
 				)
 			)
@@ -9722,7 +9133,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 25.4 270)
+		(at 198.12 25.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9731,8 +9142,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e89bcb4e-195d-4faf-ab9d-3c35bf0c48b5")
-		(property "Reference" "TP79"
-			(at 193.04 24.7649 90)
+		(property "Reference" "TP279"
+			(at 203.2 24.7649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9152,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 26.67 90)
+			(at 203.2 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +9161,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 20.32 0)
+			(at 198.12 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +9170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 20.32 0)
+			(at 198.12 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +9179,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 25.4 0)
+			(at 198.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,7 +9193,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP79")
+					(reference "TP279")
 					(unit 1)
 				)
 			)
@@ -9799,20 +9210,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb218f82-409c-4113-b90c-d06bea147996")
-		(property "Reference" "TP62"
-			(at 61.722 57.15 90)
+		(property "Reference" "TP262"
+			(at 63.5 60.3249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 61.722 58.42 90)
+			(at 63.5 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
@@ -9848,7 +9261,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP62")
+					(reference "TP262")
 					(unit 1)
 				)
 			)
@@ -9856,7 +9269,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 45.72 270)
+		(at 119.38 45.72 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9865,8 +9278,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb85c92-6e10-424e-a145-a63eb6c4a64e")
-		(property "Reference" "TP109"
-			(at 114.3 45.0849 90)
+		(property "Reference" "TP309"
+			(at 124.46 45.0849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,7 +9288,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.3 46.99 90)
+			(at 124.46 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +9297,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 109.22 40.64 0)
+			(at 119.38 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,7 +9306,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 40.64 0)
+			(at 119.38 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +9315,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 45.72 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +9329,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP109")
+					(reference "TP309")
 					(unit 1)
 				)
 			)
@@ -9933,7 +9346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec17abba-a2e9-4f01-a10a-8cd0157fef7a")
-		(property "Reference" "TP12"
+		(property "Reference" "TP116"
 			(at 63.5 103.5049 90)
 			(effects
 				(font
@@ -9984,7 +9397,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP12")
+					(reference "TP116")
 					(unit 1)
 				)
 			)
@@ -9992,7 +9405,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 86.36 270)
+		(at 157.48 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10000,8 +9413,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7034651-2385-402e-93eb-d0d4f4c17dc6")
-		(property "Reference" "TP42"
-			(at 152.4 85.7249 90)
+		(property "Reference" "TP174"
+			(at 162.56 85.7249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +9423,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 87.63 90)
+			(at 162.56 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +9432,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 91.44 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +9441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 91.44 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +9450,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 86.36 0)
+			(at 157.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +9464,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP42")
+					(reference "TP174")
 					(unit 1)
 				)
 			)
@@ -10059,7 +9472,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 30.48 270)
+		(at 198.12 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10068,8 +9481,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94e01ae-30c5-4c18-b451-ef3bf5ce9d4a")
-		(property "Reference" "TP76"
-			(at 193.04 29.8449 90)
+		(property "Reference" "TP168"
+			(at 203.2 29.8449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +9491,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 193.04 31.75 90)
+			(at 203.2 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +9500,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 187.96 25.4 0)
+			(at 198.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +9509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 25.4 0)
+			(at 198.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +9518,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 30.48 0)
+			(at 198.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +9532,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP76")
+					(reference "TP168")
 					(unit 1)
 				)
 			)
@@ -10127,7 +9540,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 25.4 270)
+		(at 157.48 25.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10136,8 +9549,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc44d9dc-e4fa-49d2-a922-fe23d83a0ee4")
-		(property "Reference" "TP71"
-			(at 152.4 24.7649 90)
+		(property "Reference" "TP28"
+			(at 162.56 24.7649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +9559,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 26.67 90)
+			(at 162.56 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +9568,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:TestPoint_Pad_D1.0mm"
-			(at 147.32 20.32 0)
+			(at 157.48 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +9577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 20.32 0)
+			(at 157.48 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +9586,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 25.4 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +9600,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/ed988263-0502-4bec-a35a-953cd115b8a7"
-					(reference "TP71")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
