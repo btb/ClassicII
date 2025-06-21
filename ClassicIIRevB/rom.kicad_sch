@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -4223,7 +4223,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "60720145-6e52-4732-874f-31b22dbd81f7")
 		(property "Reference" "#PWR0231"
 			(at 175.26 64.77 0)
@@ -4235,7 +4234,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 175.26 55.88 0)
+			(at 172.974 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4289,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "843895f1-0f4e-4de2-8989-6994a842d6f7")
 		(property "Reference" "#PWR0230"
 			(at 124.46 64.77 0)
@@ -4302,7 +4300,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.46 55.88 0)
+			(at 122.174 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4357,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63c7434-e0bb-4aa5-82a7-7629ee94c345")
 		(property "Reference" "U23"
-			(at 177.4033 58.42 0)
+			(at 177.4033 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4366,7 @@
 			)
 		)
 		(property "Value" "27C400"
-			(at 177.4033 60.96 0)
+			(at 177.4033 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyPackage:DIP-40_W15.24mm_Socket_SmallPads"
+		(property "Footprint" "MyPackage:DIP-40_W15.24mm_Socket"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -4394,13 +4392,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OTP EPROM 4 Megabit (256K x 16 or 512K x 8)"
-			(at 175.26 93.98 0)
+		(property "Description" "System ROM MH, HH"
+			(at 177.4033 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "15"
@@ -4543,7 +4543,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1061b22-a5b5-40e7-abdf-acbc5a19e08f")
 		(property "Reference" "U22"
-			(at 126.6033 58.42 0)
+			(at 126.6033 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4552,7 @@
 			)
 		)
 		(property "Value" "27C400"
-			(at 126.6033 60.96 0)
+			(at 126.6033 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyPackage:DIP-40_W15.24mm_Socket_SmallPads"
+		(property "Footprint" "MyPackage:DIP-40_W15.24mm_Socket"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -4578,13 +4578,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OTP EPROM 4 Megabit (256K x 16 or 512K x 8)"
-			(at 124.46 93.98 0)
+		(property "Description" "System ROM LL, ML"
+			(at 126.6033 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "15"

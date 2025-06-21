@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -4750,6 +4750,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
@@ -4945,7 +4947,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5107,7 +5109,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 129.54 62.2299 0)
 			(effects
 				(font
@@ -5299,7 +5301,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5448,7 +5450,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 116.84 49.5299 0)
 			(effects
 				(font
@@ -5722,7 +5724,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 104.14 36.8299 0)
 			(effects
 				(font
@@ -5913,7 +5915,7 @@
 		(at 147.32 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6045,7 +6047,7 @@
 		(at 154.94 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -7783,7 +7783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 66.04 181.6162 0)
 			(effects
 				(font
@@ -7837,13 +7837,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 180.34 149.86 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06738569-5fda-4c3b-a1c5-46d9975fe284")
 		(property "Reference" "#PWR095"
 			(at 180.34 154.94 0)
@@ -7855,7 +7853,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 180.467 153.67 0)
+			(at 180.213 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,13 +7974,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 160.02 124.46 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18679511-68a4-4384-a5dd-f2a96aa496cc")
 		(property "Reference" "#PWR0177"
 			(at 160.02 129.54 0)
@@ -7994,7 +7990,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 160.147 128.27 0)
+			(at 159.893 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,13 +8108,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 134.62 124.46 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1dc56d36-b40d-486c-a159-1bbe0d97e429")
 		(property "Reference" "#PWR0248"
 			(at 134.62 129.54 0)
@@ -8130,7 +8124,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 134.747 128.27 0)
+			(at 134.493 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,13 +8174,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 205.74 149.86 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b30b19d-23ac-4d84-a721-345b400d0e7e")
 		(property "Reference" "#PWR063"
 			(at 205.74 154.94 0)
@@ -8198,7 +8190,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 205.867 153.67 0)
+			(at 205.613 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8256,7 @@
 				)
 			)
 		)
-		(property "Value" "3300"
+		(property "Value" "3.3K"
 			(at 226.06 140.97 90)
 			(effects
 				(font
@@ -8400,7 +8392,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 180.34 154.94 90)
 			(effects
 				(font
@@ -8530,7 +8522,7 @@
 		(fields_autoplaced yes)
 		(uuid "499065a7-0e73-4c23-a9f3-fceb40b69611")
 		(property "Reference" "U9"
-			(at 80.8833 67.31 0)
+			(at 80.8833 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +8531,7 @@
 			)
 		)
 		(property "Value" "SWIM"
-			(at 80.8833 69.85 0)
+			(at 80.8833 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,12 +8558,21 @@
 			)
 		)
 		(property "Description" "Floppy"
-			(at 80.8833 72.39 0)
+			(at 80.8833 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "343S0061"
+			(at 80.8833 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -8735,7 +8736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3/16"
+		(property "Value" "3.3uF 16V"
 			(at 40.64 181.1781 0)
 			(effects
 				(font
@@ -8810,10 +8811,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Mine:IDC-Header_2x10_P2.54mm_Vertical"
 			(at 233.68 40.64 0)
 			(effects
 				(font
@@ -8927,7 +8930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 190.5 154.94 90)
 			(effects
 				(font
@@ -9049,13 +9052,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 236.22 149.86 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5e15418a-4d70-4511-ae14-60c4d546d502")
 		(property "Reference" "#PWR0123"
 			(at 236.22 154.94 0)
@@ -9067,7 +9068,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 236.347 153.67 0)
+			(at 236.093 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 175.26 154.94 90)
 			(effects
 				(font
@@ -9201,7 +9202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 195.58 155.194 90)
 			(effects
 				(font
@@ -9271,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 71.12 46.99 90)
 			(effects
 				(font
@@ -9340,7 +9341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF (AZ)"
+		(property "Value" "100pF"
 			(at 66.04 55.8862 0)
 			(effects
 				(font
@@ -9479,10 +9480,12 @@
 			)
 		)
 		(property "Value" "EXT FLOPPY"
-			(at 241.3 123.1899 0)
+			(at 241.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -9601,7 +9604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 200.66 155.194 90)
 			(effects
 				(font
@@ -9943,7 +9946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 53.34 181.6162 0)
 			(effects
 				(font
@@ -10069,9 +10072,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b8c29d81-4e76-495c-90f4-2a8e69746823")
 		(property "Reference" "RC3"
-			(at 141.986 87.376 90)
+			(at 152.9781 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,8 +10083,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CMD115S0002"
-			(at 141.986 89.916 90)
+		(property "Value" "25R 150pF"
+			(at 152.9781 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,6 +10117,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNum" "CMD115S0002"
+			(at 152.9781 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -10255,13 +10268,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 195.58 149.86 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bedfdeda-1822-4886-a146-e3ac350397d0")
 		(property "Reference" "#PWR065"
 			(at 195.58 154.94 0)
@@ -10273,7 +10284,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 195.707 153.67 0)
+			(at 195.453 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10350,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 147.32 128.27 90)
 			(effects
 				(font
@@ -10459,13 +10470,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 190.5 149.86 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb9f645e-c7e0-4624-98dc-d4577c937033")
 		(property "Reference" "#PWR067"
 			(at 190.5 154.94 0)
@@ -10477,7 +10486,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 190.627 153.67 0)
+			(at 190.373 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 205.74 155.194 90)
 			(effects
 				(font
@@ -10813,7 +10822,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 50.8 46.99 90)
 			(effects
 				(font
@@ -10866,13 +10875,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 200.66 149.86 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f22e0457-aa9b-4172-9340-d1c7ac34c1ee")
 		(property "Reference" "#PWR064"
 			(at 200.66 154.94 0)
@@ -10884,7 +10891,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 200.787 153.67 0)
+			(at 200.533 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +11012,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11070,13 +11077,11 @@
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 175.26 149.86 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd8719da-2852-4a6a-9a4c-d74c5134afe5")
 		(property "Reference" "#PWR0102"
 			(at 175.26 154.94 0)
@@ -11088,7 +11093,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 175.387 153.67 0)
+			(at 175.133 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

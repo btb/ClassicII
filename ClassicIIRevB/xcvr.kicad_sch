@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -2155,7 +2155,7 @@
 		)
 		(uuid "0f526389-0b31-48c2-a559-c1418c2028a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.2162 157.48 0)
+			(at 247.0067 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2347,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bab9073-2516-40f7-a782-822442a9fe03")
 		(property "Reference" "U21"
-			(at 141.8433 50.8 0)
+			(at 141.8433 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2356,7 @@
 			)
 		)
 		(property "Value" "74LS245"
-			(at 141.8433 53.34 0)
+			(at 141.8433 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,13 +2382,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal BUS Transceivers, 3-State outputs"
-			(at 139.7 71.12 0)
+		(property "Description" "RAM Transceiver LL, ML"
+			(at 141.8433 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "14"
@@ -2539,7 +2541,7 @@
 		(fields_autoplaced yes)
 		(uuid "60922235-0887-4a3c-89ed-2b453db4f808")
 		(property "Reference" "U20"
-			(at 141.8433 109.22 0)
+			(at 141.8433 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2550,7 @@
 			)
 		)
 		(property "Value" "74LS245"
-			(at 141.8433 111.76 0)
+			(at 141.8433 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,13 +2576,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal BUS Transceivers, 3-State outputs"
-			(at 139.7 129.54 0)
+		(property "Description" "RAM Transceiver MH, HH"
+			(at 141.8433 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "14"
@@ -2741,12 +2745,11 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 142.24 107.9499 0)
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""

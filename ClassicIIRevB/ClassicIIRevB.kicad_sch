@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -3468,6 +3468,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Fused 5V for ADB and Floppy"
+		(exclude_from_sim no)
+		(at 99.06 88.9 0)
+		(size 20.32 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "350dab5e-042f-4c24-adaf-8bb5e051e969")
+	)
 	(text_box "Chassis Ground"
 		(exclude_from_sim no)
 		(at 99.06 124.46 0)
@@ -3487,6 +3507,26 @@
 			(justify left top)
 		)
 		(uuid "c209f24e-6ef0-42b0-ab0a-825e9452f8b4")
+	)
+	(text_box "C21, C79, and C106 are 4.7uF tantalums on earlier revision. (They're also on the reverse side of the board)"
+		(exclude_from_sim no)
+		(at 195.58 87.63 0)
+		(size 31.75 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cbb7e113-70ab-47f5-94a6-a2f0aa816072")
 	)
 	(junction
 		(at 78.74 139.7)
@@ -3537,7 +3577,7 @@
 		(uuid "5a8112a4-666f-428b-9621-6825332eea53")
 	)
 	(junction
-		(at 137.16 134.62)
+		(at 111.76 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a107c8-d06c-4f9f-9ecc-4436573eb26c")
@@ -3730,7 +3770,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 134.62) (xy 137.16 134.62)
+			(xy 109.22 101.6) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3930,7 +3970,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 137.16 134.62)
+			(xy 111.76 104.14) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4050,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 134.62) (xy 129.54 134.62)
+			(xy 101.6 101.6) (xy 104.14 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4749,7 +4789,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 124.46 0)
+		(at 180.34 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4758,7 +4798,7 @@
 		(fields_autoplaced yes)
 		(uuid "037ef9d2-46e6-4003-857e-27f6c4be2cb2")
 		(property "Reference" "C85"
-			(at 193.04 123.1962 0)
+			(at 182.88 123.1962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,8 +4806,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 193.04 125.7362 0)
+		(property "Value" "100nF"
+			(at 182.88 125.7362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4816,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 190.5 124.46 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 124.46 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4834,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 124.46 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4859,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 215.9 111.76 0)
+		(at 210.82 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4828,7 +4868,7 @@
 		(fields_autoplaced yes)
 		(uuid "04c8e5b9-212c-43ab-aab3-9a7e5f96fac3")
 		(property "Reference" "#PWR0279"
-			(at 215.9 118.11 0)
+			(at 210.82 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4877,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 116.84 0)
+			(at 210.82 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 111.76 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 111.76 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +4904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 215.9 111.76 0)
+			(at 210.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4926,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 203.2 144.78 0)
+		(at 195.58 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4895,7 +4935,7 @@
 		(fields_autoplaced yes)
 		(uuid "071ba6f1-3226-4b88-ae20-3d0dcc35aff9")
 		(property "Reference" "#PWR097"
-			(at 203.2 151.13 0)
+			(at 195.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 149.86 0)
+			(at 195.58 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 144.78 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 144.78 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 203.2 144.78 0)
+			(at 195.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5062,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 137.16 142.24 0)
+		(at 111.76 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5031,7 +5071,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ca1d835-71b4-4d56-8fc1-147d09c14f8b")
 		(property "Reference" "#PWR0262"
-			(at 137.16 148.59 0)
+			(at 111.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5080,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 147.32 0)
+			(at 111.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 142.24 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 142.24 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 137.16 142.24 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +5196,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 124.46 0)
+		(at 165.1 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5165,7 +5205,7 @@
 		(fields_autoplaced yes)
 		(uuid "12317ac6-36b0-4498-b3fb-8a7d569fa0cb")
 		(property "Reference" "C80"
-			(at 180.34 123.1962 0)
+			(at 167.64 123.1962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,8 +5213,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 180.34 125.7362 0)
+		(property "Value" "100nF"
+			(at 167.64 125.7362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5223,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 177.8 124.46 0)
+			(at 165.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 124.46 0)
+			(at 165.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5241,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 124.46 0)
+			(at 165.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5266,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 228.6 124.46 0)
+		(at 226.06 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5235,7 +5275,7 @@
 		(fields_autoplaced yes)
 		(uuid "161d7e27-8e32-43d4-98f9-3d9609e2dd5d")
 		(property "Reference" "C92"
-			(at 231.14 123.1962 0)
+			(at 228.6 123.1962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,8 +5283,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 231.14 125.7362 0)
+		(property "Value" "100nF"
+			(at 228.6 125.7362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5293,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 228.6 124.46 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 124.46 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5311,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 228.6 124.46 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5404,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 165.1 96.52 0)
+		(at 149.86 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5373,7 +5413,7 @@
 		(fields_autoplaced yes)
 		(uuid "18091b21-189b-46d8-b3aa-86ff3d8be57b")
 		(property "Reference" "#PWR0286"
-			(at 165.1 102.87 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1001 100.33 90)
+			(at 149.8601 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 96.52 0)
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 96.52 0)
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 96.52 0)
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5472,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 203.2 111.76 0)
+		(at 195.58 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5441,7 +5481,7 @@
 		(fields_autoplaced yes)
 		(uuid "19156c4d-bb01-468c-aa61-45c32309a9b5")
 		(property "Reference" "#PWR0275"
-			(at 203.2 118.11 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5490,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 116.84 0)
+			(at 195.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 111.76 0)
+			(at 195.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 111.76 0)
+			(at 195.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 203.2 111.76 0)
+			(at 195.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5539,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 121.92 0)
+		(at 180.34 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5508,7 +5548,7 @@
 		(fields_autoplaced yes)
 		(uuid "197adcde-9ae6-4074-9039-5e8f1c1eb3c5")
 		(property "Reference" "#PWR0256"
-			(at 190.5 125.73 0)
+			(at 180.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5557,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 116.84 0)
+			(at 180.34 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 121.92 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 121.92 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 121.92 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5605,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 165.1 152.4 0)
+		(at 149.86 152.4 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5575,7 +5615,7 @@
 		(fields_autoplaced yes)
 		(uuid "19ab6ef8-a35e-4763-b2be-a30972a1c21a")
 		(property "Reference" "#PWR089"
-			(at 165.1 146.05 0)
+			(at 149.86 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1001 148.59 90)
+			(at 149.8601 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 152.4 0)
+			(at 149.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 152.4 0)
+			(at 149.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 152.4 0)
+			(at 149.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5677,7 @@
 		(at 58.42 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b734634-37b3-43cc-9be5-437773d95f45")
@@ -5700,7 +5740,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 214.63 144.78 0)
+		(at 210.82 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5709,7 +5749,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c35f7a6-2559-494f-ad23-05ae8e2eaf29")
 		(property "Reference" "#PWR0110"
-			(at 214.63 151.13 0)
+			(at 210.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5758,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 149.86 0)
+			(at 210.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 144.78 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 144.78 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 214.63 144.78 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5807,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 228.6 106.68 0)
+		(at 226.06 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5776,7 +5816,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ccf03c4-f762-4ae9-baca-5b60774240b2")
 		(property "Reference" "#PWR0280"
-			(at 228.6 110.49 0)
+			(at 226.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5825,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 228.6 101.6 0)
+			(at 226.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 106.68 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 106.68 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +5851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 106.68 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 48.26 115.57 90)
 			(effects
 				(font
@@ -5968,7 +6008,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 165.1 124.46 0)
+		(at 149.86 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5977,7 +6017,7 @@
 		(fields_autoplaced yes)
 		(uuid "250f7e67-91e7-46f9-adc9-b166d8e0be02")
 		(property "Reference" "C77"
-			(at 167.64 123.1962 0)
+			(at 152.4 123.1962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,8 +6025,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 167.64 125.7362 0)
+		(property "Value" "100nF"
+			(at 152.4 125.7362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6035,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 165.1 124.46 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 124.46 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6053,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 124.46 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6078,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 177.8 106.68 0)
+		(at 165.1 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6047,7 +6087,7 @@
 		(fields_autoplaced yes)
 		(uuid "27494704-2706-4a3a-9cb8-5752295358cf")
 		(property "Reference" "#PWR0295"
-			(at 177.8 110.49 0)
+			(at 165.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6096,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 177.8 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6208,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 91.44 0)
+		(at 149.86 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6177,7 +6217,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b5534b0-7cfe-429f-8cf6-d6d25883b410")
 		(property "Reference" "#PWR0285"
-			(at 165.1 95.25 0)
+			(at 149.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6226,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 86.36 0)
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 91.44 0)
+			(at 149.86 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 91.44 0)
+			(at 149.86 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 91.44 0)
+			(at 149.86 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6274,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 190.5 127 0)
+		(at 180.34 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6243,7 +6283,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eb05c51-1e59-49a5-823a-4103f69a57ba")
 		(property "Reference" "#PWR0268"
-			(at 190.5 133.35 0)
+			(at 180.34 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5001 130.81 90)
+			(at 180.3401 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 127 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 127 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 127 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6470,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 137.16 134.62 270)
+		(at 111.76 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6439,7 +6479,7 @@
 		(fields_autoplaced yes)
 		(uuid "37d16748-62b3-4c70-99fe-a46a87857b34")
 		(property "Reference" "#FLG010"
-			(at 139.065 134.62 0)
+			(at 113.665 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6488,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 140.97 134.6199 90)
+			(at 115.57 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 134.62 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +6507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 134.62 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6516,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 137.16 134.62 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6672,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 106.68 0)
+		(at 180.34 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6641,7 +6681,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be982e5-aed3-473a-9845-0e33e5015c3b")
 		(property "Reference" "#PWR0291"
-			(at 190.5 110.49 0)
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +6690,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 101.6 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +6698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 106.68 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 106.68 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 106.68 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6738,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 214.63 142.24 0)
+		(at 210.82 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6708,7 +6748,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d11c163-5873-470d-b17c-7c61e874d9f9")
 		(property "Reference" "C112"
-			(at 217.17 140.9762 0)
+			(at 213.36 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,8 +6756,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 217.17 143.5162 0)
+		(property "Value" "100nF"
+			(at 213.36 143.5162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6766,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0805_2012Metric_Pad1.25x1.65mm"
-			(at 214.63 142.24 0)
+			(at 210.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 142.24 0)
+			(at 210.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,7 +6784,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 214.63 142.24 0)
+			(at 210.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +6809,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 177.8 111.76 0)
+		(at 165.1 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6778,7 +6818,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fd96454-7563-4b45-8d77-acf2b78125d1")
 		(property "Reference" "#PWR0296"
-			(at 177.8 118.11 0)
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8001 115.57 90)
+			(at 165.1001 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +6846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 177.8 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,10 +6896,12 @@
 			)
 		)
 		(property "Value" "POWER/ANALOG"
-			(at 63.5 134.6199 90)
+			(at 63.5 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -6944,7 +6986,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 109.22 0)
+		(at 165.1 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6953,7 +6995,7 @@
 		(fields_autoplaced yes)
 		(uuid "41d82337-6ae2-4574-912a-73cf6238a8d8")
 		(property "Reference" "C95"
-			(at 180.34 107.9562 0)
+			(at 167.64 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,8 +7003,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 180.34 110.4962 0)
+		(property "Value" "10nF"
+			(at 167.64 110.4962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +7013,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 177.8 109.22 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +7022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 109.22 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +7031,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 109.22 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7056,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 121.92 0)
+		(at 149.86 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7023,7 +7065,7 @@
 		(fields_autoplaced yes)
 		(uuid "42af6826-a3c1-4d70-8489-0c99094570a0")
 		(property "Reference" "#PWR0293"
-			(at 165.1 125.73 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7074,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 116.84 0)
+			(at 149.86 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 121.92 0)
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 121.92 0)
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 121.92 0)
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +7186,7 @@
 	)
 	(symbol
 		(lib_id "power:+5F")
-		(at 137.16 134.62 0)
+		(at 111.76 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7153,7 +7195,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a8f1fab-e01b-4aa2-a4b7-6f3fac37d64d")
 		(property "Reference" "#PWR043"
-			(at 137.16 138.43 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7204,7 @@
 			)
 		)
 		(property "Value" "+5F"
-			(at 137.16 129.54 0)
+			(at 111.76 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 134.62 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 134.62 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5F\""
-			(at 137.16 134.62 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,7 +7318,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 177.8 127 0)
+		(at 165.1 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7285,7 +7327,7 @@
 		(fields_autoplaced yes)
 		(uuid "504bcf9f-8678-4cc7-8f35-39eb13cb95dd")
 		(property "Reference" "#PWR0288"
-			(at 177.8 133.35 0)
+			(at 165.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7294,7 +7336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8001 130.81 90)
+			(at 165.1001 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 127 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 127 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 177.8 127 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7402,7 @@
 				)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 109.2136 140.97 90)
 			(effects
 				(font
@@ -7412,7 +7454,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 190.5 96.52 0)
+		(at 180.34 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7421,7 +7463,7 @@
 		(fields_autoplaced yes)
 		(uuid "52314ecd-ded1-41b9-ab0a-64b5238537c0")
 		(property "Reference" "#PWR0283"
-			(at 190.5 102.87 0)
+			(at 180.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 101.6 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 96.52 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 96.52 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 96.52 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7539,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 228.6 143.5162 0)
 			(effects
 				(font
@@ -7550,7 +7592,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 215.9 124.46 0)
+		(at 210.82 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7559,7 +7601,7 @@
 		(fields_autoplaced yes)
 		(uuid "55f583d3-b93e-4bf6-bcf8-f8070f9c67e6")
 		(property "Reference" "C89"
-			(at 218.44 123.1962 0)
+			(at 213.36 123.1962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,8 +7609,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 218.44 125.7362 0)
+		(property "Value" "100nF"
+			(at 213.36 125.7362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +7619,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 215.9 124.46 0)
+			(at 210.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 124.46 0)
+			(at 210.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7637,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 215.9 124.46 0)
+			(at 210.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7662,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 139.7 0)
+		(at 149.86 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7630,7 +7672,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b43a9b9-6ad6-436d-a697-d0eaee9b3e6f")
 		(property "Reference" "#PWR0264"
-			(at 165.1 143.51 0)
+			(at 149.86 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7681,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 134.62 0)
+			(at 149.86 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 139.7 0)
+			(at 149.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 139.7 0)
+			(at 149.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 139.7 0)
+			(at 149.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7793,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 109.22 0)
+		(at 180.34 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7760,7 +7802,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f5d6a18-05f9-4298-b244-80d1cb5a015e")
 		(property "Reference" "C96"
-			(at 193.04 107.9562 0)
+			(at 182.88 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,8 +7810,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 193.04 110.4962 0)
+		(property "Value" "10nF"
+			(at 182.88 110.4962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7820,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 190.5 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,7 +7829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +7838,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7932,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 142.24 0)
+		(at 180.34 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7900,7 +7942,7 @@
 		(fields_autoplaced yes)
 		(uuid "613729ef-2c6c-4b2d-84aa-d818104365f4")
 		(property "Reference" "C104"
-			(at 193.04 140.9762 0)
+			(at 182.88 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,8 +7950,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 193.04 143.5162 0)
+		(property "Value" "100nF"
+			(at 182.88 143.5162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +7960,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 190.5 142.24 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +7969,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 142.24 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +7978,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 142.24 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +8003,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 203.2 127 0)
+		(at 195.58 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7970,7 +8012,7 @@
 		(fields_autoplaced yes)
 		(uuid "62a2d993-731a-475a-9cb9-8e70e137167b")
 		(property "Reference" "#PWR0108"
-			(at 203.2 133.35 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +8021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2001 130.81 90)
+			(at 195.5801 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +8031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 127 0)
+			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +8040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 127 0)
+			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +8049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 203.2 127 0)
+			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +8222,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1200"
+		(property "Value" "1.2K"
 			(at 55.88 104.1399 0)
 			(effects
 				(font
@@ -8299,7 +8341,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 154.94 180)
+		(at 165.1 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8308,7 +8350,7 @@
 		(fields_autoplaced yes)
 		(uuid "72c1fafe-04b7-444a-9389-576572954d0c")
 		(property "Reference" "C82"
-			(at 180.34 153.6635 0)
+			(at 167.64 153.6635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,8 +8358,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 180.34 156.2035 0)
+		(property "Value" "100nF"
+			(at 167.64 156.2035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8368,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 177.8 154.94 0)
+			(at 165.1 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +8377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 154.94 0)
+			(at 165.1 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +8386,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 154.94 0)
+			(at 165.1 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8411,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 165.1 78.74 0)
+		(at 149.86 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8377,7 +8419,7 @@
 		(dnp no)
 		(uuid "72da29a2-9b37-448e-a416-d5096a8f14a1")
 		(property "Reference" "C23"
-			(at 167.64 77.4762 0)
+			(at 152.4 77.4762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,8 +8427,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 167.64 80.0162 0)
+		(property "Value" "10nF"
+			(at 152.4 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8437,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 165.1 78.74 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +8446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 78.74 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +8455,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 78.74 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8497,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "680pF (W1)"
+		(property "Value" "68pF"
 			(at 71.374 106.426 0)
 			(effects
 				(font
@@ -8572,7 +8614,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 228.6 121.92 0)
+		(at 226.06 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8581,7 +8623,7 @@
 		(fields_autoplaced yes)
 		(uuid "74478c54-7f82-4526-aa3a-ef0365de3d0a")
 		(property "Reference" "#PWR087"
-			(at 228.6 125.73 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8632,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 228.6 116.84 0)
+			(at 226.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +8640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 121.92 0)
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 121.92 0)
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +8658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 121.92 0)
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +8680,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 215.9 121.92 0)
+		(at 210.82 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8647,7 +8689,7 @@
 		(fields_autoplaced yes)
 		(uuid "78ef07ba-478d-4d0d-9cd8-6f1ddcfae5ae")
 		(property "Reference" "#PWR0277"
-			(at 215.9 125.73 0)
+			(at 210.82 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +8698,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 215.9 116.84 0)
+			(at 210.82 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 121.92 0)
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 121.92 0)
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 215.9 121.92 0)
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +8814,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 228.6 127 0)
+		(at 226.06 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8781,7 +8823,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c15fbf3-7418-433c-86b2-04ae481807b1")
 		(property "Reference" "#PWR0121"
-			(at 228.6 133.35 0)
+			(at 226.06 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6001 130.81 90)
+			(at 226.0601 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 127 0)
+			(at 226.06 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,7 +8851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 127 0)
+			(at 226.06 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 228.6 127 0)
+			(at 226.06 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +8882,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 177.8 144.78 0)
+		(at 165.1 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8849,7 +8891,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e57bb32-85fd-424f-be05-8769c3cbc36b")
 		(property "Reference" "#PWR0267"
-			(at 177.8 151.13 0)
+			(at 165.1 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +8900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 149.86 0)
+			(at 165.1 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 144.78 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 144.78 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 177.8 144.78 0)
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +8949,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 165.1 157.48 180)
+		(at 149.86 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8916,7 +8958,7 @@
 		(fields_autoplaced yes)
 		(uuid "825978e4-7942-41de-91e9-bec1f74d153c")
 		(property "Reference" "#PWR0179"
-			(at 165.1 153.67 0)
+			(at 149.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8967,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 165.1 162.56 0)
+			(at 149.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +8975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 157.48 0)
+			(at 149.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 157.48 0)
+			(at 149.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +8993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 165.1 157.48 0)
+			(at 149.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,7 +9015,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 177.8 152.4 0)
+		(at 165.1 152.4 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8983,7 +9025,7 @@
 		(fields_autoplaced yes)
 		(uuid "843a3247-58df-4651-9058-f8d181490b42")
 		(property "Reference" "#PWR059"
-			(at 177.8 146.05 0)
+			(at 165.1 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +9034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8001 148.59 90)
+			(at 165.1001 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +9044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 152.4 0)
+			(at 165.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +9053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 152.4 0)
+			(at 165.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 177.8 152.4 0)
+			(at 165.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9084,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 165.1 93.98 0)
+		(at 149.86 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9052,7 +9094,7 @@
 		(fields_autoplaced yes)
 		(uuid "8469fdd1-2590-4f94-b5cb-952bff099a2a")
 		(property "Reference" "C21"
-			(at 167.64 92.2781 0)
+			(at 152.4 92.2781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,8 +9102,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10/16"
-			(at 167.64 94.8181 0)
+		(property "Value" "10uF 16V"
+			(at 152.4 94.8181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9112,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:CP_Elec_4x5.8"
-			(at 165.1 93.98 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +9121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 93.98 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,11 +9130,21 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 165.1 93.98 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Note" "4.7uF tant on early revision"
+			(at 152.4 96.0881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9130,7 +9182,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 58.42 166.3699 0)
 			(effects
 				(font
@@ -9183,7 +9235,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 142.24 0)
+		(at 195.58 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9193,7 +9245,7 @@
 		(fields_autoplaced yes)
 		(uuid "884000e7-a033-4efa-9405-6e375fa9bba0")
 		(property "Reference" "C111"
-			(at 205.74 140.9762 0)
+			(at 198.12 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,8 +9253,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 205.74 143.5162 0)
+		(property "Value" "100nF"
+			(at 198.12 143.5162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9263,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0805_2012Metric_Pad1.25x1.65mm"
-			(at 203.2 142.24 0)
+			(at 195.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 142.24 0)
+			(at 195.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9281,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 203.2 142.24 0)
+			(at 195.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +9306,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 109.22 0)
+		(at 195.58 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9264,7 +9316,7 @@
 		(fields_autoplaced yes)
 		(uuid "888a9ebf-3c07-4a12-bf16-625a5f5c4796")
 		(property "Reference" "C103"
-			(at 205.74 107.9562 0)
+			(at 198.12 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,8 +9324,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 205.74 110.4962 0)
+		(property "Value" "10nF"
+			(at 198.12 110.4962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9334,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 203.2 109.22 0)
+			(at 195.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 109.22 0)
+			(at 195.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9352,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 203.2 109.22 0)
+			(at 195.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,34 +9377,33 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 139.7 0)
+		(at 111.76 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89cc1672-c2b5-4ebf-b91d-d04840764169")
 		(property "Reference" "C31"
-			(at 139.7 138.4362 0)
+			(at 109.982 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 139.7 140.9762 0)
+		(property "Value" "10nF"
+			(at 109.982 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 137.16 139.7 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 139.7 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9421,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 139.7 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9645,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 142.24 0)
+		(at 165.1 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9604,7 +9655,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fd17deb-6e76-4b45-8194-8db9bceafe1d")
 		(property "Reference" "C101"
-			(at 180.34 140.9762 0)
+			(at 167.64 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,8 +9663,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 180.34 143.5162 0)
+		(property "Value" "100nF"
+			(at 167.64 143.5162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +9673,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 177.8 142.24 0)
+			(at 165.1 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +9682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 142.24 0)
+			(at 165.1 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9691,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 142.24 0)
+			(at 165.1 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,7 +9782,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 177.8 96.52 0)
+		(at 165.1 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9741,7 +9792,7 @@
 		(fields_autoplaced yes)
 		(uuid "9461bfab-b98a-40ed-bc40-722daf504153")
 		(property "Reference" "#PWR0270"
-			(at 177.8 102.87 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +9801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.7999 100.33 90)
+			(at 165.0999 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9760,7 +9811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 96.52 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 96.52 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 177.8 96.52 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +9918,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 177.8 91.44 0)
+		(at 165.1 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9877,7 +9928,7 @@
 		(fields_autoplaced yes)
 		(uuid "989a456b-f5f7-4149-8590-19e7954bbd20")
 		(property "Reference" "#PWR0271"
-			(at 177.8 95.25 0)
+			(at 165.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +9937,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 177.8 86.36 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +9945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 91.44 0)
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +9954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 91.44 0)
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +9963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 91.44 0)
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +10184,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 190.5 81.28 0)
+		(at 180.34 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10143,7 +10194,7 @@
 		(fields_autoplaced yes)
 		(uuid "a070c311-c9e5-40cd-ad8d-ae2f985f89ab")
 		(property "Reference" "#PWR0301"
-			(at 190.5 87.63 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +10203,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.4999 85.09 90)
+			(at 180.3399 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 81.28 0)
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 81.28 0)
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 81.28 0)
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10257,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10224,6 +10275,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
@@ -10310,7 +10363,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 78.74 0)
+		(at 180.34 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10320,7 +10373,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3fac07d-a836-4b9b-a62a-6ed1b5f8f0b6")
 		(property "Reference" "C83"
-			(at 193.04 77.4762 0)
+			(at 182.88 77.4762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,8 +10381,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 193.04 80.0162 0)
+		(property "Value" "100nF"
+			(at 182.88 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10391,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 190.5 78.74 0)
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 78.74 0)
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,7 +10409,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 78.74 0)
+			(at 180.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10502,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 214.63 139.7 0)
+		(at 210.82 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10458,7 +10511,7 @@
 		(fields_autoplaced yes)
 		(uuid "a64dce40-639f-48cb-8747-853579bde63d")
 		(property "Reference" "#PWR0214"
-			(at 214.63 143.51 0)
+			(at 210.82 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10520,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 214.63 134.62 0)
+			(at 210.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10475,7 +10528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 139.7 0)
+			(at 210.82 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +10537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 139.7 0)
+			(at 210.82 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +10546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 214.63 139.7 0)
+			(at 210.82 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10568,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 139.7 0)
+		(at 180.34 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10524,7 +10577,7 @@
 		(fields_autoplaced yes)
 		(uuid "a688ac0b-35dc-4900-ad81-57454e0fa71f")
 		(property "Reference" "#PWR0183"
-			(at 190.5 143.51 0)
+			(at 180.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10586,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 134.62 0)
+			(at 180.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +10594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 139.7 0)
+			(at 180.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,7 +10603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 139.7 0)
+			(at 180.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,7 +10612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 139.7 0)
+			(at 180.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10634,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 177.8 157.48 180)
+		(at 165.1 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10590,7 +10643,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8194144-b404-4928-9024-5872df4b5ada")
 		(property "Reference" "#PWR066"
-			(at 177.8 153.67 0)
+			(at 165.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10652,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 177.8 162.56 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 157.48 0)
+			(at 165.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 157.48 0)
+			(at 165.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 177.8 157.48 0)
+			(at 165.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +10717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".01 (A4)"
+		(property "Value" "10nF"
 			(at 243.84 110.4962 0)
 			(effects
 				(font
@@ -10717,7 +10770,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 165.1 81.28 0)
+		(at 149.86 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10726,7 +10779,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad572224-f3e6-4f17-bd68-499a0b05ac6c")
 		(property "Reference" "#PWR0242"
-			(at 165.1 87.63 0)
+			(at 149.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1001 85.09 90)
+			(at 149.8601 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +10798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 81.28 0)
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10754,7 +10807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 81.28 0)
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10763,7 +10816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 81.28 0)
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +10855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 243.84 125.7362 0)
 			(effects
 				(font
@@ -10871,7 +10924,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 45.72 105.41 90)
 			(effects
 				(font
@@ -10923,7 +10976,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 91.44 0)
+		(at 180.34 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10932,7 +10985,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2a8789b-2090-49cc-b9aa-aea161c7b348")
 		(property "Reference" "#PWR0282"
-			(at 190.5 95.25 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10994,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 86.36 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +11002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 91.44 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +11011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 91.44 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +11020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 91.44 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +11059,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "680pF (W2)"
+		(property "Value" "680pF"
 			(at 60.96 114.2935 0)
 			(effects
 				(font
@@ -11059,7 +11112,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 139.7 0)
+		(at 195.58 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11068,7 +11121,7 @@
 		(fields_autoplaced yes)
 		(uuid "b86b90cc-cdba-4287-9662-4c51eb9ef224")
 		(property "Reference" "#PWR0213"
-			(at 203.2 143.51 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11077,7 +11130,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 203.2 134.62 0)
+			(at 195.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11085,7 +11138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 139.7 0)
+			(at 195.58 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,7 +11147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 139.7 0)
+			(at 195.58 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,7 +11156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 139.7 0)
+			(at 195.58 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11178,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 165.1 154.94 0)
+		(at 149.86 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11134,7 +11187,7 @@
 		(fields_autoplaced yes)
 		(uuid "b90698ad-5326-4789-9f68-35d52cf0c654")
 		(property "Reference" "C27"
-			(at 167.64 153.6762 0)
+			(at 152.4 153.6762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,8 +11195,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 167.64 156.2162 0)
+		(property "Value" "10nF"
+			(at 152.4 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +11205,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 165.1 154.94 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 154.94 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,7 +11223,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 154.94 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11261,7 +11314,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 165.1 109.22 0)
+		(at 149.86 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11271,7 +11324,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba34377d-7923-4ed2-b9d8-ea458cba1643")
 		(property "Reference" "C34"
-			(at 167.64 107.9562 0)
+			(at 152.4 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,8 +11332,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 167.64 110.4962 0)
+		(property "Value" "10nF"
+			(at 152.4 110.4962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,7 +11342,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 165.1 109.22 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11298,7 +11351,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 109.22 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11307,7 +11360,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 109.22 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11399,7 +11452,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 190.5 76.2 0)
+		(at 180.34 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11409,7 +11462,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb44a330-d625-4df2-9ffc-62171b22aa19")
 		(property "Reference" "#PWR012"
-			(at 190.5 80.01 0)
+			(at 180.34 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,7 +11471,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 190.5 71.12 0)
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 76.2 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,7 +11488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 76.2 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11444,7 +11497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 190.5 76.2 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,7 +11519,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 228.6 111.76 0)
+		(at 226.06 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11476,7 +11529,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1dd15ef-9d3f-419f-baf9-fb0430c59959")
 		(property "Reference" "#PWR0281"
-			(at 228.6 118.11 0)
+			(at 226.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +11538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 116.84 0)
+			(at 226.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +11547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 111.76 0)
+			(at 226.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,7 +11556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 111.76 0)
+			(at 226.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,7 +11565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 228.6 111.76 0)
+			(at 226.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +11587,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 165.1 144.78 0)
+		(at 149.86 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11543,7 +11596,7 @@
 		(fields_autoplaced yes)
 		(uuid "c63a01ac-2a96-405b-b3c1-32ada2097854")
 		(property "Reference" "#PWR0265"
-			(at 165.1 151.13 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11552,7 +11605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 149.86 0)
+			(at 149.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,7 +11614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 144.78 0)
+			(at 149.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +11623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 144.78 0)
+			(at 149.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +11632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 144.78 0)
+			(at 149.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +11721,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 165.1 106.68 0)
+		(at 149.86 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11678,7 +11731,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8abe4d0-542c-4849-8411-3f45f5f6f340")
 		(property "Reference" "#PWR0101"
-			(at 165.1 110.49 0)
+			(at 149.86 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11687,7 +11740,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 101.6 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11695,7 +11748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 106.68 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +11757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 106.68 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,7 +11766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 106.68 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,21 +11798,21 @@
 		(fields_autoplaced yes)
 		(uuid "cc2d48ba-1a88-40a4-935f-11def77b7099")
 		(property "Reference" "C98"
-			(at 53.34 36.8235 0)
+			(at 58.42 36.8235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 53.34 39.3635 0)
+		(property "Value" "100nF"
+			(at 58.42 39.3635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
@@ -11806,7 +11859,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 165.1 76.2 0)
+		(at 149.86 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11816,7 +11869,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccbc51a1-1d99-4621-9f9b-078b013f9b90")
 		(property "Reference" "#PWR060"
-			(at 165.1 80.01 0)
+			(at 149.86 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11825,7 +11878,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 165.1 71.12 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 76.2 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11842,7 +11895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 76.2 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11851,7 +11904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 165.1 76.2 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11873,7 +11926,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 215.9 106.68 0)
+		(at 210.82 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11883,7 +11936,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce48ad3f-7fbf-4c21-a0da-aa0de2d643cb")
 		(property "Reference" "#PWR0235"
-			(at 215.9 110.49 0)
+			(at 210.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +11945,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 215.9 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11900,7 +11953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 106.68 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,7 +11962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 106.68 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11918,7 +11971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 215.9 106.68 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12128,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 190.5 144.78 0)
+		(at 180.34 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12084,7 +12137,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1b89063-c8d2-4329-aa5e-a06d01714e6a")
 		(property "Reference" "#PWR0276"
-			(at 190.5 151.13 0)
+			(at 180.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 149.86 0)
+			(at 180.34 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12102,7 +12155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 144.78 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12111,7 +12164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 144.78 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12120,7 +12173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 144.78 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,7 +12195,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 165.1 142.24 0)
+		(at 149.86 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12152,7 +12205,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4080ec4-68fe-4372-8ccb-783e63f3592c")
 		(property "Reference" "C100"
-			(at 167.64 140.9762 0)
+			(at 152.4 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12160,8 +12213,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 167.64 143.5162 0)
+		(property "Value" "100nF"
+			(at 152.4 143.5162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,7 +12223,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 165.1 142.24 0)
+			(at 149.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,7 +12232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 142.24 0)
+			(at 149.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12188,7 +12241,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 142.24 0)
+			(at 149.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12213,7 +12266,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 132.08 134.62 90)
+		(at 106.68 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12222,7 +12275,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4443500-8ff4-4e43-bab1-c3d93ccde3f1")
 		(property "Reference" "F1"
-			(at 132.08 128.27 90)
+			(at 106.68 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +12283,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 132.08 130.81 90)
+			(at 106.68 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +12291,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:Fuse_2512_6332Metric_Pad2.54x2.54mm_HandSolder"
-			(at 137.16 133.35 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +12301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 134.62 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,7 +12310,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 132.08 134.62 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,7 +12335,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 121.92 0)
+		(at 195.58 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12291,7 +12344,7 @@
 		(fields_autoplaced yes)
 		(uuid "d549e357-b0d0-4c38-9f67-d85102f09ec6")
 		(property "Reference" "#PWR0109"
-			(at 203.2 125.73 0)
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,7 +12353,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 203.2 116.84 0)
+			(at 195.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +12361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 121.92 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +12370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 121.92 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 121.92 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12365,7 +12418,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
+		(property "Value" "10nF"
 			(at 43.18 39.3762 0)
 			(effects
 				(font
@@ -12418,7 +12471,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 165.1 127 0)
+		(at 149.86 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12427,7 +12480,7 @@
 		(fields_autoplaced yes)
 		(uuid "d581796e-5e81-4699-a314-e589288f7a2f")
 		(property "Reference" "#PWR0294"
-			(at 165.1 133.35 0)
+			(at 149.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1001 130.81 90)
+			(at 149.8601 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12446,7 +12499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 127 0)
+			(at 149.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,7 +12508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 127 0)
+			(at 149.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 127 0)
+			(at 149.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12620,7 +12673,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 177.8 81.28 0)
+		(at 165.1 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12630,7 +12683,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7f29904-1102-4a66-8467-042cc95e4d6e")
 		(property "Reference" "#PWR0223"
-			(at 177.8 87.63 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +12692,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.7999 85.09 90)
+			(at 165.0999 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +12702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 81.28 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 81.28 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 177.8 81.28 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,7 +12877,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 190.5 111.76 0)
+		(at 180.34 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12833,7 +12886,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd97cf8d-2a94-40d4-b320-2c6f0e93a867")
 		(property "Reference" "#PWR0292"
-			(at 190.5 118.11 0)
+			(at 180.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,7 +12895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5001 115.57 90)
+			(at 180.3401 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,7 +12905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 111.76 0)
+			(at 180.34 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,7 +12914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 111.76 0)
+			(at 180.34 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12870,7 +12923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 111.76 0)
+			(at 180.34 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +12961,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 43.18 138.43 90)
 			(effects
 				(font
@@ -12960,7 +13013,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 177.8 93.98 0)
+		(at 165.1 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12970,7 +13023,7 @@
 		(fields_autoplaced yes)
 		(uuid "debd7b07-e622-441c-be14-0abaced59ebf")
 		(property "Reference" "C79"
-			(at 180.34 92.2781 0)
+			(at 167.64 92.2781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,8 +13031,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10/16"
-			(at 180.34 94.8181 0)
+		(property "Value" "10uF 16V"
+			(at 167.64 94.8181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12988,7 +13041,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:CP_Elec_4x5.8"
-			(at 177.8 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12997,7 +13050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13006,11 +13059,21 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 177.8 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Note" "4.7uF tant on earlier revision"
+			(at 167.64 96.0881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13107,7 +13170,7 @@
 		(fields_autoplaced yes)
 		(uuid "e03936d1-43b0-47b9-97a6-be2496ddb2b6")
 		(property "Reference" "G1"
-			(at 41.91 54.6099 0)
+			(at 41.91 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +13179,7 @@
 			)
 		)
 		(property "Value" "31.3344MHz"
-			(at 41.91 57.1499 0)
+			(at 41.91 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13124,7 +13187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_DIP-14"
+		(property "Footprint" "MyPackage:Oscillator_DIP-14"
 			(at 59.69 64.77 0)
 			(effects
 				(font
@@ -13149,6 +13212,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNum" "197-0512E"
+			(at 41.91 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "14"
@@ -13238,7 +13310,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 215.9 127 0)
+		(at 210.82 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13247,7 +13319,7 @@
 		(fields_autoplaced yes)
 		(uuid "e303dd8f-bac8-4f90-98f3-618243cc4a15")
 		(property "Reference" "#PWR0278"
-			(at 215.9 133.35 0)
+			(at 210.82 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13256,7 +13328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 132.08 0)
+			(at 210.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13265,7 +13337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 127 0)
+			(at 210.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13274,7 +13346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 127 0)
+			(at 210.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13283,7 +13355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 215.9 127 0)
+			(at 210.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,7 +13377,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 127 134.62 0)
+		(at 101.6 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13314,7 +13386,7 @@
 		(fields_autoplaced yes)
 		(uuid "e59bee09-36a6-4606-a80b-52c677633aa5")
 		(property "Reference" "#PWR0174"
-			(at 127 138.43 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13323,7 +13395,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 127 129.54 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13331,7 +13403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 134.62 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13340,7 +13412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 134.62 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13349,7 +13421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 134.62 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13371,7 +13443,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 165.1 111.76 0)
+		(at 149.86 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13380,7 +13452,7 @@
 		(fields_autoplaced yes)
 		(uuid "e791aae2-3797-4da7-acb0-f3bcc3b199e1")
 		(property "Reference" "#PWR0208"
-			(at 165.1 118.11 0)
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,7 +13461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1001 115.57 90)
+			(at 149.8601 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 111.76 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +13480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 111.76 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,7 +13489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 165.1 111.76 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13457,7 +13529,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FERRITE"
+		(property "Value" "Ferrite"
 			(at 54.61 27.94 90)
 			(effects
 				(font
@@ -13510,7 +13582,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 78.74 0)
+		(at 165.1 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13519,7 +13591,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9f61002-3a17-4549-8cbb-2711a3192f84")
 		(property "Reference" "C50"
-			(at 180.34 77.4762 0)
+			(at 167.64 77.4762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13527,8 +13599,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 180.34 80.0162 0)
+		(property "Value" "10nF"
+			(at 167.64 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13537,7 +13609,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 177.8 78.74 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13546,7 +13618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 78.74 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13555,7 +13627,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 78.74 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13647,7 +13719,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 124.46 180)
+		(at 195.58 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13656,7 +13728,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb4330a2-5c66-46a1-b717-469b80f46655")
 		(property "Reference" "C86"
-			(at 205.74 123.1835 0)
+			(at 198.12 123.1835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,8 +13736,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 205.74 125.7235 0)
+		(property "Value" "100nF"
+			(at 198.12 125.7235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,7 +13746,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 203.2 124.46 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,7 +13755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 124.46 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13692,7 +13764,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 203.2 124.46 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13811,7 +13883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ABLNO"
+		(property "Footprint" "MyPackage:Oscillator_SMD_Abracon_ABLNO"
 			(at 59.69 85.09 0)
 			(effects
 				(font
@@ -13861,7 +13933,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 106.68 0)
+		(at 195.58 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13871,7 +13943,7 @@
 		(fields_autoplaced yes)
 		(uuid "f324dd39-17f4-4587-a2cd-846f7c4b1285")
 		(property "Reference" "#PWR0182"
-			(at 203.2 110.49 0)
+			(at 195.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13880,7 +13952,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 203.2 101.6 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +13960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 106.68 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13897,7 +13969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 106.68 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,7 +13978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 106.68 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13928,7 +14000,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 190.5 93.98 0)
+		(at 180.34 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13938,7 +14010,7 @@
 		(fields_autoplaced yes)
 		(uuid "f51bd770-d2fa-4086-a8a6-2e405eaa42e7")
 		(property "Reference" "C106"
-			(at 193.04 92.2781 0)
+			(at 182.88 92.2781 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13946,8 +14018,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10/16"
-			(at 193.04 94.8181 0)
+		(property "Value" "10uF 16V"
+			(at 182.88 94.8181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13956,7 +14028,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:CP_Elec_4x5.8"
-			(at 190.5 93.98 0)
+			(at 180.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13965,7 +14037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 93.98 0)
+			(at 180.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,11 +14046,21 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 190.5 93.98 0)
+			(at 180.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Note" "4.7uF tant on earlier revision"
+			(at 182.88 96.0881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13999,7 +14081,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 177.8 121.92 0)
+		(at 165.1 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14008,7 +14090,7 @@
 		(fields_autoplaced yes)
 		(uuid "f67b02b3-8381-4160-baf5-cdfeeed3f039")
 		(property "Reference" "#PWR0287"
-			(at 177.8 125.73 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14017,7 +14099,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 177.8 116.84 0)
+			(at 165.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,7 +14107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 121.92 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,7 +14116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 121.92 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14043,7 +14125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 121.92 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14196,7 +14278,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 177.8 139.7 0)
+		(at 165.1 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14206,7 +14288,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8c7b408-bca3-4042-8fc7-05ee08498d6f")
 		(property "Reference" "#PWR0266"
-			(at 177.8 143.51 0)
+			(at 165.1 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,7 +14297,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 177.8 134.62 0)
+			(at 165.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14223,7 +14305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 139.7 0)
+			(at 165.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14232,7 +14314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 139.7 0)
+			(at 165.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14241,7 +14323,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 139.7 0)
+			(at 165.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14263,7 +14345,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 177.8 76.2 0)
+		(at 165.1 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14273,7 +14355,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa150110-8ab7-43f1-bd94-2de9d7a5d2d5")
 		(property "Reference" "#PWR0241"
-			(at 177.8 80.01 0)
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14282,7 +14364,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 177.8 71.12 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14290,7 +14372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,7 +14381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14308,7 +14390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 177.8 76.2 0)
+			(at 165.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14330,7 +14412,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 228.6 109.22 0)
+		(at 226.06 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14340,7 +14422,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc80593c-2b3e-4948-880c-23ef8868dfe3")
 		(property "Reference" "C107"
-			(at 231.14 107.9562 0)
+			(at 228.6 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14348,8 +14430,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 231.14 110.4962 0)
+		(property "Value" "10nF"
+			(at 228.6 110.4962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +14440,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 228.6 109.22 0)
+			(at 226.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,7 +14449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 109.22 0)
+			(at 226.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14376,7 +14458,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 228.6 109.22 0)
+			(at 226.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14401,7 +14483,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 215.9 109.22 0)
+		(at 210.82 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14411,7 +14493,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd971117-2c28-441d-8edc-38779d0f8e5b")
 		(property "Reference" "C105"
-			(at 218.44 107.9562 0)
+			(at 213.36 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,8 +14501,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
-			(at 218.44 110.4962 0)
+		(property "Value" "10nF"
+			(at 213.36 110.4962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14429,7 +14511,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0603_1608Metric_Pad1.52x1.02mm"
-			(at 215.9 109.22 0)
+			(at 210.82 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14438,7 +14520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 109.22 0)
+			(at 210.82 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14447,7 +14529,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 215.9 109.22 0)
+			(at 210.82 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

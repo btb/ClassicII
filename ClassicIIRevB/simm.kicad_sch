@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -4336,7 +4336,7 @@
 		)
 		(uuid "3b2a88d6-9711-4c7f-8b2f-5167ff8f4717")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5662 149.86 0)
+			(at 253.3567 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4378,7 @@
 		)
 		(uuid "fb0ba963-2005-4ca2-9d90-2981a48951ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8338 149.86 0)
+			(at 26.0433 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 45.72 67.31 90)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5ca6360-a145-4b53-86b9-9a986b3b96a2")
 		(property "Reference" "J12"
-			(at 138.43 57.15 0)
+			(at 138.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4813,7 @@
 			)
 		)
 		(property "Value" "DRAM SIMM"
-			(at 138.43 59.69 0)
+			(at 138.43 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,13 +4838,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x30, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 137.16 99.06 0)
+		(property "Description" "30-pin SIMMs L, H"
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5187,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 45.72 52.07 90)
 			(effects
 				(font
@@ -5322,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 45.72 135.89 90)
 			(effects
 				(font

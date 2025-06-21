@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -3756,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 111.76) (xy 162.56 114.3)
+			(xy 165.1 111.76) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4026,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 119.38) (xy 162.56 121.92)
+			(xy 165.1 119.38) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4166,7 +4166,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 121.92) (xy 170.18 121.92)
+			(xy 165.1 121.92) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4416,7 +4416,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 111.76) (xy 157.48 111.76)
+			(xy 165.1 111.76) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +5023,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5094,7 +5094,7 @@
 		(dnp no)
 		(uuid "057e7bad-61f3-471d-8c4d-ca4343bfe867")
 		(property "Reference" "C30"
-			(at 221.488 150.368 0)
+			(at 221.234 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,8 +5102,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560pF (U2)"
-			(at 221.488 152.908 0)
+		(property "Value" "560pF"
+			(at 221.234 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 53.34 83.8262 0)
 			(effects
 				(font
@@ -6072,7 +6072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 99.06 55.8862 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 162.56 116.84 0)
+		(at 165.1 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6201,7 +6201,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cbef8f9-e857-49d0-8b22-2f65e181506d")
 		(property "Reference" "R19"
-			(at 165.1 115.5699 0)
+			(at 167.64 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 165.1 118.1099 0)
+			(at 167.64 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6219,7 @@
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0805_2012Metric_Pad1.25x1.65mm"
-			(at 162.56 116.84 0)
+			(at 165.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 116.84 0)
+			(at 165.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6237,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 162.56 116.84 0)
+			(at 165.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6333,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6411,7 +6411,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 185.42 113.03 90)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EGRET_341S0851"
+		(property "Value" "EGRET"
 			(at 144.3833 120.65 0)
 			(effects
 				(font
@@ -6719,6 +6719,15 @@
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "341S0851"
+			(at 144.3833 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -6835,7 +6844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "470R"
 			(at 157.48 138.4299 0)
 			(effects
 				(font
@@ -6905,7 +6914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF (N1)"
+		(property "Value" "33pF"
 			(at 78.74 105.4162 0)
 			(effects
 				(font
@@ -7178,7 +7187,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 198.12 101.5999 0)
 			(effects
 				(font
@@ -7239,7 +7248,7 @@
 		(dnp no)
 		(uuid "6ddbade1-3027-4f61-9cf8-d15944fd732e")
 		(property "Reference" "C29"
-			(at 233.934 155.448 0)
+			(at 234.442 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,8 +7256,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560pF (U2)"
-			(at 233.934 157.988 0)
+		(property "Value" "560pF"
+			(at 234.442 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10M"
 			(at 72.39 95.25 90)
 			(effects
 				(font
@@ -7453,7 +7462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 111.76 64.7762 0)
 			(effects
 				(font
@@ -7523,7 +7532,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 187.96 100.33 90)
 			(effects
 				(font
@@ -7584,7 +7593,7 @@
 		(fields_autoplaced yes)
 		(uuid "85c96884-04fc-4251-ae85-acaa69b6bcfc")
 		(property "Reference" "U12"
-			(at 65.6433 40.64 0)
+			(at 65.6433 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,8 +7601,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LS1126 (343S0120)"
-			(at 65.6433 43.18 0)
+		(property "Value" "LS1126"
+			(at 65.6433 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,12 +7629,21 @@
 			)
 		)
 		(property "Description" "Battery Monitor"
-			(at 65.6433 45.72 0)
+			(at 65.6433 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "343S0120"
+			(at 65.6433 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -7674,15 +7692,15 @@
 		(fields_autoplaced yes)
 		(uuid "87b72f2e-4a40-4856-95fe-ebfec45730f7")
 		(property "Reference" "Y1"
-			(at 68.58 85.09 0)
+			(at 68.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "32.768K (S3238E)"
-			(at 68.58 87.63 0)
+		(property "Value" "32.768K"
+			(at 68.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,6 +7732,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNum" "S3238E"
+			(at 68.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7818,7 +7844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 213.36 156.2162 0)
 			(effects
 				(font
@@ -7954,7 +7980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 78.74 33.0199 0)
 			(effects
 				(font
@@ -8228,7 +8254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47/16"
+		(property "Value" "47uF 16V"
 			(at 88.9 55.4481 0)
 			(effects
 				(font
@@ -8298,7 +8324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 149.86 60.9662 0)
 			(effects
 				(font
@@ -8421,7 +8447,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8502,7 +8528,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF (A1)"
+		(property "Value" "10pF"
 			(at 58.42 105.4162 0)
 			(effects
 				(font
@@ -8771,7 +8797,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10M"
 			(at 64.77 95.25 90)
 			(effects
 				(font
@@ -8907,7 +8933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 147.32 138.4299 0)
 			(effects
 				(font
@@ -9099,7 +9125,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9178,7 +9204,7 @@
 				)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 116.84 92.71 90)
 			(effects
 				(font
@@ -9236,7 +9262,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea697415-98c8-42ba-9578-5073b8d0aecb")
 		(property "Reference" "C22"
 			(at 243.84 153.6762 0)
@@ -9247,7 +9272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF (U2)"
+		(property "Value" "560pF"
 			(at 243.84 156.2162 0)
 			(effects
 				(font
@@ -9306,9 +9331,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ee4d24e1-bc5e-43b1-97d6-9dc83830de86")
 		(property "Reference" "Q1"
-			(at 180.34 120.6499 0)
+			(at 180.34 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,8 +9342,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904 (MMBT3904)"
-			(at 180.34 123.1899 0)
+		(property "Value" "2N3904"
+			(at 180.34 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,6 +9379,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNum" "MMBT3904"
+			(at 180.34 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -9591,7 +9626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 83.82 72.3899 0)
 			(effects
 				(font
@@ -9662,7 +9697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 106.68 107.9499 0)
 			(effects
 				(font
@@ -9736,6 +9771,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)

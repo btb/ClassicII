@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -5271,7 +5271,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64772605-f567-4431-901a-28bce75d03c6")
 		(property "Reference" "#PWR0317"
 			(at 175.26 64.77 0)
@@ -5283,7 +5282,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 175.26 55.88 0)
+			(at 173.228 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,8 +5339,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c722809-7d5a-4f3c-9403-b096f1bd425a")
-		(property "Reference" "AltU22"
-			(at 126.6033 58.42 0)
+		(property "Reference" "ZU22"
+			(at 126.6033 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5349,7 @@
 			)
 		)
 		(property "Value" "27C322"
-			(at 126.6033 60.96 0)
+			(at 126.6033 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-42_W15.24mm_Socket"
+		(property "Footprint" "MyPackage:DIP-42_W15.24mm_Socket"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -5376,13 +5375,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OTP EPROM 32 MiBit (2 Megabit x 16)"
-			(at 124.46 93.98 0)
+		(property "Description" "System ROM LL, ML"
+			(at 126.6033 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "16"
@@ -5514,7 +5515,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/51c9cb57-f150-4fef-8266-afe34f9a12a0"
-					(reference "AltU22")
+					(reference "ZU22")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5530,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c526580e-f1ba-4221-b67d-69cd45baa723")
 		(property "Reference" "#PWR0314"
 			(at 124.46 64.77 0)
@@ -5541,7 +5541,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.46 55.88 0)
+			(at 122.428 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,8 +5597,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6b8048c-eeb0-4552-910c-5a1bd165eaf7")
-		(property "Reference" "AltU23"
-			(at 177.4033 58.42 0)
+		(property "Reference" "ZU23"
+			(at 177.4033 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5607,7 @@
 			)
 		)
 		(property "Value" "27C322"
-			(at 177.4033 60.96 0)
+			(at 177.4033 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-42_W15.24mm_Socket"
+		(property "Footprint" "MyPackage:DIP-42_W15.24mm_Socket"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -5633,13 +5633,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OTP EPROM 32 MiBit (2 Megabit x 16)"
-			(at 175.26 93.98 0)
+		(property "Description" "System ROM MH, HH"
+			(at 177.4033 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "16"
@@ -5771,7 +5773,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/51c9cb57-f150-4fef-8266-afe34f9a12a0"
-					(reference "AltU23")
+					(reference "ZU23")
 					(unit 1)
 				)
 			)

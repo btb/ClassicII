@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -5934,12 +5934,6 @@
 		(uuid "842e740c-1bf6-4bb9-acf7-f95721ae5cff")
 	)
 	(junction
-		(at 142.24 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "899978df-8bf8-4015-89e6-2af4891bd16a")
-	)
-	(junction
 		(at 99.06 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6046,6 +6040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ded53929-2117-477e-ba42-7ee9675ba2ad")
+	)
+	(junction
+		(at 144.78 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0adf4df-a74c-4df0-b010-828356382242")
 	)
 	(junction
 		(at 149.86 88.9)
@@ -7151,7 +7151,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 160.02) (xy 154.94 160.02)
+			(xy 142.24 160.02) (xy 144.78 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7701,7 +7701,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 167.64) (xy 234.95 167.64)
+			(xy 144.78 167.64) (xy 234.95 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7771,7 +7771,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 160.02) (xy 142.24 167.64)
+			(xy 144.78 160.02) (xy 144.78 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7888,6 +7888,16 @@
 			(type default)
 		)
 		(uuid "c85e7acd-f790-4447-b431-4758c463a777")
+	)
+	(wire
+		(pts
+			(xy 144.78 160.02) (xy 154.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6c3023-fc19-4c53-a5e5-ada3878e75f5")
 	)
 	(wire
 		(pts
@@ -9207,7 +9217,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
+		(property "Value" "10nF"
 			(at 71.12 118.1162 0)
 			(effects
 				(font
@@ -9347,15 +9357,17 @@
 			)
 		)
 		(property "Value" "EXT SCSI"
-			(at 241.3 67.3099 0)
+			(at 241.3 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+		(property "Footprint" "Connector_Mine:DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 236.22 66.04 0)
 			(effects
 				(font
@@ -9487,7 +9499,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3/16"
+		(property "Value" "3.3uF 16V"
 			(at 83.82 117.6781 0)
 			(effects
 				(font
@@ -9555,7 +9567,7 @@
 				)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 139.7 163.83 90)
 			(effects
 				(font
@@ -9685,15 +9697,15 @@
 		(fields_autoplaced yes)
 		(uuid "69c815cc-17b5-468b-bd9e-a8bd3751fcc2")
 		(property "Reference" "U8"
-			(at 167.64 105.41 0)
+			(at 167.64 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Am85C80"
-			(at 167.64 107.95 0)
+		(property "Value" "AM85C80"
+			(at 167.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9741,7 @@
 			)
 		)
 		(property "Desc2" "SCSI"
-			(at 167.64 110.49 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,6 +9757,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNum" "337S8580"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -10109,7 +10129,7 @@
 		(fields_autoplaced yes)
 		(uuid "79f62f26-b808-48d7-9b61-717ceafb0a68")
 		(property "Reference" "D3"
-			(at 76.2 104.4574 90)
+			(at 76.2 103.1874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,8 +10137,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5817 (B140-E3)"
-			(at 76.2 106.9974 90)
+		(property "Value" "1N5817"
+			(at 76.2 105.7274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,6 +10171,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNum" "B140-E3"
+			(at 76.2 108.2674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -10457,7 +10486,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3/16"
+		(property "Value" "3.3uF 16V"
 			(at 55.88 45.2881 0)
 			(effects
 				(font
@@ -10933,15 +10962,15 @@
 		(fields_autoplaced yes)
 		(uuid "c96ec772-2fbc-419f-88cc-e0dbd33aa33f")
 		(property "Reference" "U8"
-			(at 43.18 51.9998 0)
+			(at 43.18 49.4598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Am85C80"
-			(at 43.18 54.5398 0)
+		(property "Value" "AM85C80"
+			(at 43.18 51.9998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +10997,7 @@
 			)
 		)
 		(property "Description" "SCSI, SCC Common Signals"
-			(at 43.18 57.0799 0)
+			(at 43.18 54.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,6 +11024,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNum" "337S8580"
+			(at 43.18 57.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -11229,7 +11266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 66.04 43.1738 0)
 			(effects
 				(font
@@ -11303,10 +11340,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Mine:IDC-Header_2x25_P2.54mm_Vertical"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -11497,7 +11536,7 @@
 		(at 88.9 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

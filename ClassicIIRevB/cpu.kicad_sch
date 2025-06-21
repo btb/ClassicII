@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -3865,7 +3865,7 @@
 		(uuid "65d4a6f1-5275-40ea-b7fd-5cf17939983a")
 	)
 	(junction
-		(at 157.48 50.8)
+		(at 154.94 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b758134-3be7-4682-9bc7-f450000128fb")
@@ -4879,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 38.1) (xy 157.48 50.8)
+			(xy 154.94 38.1) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5429,6 +5429,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 50.8) (xy 162.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d76270c-7361-4c9a-b4c4-f98eff25fe2f")
+	)
+	(wire
+		(pts
 			(xy 182.88 53.34) (xy 187.96 53.34)
 		)
 		(stroke
@@ -5609,16 +5619,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 50.8) (xy 162.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67e53e29-2168-4cdc-a278-62dc5fbdff59")
-	)
-	(wire
-		(pts
 			(xy 193.04 53.34) (xy 198.12 53.34)
 		)
 		(stroke
@@ -5789,7 +5789,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 157.48 50.8)
+			(xy 147.32 50.8) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8422,7 +8422,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 157.48 33.02 0)
+		(at 154.94 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8432,7 +8432,7 @@
 		(fields_autoplaced yes)
 		(uuid "08ab37ba-a400-47b1-8d78-e7cb9aa86c7d")
 		(property "Reference" "#PWR0229"
-			(at 157.48 36.83 0)
+			(at 154.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,16 +8441,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 31.7499 0)
+			(at 157.48 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +8459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8468,7 +8468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 157.48 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,7 +8506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 208.28 68.326 90)
 			(effects
 				(font
@@ -8562,7 +8562,7 @@
 		(at 241.3 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8629,7 +8629,7 @@
 		(at 241.3 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8832,7 +8832,7 @@
 		(at 241.3 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8979,7 +8979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 60.96 165.0999 0)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 50.8 157.4799 0)
 			(effects
 				(font
@@ -9186,7 +9186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 203.2 68.326 90)
 			(effects
 				(font
@@ -9307,7 +9307,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 157.48 35.56 0)
+		(at 154.94 35.56 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9317,25 +9317,25 @@
 		(fields_autoplaced yes)
 		(uuid "3d7de5ea-95e0-4cb8-aec6-f84886df95ba")
 		(property "Reference" "R96"
-			(at 154.94 34.2899 0)
+			(at 157.48 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 154.94 36.8299 0)
+		(property "Value" "10K 1%"
+			(at 157.48 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "MyPackage:SMD_0805_2012Metric_Pad1.25x1.65mm"
-			(at 157.48 35.56 0)
+			(at 154.94 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +9344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 35.56 0)
+			(at 154.94 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +9353,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 157.48 35.56 0)
+			(at 154.94 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9382,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9450,7 +9450,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9515,7 +9515,7 @@
 		(at 147.32 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9583,7 +9583,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9657,10 +9657,10 @@
 		(fields_autoplaced yes)
 		(uuid "5984d367-6d37-42e0-a2aa-5cbbd89bd5d8")
 		(property "Reference" "U16"
-			(at 136.9379 29.21 0)
+			(at 136.9379 30.48 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -9669,7 +9669,7 @@
 			(at 136.9379 33.02 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -10115,7 +10115,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10181,7 +10181,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10316,7 +10316,7 @@
 		(at 38.1 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10449,7 +10449,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10595,7 +10595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 50.8 144.7799 0)
 			(effects
 				(font
@@ -10664,7 +10664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 198.12 68.326 90)
 			(effects
 				(font
@@ -10721,7 +10721,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10867,7 +10867,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 48.26 134.6199 0)
 			(effects
 				(font
@@ -11125,7 +11125,7 @@
 		(at 147.32 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11261,7 +11261,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11472,7 +11472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 193.04 68.326 90)
 			(do_not_autoplace yes)
 			(effects
@@ -11543,7 +11543,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".01 (A4)"
+		(property "Value" "10nF"
 			(at 187.96 68.326 90)
 			(effects
 				(font
@@ -11800,7 +11800,7 @@
 		(at 241.3 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12005,7 +12005,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12083,7 +12083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 213.36 68.326 90)
 			(effects
 				(font
@@ -12152,7 +12152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".01 (A4)"
+		(property "Value" "10nF"
 			(at 218.44 68.326 90)
 			(effects
 				(font
@@ -12222,7 +12222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 50.8 167.6399 0)
 			(effects
 				(font
@@ -12292,7 +12292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 154.94 149.8599 0)
 			(effects
 				(font
@@ -12352,10 +12352,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d360007d-bdac-4d11-92ab-f276cd654635")
 		(property "Reference" "C74"
-			(at 175.26 56.7181 0)
+			(at 177.038 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,8 +12362,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7/16"
-			(at 175.26 59.2581 0)
+		(property "Value" "10uF 16V"
+			(at 177.038 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12399,6 +12398,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "4.7uF tant on earlier revision"
+			(at 174.752 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "2"
 			(uuid "ecbfc833-b45c-4c69-80dc-eb91e257a71b")
 		)
@@ -12419,7 +12427,7 @@
 		(at 241.3 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12500,7 +12508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 58.42 134.6199 0)
 			(effects
 				(font
@@ -12556,7 +12564,7 @@
 		(at 38.1 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12636,7 +12644,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 48.26 175.2599 0)
 			(effects
 				(font
@@ -12707,7 +12715,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 165.1 160.0199 0)
 			(effects
 				(font
@@ -12844,7 +12852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 58.42 172.7199 0)
 			(effects
 				(font
@@ -12982,7 +12990,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 182.88 68.326 90)
 			(effects
 				(font
@@ -13039,7 +13047,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

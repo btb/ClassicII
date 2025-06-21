@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -4439,7 +4439,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 180.34) (xy 121.92 175.26)
+			(xy 121.92 182.88) (xy 121.92 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4609,7 +4609,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 185.42) (xy 116.84 175.26)
+			(xy 116.84 187.96) (xy 116.84 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 185.42) (xy 116.84 185.42)
+			(xy 142.24 187.96) (xy 116.84 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5449,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 187.96) (xy 114.3 187.96)
+			(xy 142.24 190.5) (xy 114.3 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 182.88) (xy 119.38 182.88)
+			(xy 142.24 185.42) (xy 119.38 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5819,7 +5819,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 187.96) (xy 114.3 175.26)
+			(xy 114.3 190.5) (xy 114.3 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6149,7 +6149,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 182.88) (xy 119.38 175.26)
+			(xy 119.38 185.42) (xy 119.38 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6169,7 +6169,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 180.34) (xy 142.24 180.34)
+			(xy 121.92 182.88) (xy 142.24 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7183,7 +7183,7 @@
 	)
 	(global_label "VIDOUT"
 		(shape output)
-		(at 142.24 180.34 0)
+		(at 142.24 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7193,7 +7193,7 @@
 		)
 		(uuid "0a1f4620-f4b5-44f3-b71d-66be94c14f8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.8172 180.34 0)
+			(at 151.8172 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7372,7 @@
 	)
 	(global_label "~{VSYNC}"
 		(shape output)
-		(at 142.24 182.88 0)
+		(at 142.24 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7382,7 +7382,7 @@
 		)
 		(uuid "287630dc-c81e-4c20-8bc2-25515644558d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.2124 182.88 0)
+			(at 151.2124 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7477,7 @@
 	)
 	(global_label "~{HSYNC}"
 		(shape output)
-		(at 142.24 185.42 0)
+		(at 142.24 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7487,7 +7487,7 @@
 		)
 		(uuid "3c69ded2-2693-43d7-9b53-71d2c4db7350")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4543 185.42 0)
+			(at 151.4543 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,7 +7624,7 @@
 	)
 	(global_label "PWM"
 		(shape output)
-		(at 142.24 187.96 0)
+		(at 142.24 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7634,7 +7634,7 @@
 		)
 		(uuid "4b67213e-32e8-47a3-a300-df90179d8972")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.398 187.96 0)
+			(at 149.398 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8664,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 170.18 104.1399 0)
 			(effects
 				(font
@@ -8871,7 +8871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 180.34 88.8999 0)
 			(effects
 				(font
@@ -9065,10 +9065,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3377e61c-6b7e-495c-bfaa-90286721e210")
 		(property "Reference" "C84"
-			(at 218.44 54.1781 0)
+			(at 219.202 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,8 +9075,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3/16"
-			(at 218.44 56.7181 0)
+		(property "Value" "3.3uF 16V"
+			(at 219.202 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +9198,7 @@
 		(at 195.58 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9345,7 +9344,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 165.1 118.11 90)
 			(effects
 				(font
@@ -9415,7 +9414,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 203.2 96.5199 0)
 			(effects
 				(font
@@ -9676,7 +9675,7 @@
 		(at 76.2 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "660ac149-c56a-4d5d-8ab9-d1fd14532ddc")
@@ -9756,7 +9755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 190.5 91.4399 0)
 			(effects
 				(font
@@ -9825,7 +9824,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 167.64 19.05 90)
 			(effects
 				(font
@@ -9928,6 +9927,15 @@
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "343S1054"
+			(at 124.0633 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -10344,7 +10352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
+		(property "Value" "100nF"
 			(at 233.68 57.1562 0)
 			(effects
 				(font
@@ -10483,7 +10491,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3/16"
+		(property "Value" "3.3uF 16V"
 			(at 185.42 56.7181 0)
 			(effects
 				(font
@@ -10689,7 +10697,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 170.18 86.3599 0)
 			(effects
 				(font
@@ -10748,10 +10756,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c290881d-98e1-4b93-b673-0b15bae31a0f")
 		(property "Reference" "C99"
-			(at 200.66 54.6162 0)
+			(at 200.152 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,8 +10766,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1 (A5)"
-			(at 200.66 57.1562 0)
+		(property "Value" "100nF"
+			(at 200.152 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +10888,7 @@
 		(at 73.66 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e36188ab-6ff8-4192-a255-b76f259f8cc3")
@@ -11096,7 +11103,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 213.36 99.0599 0)
 			(effects
 				(font
@@ -11165,7 +11172,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 172.72 21.59 90)
 			(effects
 				(font
@@ -11301,7 +11308,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4700"
+		(property "Value" "4.7K"
 			(at 50.8 142.2399 0)
 			(effects
 				(font
@@ -11371,7 +11378,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 48.26 102.87 90)
 			(effects
 				(font

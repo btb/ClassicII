@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-16")
+		(date "2025-06-21")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -4594,7 +4594,7 @@
 		)
 		(uuid "6927c987-3b80-4ef8-b51d-e2cb695aba32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5662 134.62 0)
+			(at 253.3567 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4678,7 @@
 		)
 		(uuid "b6e6a4e7-d4bb-408a-a777-a97a65fc9f77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8338 134.62 0)
+			(at 26.0433 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4720,7 @@
 		)
 		(uuid "db59906a-5462-41ec-b4ec-19ad988ef837")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.1753 50.8 0)
+			(at 254.4453 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4748,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 45.72 110.49 90)
 			(effects
 				(font
@@ -4817,7 +4817,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 53.34 115.57 90)
 			(effects
 				(font
@@ -4878,7 +4878,7 @@
 		(fields_autoplaced yes)
 		(uuid "126cbba6-51d5-4e47-91be-f57bf3730edb")
 		(property "Reference" "U13"
-			(at 88.5033 57.15 0)
+			(at 88.5033 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,8 +4886,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "41464"
-			(at 88.5033 59.69 0)
+		(property "Value" "1Mx4"
+			(at 88.5033 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,13 +4913,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "256k x 4 bit Dynamic RAM"
-			(at 86.36 72.39 0)
+		(property "Description" "RAM LL"
+			(at 88.5033 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "MCM54000A"
+			(at 88.5033 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "24"
@@ -5002,7 +5013,7 @@
 		(fields_autoplaced yes)
 		(uuid "1927ba66-2561-4ace-b69f-e991f54c202d")
 		(property "Reference" "U19"
-			(at 218.0433 57.15 0)
+			(at 218.0433 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,8 +5021,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "41464"
-			(at 218.0433 59.69 0)
+		(property "Value" "1Mx4"
+			(at 218.0433 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,13 +5048,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "256k x 4 bit Dynamic RAM"
-			(at 215.9 72.39 0)
+		(property "Description" "RAM HH"
+			(at 218.0433 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "MCM54000A"
+			(at 218.0433 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "23"
@@ -5201,7 +5223,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 49.53 53.848 90)
 			(effects
 				(font
@@ -5269,7 +5291,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 49.53 84.328 90)
 			(effects
 				(font
@@ -5338,7 +5360,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 45.72 125.73 90)
 			(effects
 				(font
@@ -5406,7 +5428,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 49.53 74.168 90)
 			(effects
 				(font
@@ -5474,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 53.34 58.928 90)
 			(effects
 				(font
@@ -5608,7 +5630,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 53.34 89.408 90)
 			(effects
 				(font
@@ -5669,7 +5691,7 @@
 		(fields_autoplaced yes)
 		(uuid "63e04acb-121f-4d5b-b9a6-e2f527056d99")
 		(property "Reference" "U14"
-			(at 131.6833 57.15 0)
+			(at 131.6833 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,8 +5699,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "41464"
-			(at 131.6833 59.69 0)
+		(property "Value" "1Mx4"
+			(at 131.6833 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,13 +5726,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "256k x 4 bit Dynamic RAM"
-			(at 129.54 72.39 0)
+		(property "Description" "RAM ML"
+			(at 131.6833 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "MCM54000A"
+			(at 131.6833 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "23"
@@ -5995,7 +6028,7 @@
 		(fields_autoplaced yes)
 		(uuid "770543ed-bf7b-4302-8cf6-840a58f88fbf")
 		(property "Reference" "U17"
-			(at 174.8633 57.15 0)
+			(at 174.8633 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,8 +6036,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "41464"
-			(at 174.8633 59.69 0)
+		(property "Value" "1Mx4"
+			(at 174.8633 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,13 +6063,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "256k x 4 bit Dynamic RAM"
-			(at 172.72 72.39 0)
+		(property "Description" "RAM MH"
+			(at 174.8633 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "PartNum" "MCM54000A"
+			(at 174.8633 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "23"
@@ -6127,7 +6171,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 60.96 120.65 90)
 			(effects
 				(font
@@ -6195,7 +6239,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 49.53 64.008 90)
 			(effects
 				(font
@@ -6263,7 +6307,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 53.34 79.248 90)
 			(effects
 				(font
@@ -6667,7 +6711,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 53.34 69.088 90)
 			(effects
 				(font
@@ -6735,7 +6779,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 53.34 99.568 90)
 			(effects
 				(font
@@ -6871,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 49.53 104.648 90)
 			(effects
 				(font
@@ -6939,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 49.53 94.488 90)
 			(effects
 				(font
