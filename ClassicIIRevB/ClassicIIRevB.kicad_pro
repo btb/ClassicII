@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3048
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -88,15 +88,15 @@
           ""
         ],
         [
-          "courtyards_overlap|28757962|151231200|276d4d13-0964-434a-9b58-d9f28ac0579e|d85e7aa9-498d-4b74-9491-287491b98b85",
+          "courtyards_overlap|28746047|151231200|276d4d13-0964-434a-9b58-d9f28ac0579e|d85e7aa9-498d-4b74-9491-287491b98b85",
           ""
         ],
         [
-          "courtyards_overlap|32900600|146932767|d85e7aa9-498d-4b74-9491-287491b98b85|e06ad4df-f12a-481a-b8be-0c052593b21b",
+          "courtyards_overlap|32900600|146932162|d85e7aa9-498d-4b74-9491-287491b98b85|e06ad4df-f12a-481a-b8be-0c052593b21b",
           ""
         ],
         [
-          "courtyards_overlap|33166800|28987190|a31cdcc7-f01d-4051-a46c-a20069a24666|e18fb5eb-2325-47d6-b449-f056a5e06c6a",
+          "courtyards_overlap|33166800|28958371|a31cdcc7-f01d-4051-a46c-a20069a24666|e18fb5eb-2325-47d6-b449-f056a5e06c6a",
           ""
         ],
         [

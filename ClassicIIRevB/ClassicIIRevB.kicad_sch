@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-21")
+		(date "2025-06-23")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -6432,7 +6432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MyPackage:MountingHole_3.2mm_M3_ISO14580"
 			(at 127 177.8 0)
 			(effects
 				(font
@@ -7148,7 +7148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MyPackage:MountingHole_3.2mm_M3_ISO14580"
 			(at 127 187.96 0)
 			(effects
 				(font
@@ -13272,7 +13272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MyPackage:MountingHole_3.2mm_M3_ISO14580"
 			(at 127 182.88 0)
 			(effects
 				(font
@@ -14240,7 +14240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MyPackage:MountingHole_3.2mm_M3_ISO14580"
 			(at 127 193.04 0)
 			(effects
 				(font
