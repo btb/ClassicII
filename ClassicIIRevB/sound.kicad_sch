@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Macintosh Classic II (Later Revision)")
-		(date "2025-06-23")
+		(date "2025-06-25")
 		(company "Apple Computer")
 		(comment 1 "drawn by Bradley Bell")
 	)
@@ -923,6 +923,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1044,156 +1170,6 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3755,12 +3731,6 @@
 		(uuid "051b58fa-5569-42cc-8f11-133c4c4ba816")
 	)
 	(junction
-		(at 140.97 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "110defe0-f657-4e53-ba74-3836f9c68843")
-	)
-	(junction
 		(at 149.86 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3803,16 +3773,22 @@
 		(uuid "19c53c24-98b0-4409-b7fc-f7d24749c22a")
 	)
 	(junction
+		(at 120.65 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c8b18f5-4a3e-4215-b26b-4f0d273935d7")
+	)
+	(junction
 		(at 101.6 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1df329f4-a28f-4073-a5f8-c78d96db8607")
 	)
 	(junction
-		(at 151.13 182.88)
+		(at 120.65 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ffce078-9c34-4784-b1aa-9d655038486b")
+		(uuid "2891819d-6d30-4894-8fbd-2aa85cfb7efb")
 	)
 	(junction
 		(at 101.6 121.92)
@@ -3825,18 +3801,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30746857-a931-46db-880a-acbe2960737e")
-	)
-	(junction
-		(at 120.65 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "332fe7e3-e058-4914-83af-fac1e4222510")
-	)
-	(junction
-		(at 130.81 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3731547e-2965-409b-b87f-416dd1b4bac9")
 	)
 	(junction
 		(at 127 45.72)
@@ -3861,12 +3825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b24d300-b548-41b1-a7cf-b8cbe6ccd8b1")
-	)
-	(junction
-		(at 120.65 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c9feb87-323c-4f2d-9c1b-a215bfc31b57")
 	)
 	(junction
 		(at 177.8 78.74)
@@ -3929,16 +3887,22 @@
 		(uuid "72bd9e6e-90af-4c95-9d96-1ab01b72a29d")
 	)
 	(junction
+		(at 130.81 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c486a74-3e5e-4701-be69-437561906226")
+	)
+	(junction
+		(at 151.13 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cec0f7e-65ee-4311-a62a-190d93ac86e6")
+	)
+	(junction
 		(at 157.48 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e3a1ef1-d388-4067-9a79-806ac6a4afe0")
-	)
-	(junction
-		(at 120.65 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ec320cb-a6ac-4693-a630-5469e89e1993")
 	)
 	(junction
 		(at 121.92 134.62)
@@ -3951,6 +3915,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90f028ec-7b39-4896-8da9-551f4c80db15")
+	)
+	(junction
+		(at 130.81 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91e948c9-1a06-4504-923e-3445a3e91b31")
+	)
+	(junction
+		(at 130.81 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b9024a4-bc01-44eb-9888-93b884ad6ee1")
 	)
 	(junction
 		(at 177.8 68.58)
@@ -3971,16 +3947,16 @@
 		(uuid "a196506f-72f3-455f-a3b9-4a4319f0e894")
 	)
 	(junction
+		(at 130.81 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a77027d9-4f09-46d4-8971-be39550c54ad")
+	)
+	(junction
 		(at 147.32 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acc0d7ee-7729-4418-a9c1-d60d7bcb41d0")
-	)
-	(junction
-		(at 130.81 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b075b635-7594-44e9-b9ac-be9e36d345aa")
 	)
 	(junction
 		(at 114.3 45.72)
@@ -3989,10 +3965,10 @@
 		(uuid "b102c6bd-c170-488e-b1d9-a8b0b6a4fcb2")
 	)
 	(junction
-		(at 130.81 180.34)
+		(at 120.65 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3af6939-2971-4a3e-93b6-12eae5223795")
+		(uuid "bb61a583-7640-4849-8beb-7a5d30c22410")
 	)
 	(junction
 		(at 203.2 58.42)
@@ -4004,13 +3980,13 @@
 		(at 151.13 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de0cf87d-3f6f-4863-af49-db0478d48ad8")
+		(uuid "cc4d5025-fcc5-442f-94df-0a5eba1cbe61")
 	)
 	(junction
-		(at 130.81 187.96)
+		(at 140.97 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef423cd3-24fe-45fa-917f-871d0b45786d")
+		(uuid "ce68628a-7ad3-49d0-8293-e25c74c3f753")
 	)
 	(junction
 		(at 73.66 132.08)
@@ -4064,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 185.42) (xy 130.81 182.88)
+			(xy 130.81 180.34) (xy 130.81 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4144,16 +4120,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 182.88) (xy 130.81 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f692481-773b-4145-9398-36babb855e43")
-	)
-	(wire
-		(pts
 			(xy 38.1 127) (xy 50.8 127)
 		)
 		(stroke
@@ -4184,6 +4150,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 180.34) (xy 143.51 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b57edd-9bc8-48e1-ad81-85eb9e4fd3de")
+	)
+	(wire
+		(pts
 			(xy 157.48 86.36) (xy 157.48 88.9)
 		)
 		(stroke
@@ -4201,6 +4177,26 @@
 			(type default)
 		)
 		(uuid "1b9db7ba-03c6-4ea1-b89b-67951e2612a5")
+	)
+	(wire
+		(pts
+			(xy 128.27 185.42) (xy 130.81 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4f720e-19f0-4472-8935-10daabbdda98")
+	)
+	(wire
+		(pts
+			(xy 130.81 182.88) (xy 130.81 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1caa84aa-b90e-41aa-a830-fb0ab835667c")
 	)
 	(wire
 		(pts
@@ -4354,6 +4350,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 182.88) (xy 123.19 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d2e435-a9a2-46da-a2de-5d36d552b6ff")
+	)
+	(wire
+		(pts
 			(xy 93.98 181.61) (xy 93.98 177.8)
 		)
 		(stroke
@@ -4361,6 +4367,16 @@
 			(type default)
 		)
 		(uuid "387faca4-e289-49c0-a033-84487da37f6d")
+	)
+	(wire
+		(pts
+			(xy 130.81 185.42) (xy 130.81 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d647ba-669c-43a4-9987-56f31da512e0")
 	)
 	(wire
 		(pts
@@ -4381,6 +4397,26 @@
 			(type default)
 		)
 		(uuid "3a0690d2-161c-4075-8837-2caf054d78bb")
+	)
+	(wire
+		(pts
+			(xy 128.27 187.96) (xy 130.81 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af8d4f6-63e0-4c6c-bbb4-48e8e465ceb5")
+	)
+	(wire
+		(pts
+			(xy 140.97 182.88) (xy 143.51 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4b5234-33e1-46db-8e79-0e66bb997d1d")
 	)
 	(wire
 		(pts
@@ -4514,6 +4550,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 185.42) (xy 123.19 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3502c9-170c-481f-8c1f-06ca37ec80a8")
+	)
+	(wire
+		(pts
 			(xy 140.97 182.88) (xy 140.97 180.34)
 		)
 		(stroke
@@ -4541,16 +4587,6 @@
 			(type default)
 		)
 		(uuid "6207600a-8051-43a2-a666-487fa5dd68d5")
-	)
-	(wire
-		(pts
-			(xy 120.65 185.42) (xy 120.65 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623adc17-5024-4922-9355-c8c39461c115")
 	)
 	(wire
 		(pts
@@ -4654,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 187.96) (xy 123.19 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7b9f94-b507-4c0f-b24a-d01394307fee")
+	)
+	(wire
+		(pts
 			(xy 190.5 111.76) (xy 190.5 134.62)
 		)
 		(stroke
@@ -4661,6 +4707,16 @@
 			(type default)
 		)
 		(uuid "7abfa4bc-ff8e-473f-8eef-03e1367839c3")
+	)
+	(wire
+		(pts
+			(xy 148.59 182.88) (xy 151.13 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5a7c5b-95d0-42db-9489-d6b14f61220e")
 	)
 	(wire
 		(pts
@@ -4844,13 +4900,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 180.34) (xy 120.65 182.88)
+			(xy 120.65 185.42) (xy 120.65 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "969c49aa-b4c4-4fa1-a993-88765d994e78")
+		(uuid "988b6fe4-dda4-4c18-a0ac-18d5dfe45010")
 	)
 	(wire
 		(pts
@@ -4914,6 +4970,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 180.34) (xy 151.13 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b18175-5d30-4c6a-bfc8-704146004cad")
+	)
+	(wire
+		(pts
 			(xy 73.66 132.08) (xy 76.2 132.08)
 		)
 		(stroke
@@ -4964,7 +5030,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 182.88) (xy 120.65 185.42)
+			(xy 120.65 180.34) (xy 120.65 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5011,16 +5077,6 @@
 			(type default)
 		)
 		(uuid "b10913c6-69c9-4741-ab9f-4cda9bce81df")
-	)
-	(wire
-		(pts
-			(xy 130.81 187.96) (xy 130.81 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b43edfde-7bdd-4bc9-9e0b-42d3f352e674")
 	)
 	(wire
 		(pts
@@ -5081,6 +5137,16 @@
 			(type default)
 		)
 		(uuid "c608997a-339d-4f47-8242-c46564d7a283")
+	)
+	(wire
+		(pts
+			(xy 120.65 180.34) (xy 123.19 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60e5844-be84-4378-8fa1-0f4ff863cfe5")
 	)
 	(wire
 		(pts
@@ -5151,6 +5217,26 @@
 			(type default)
 		)
 		(uuid "d6523408-1bad-47d9-a047-77434f5d7d02")
+	)
+	(wire
+		(pts
+			(xy 120.65 182.88) (xy 120.65 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f228b9-555e-482d-8939-147fda30379b")
+	)
+	(wire
+		(pts
+			(xy 128.27 180.34) (xy 130.81 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89de488-165c-444d-9ebd-c46a0ce85328")
 	)
 	(wire
 		(pts
@@ -5301,6 +5387,16 @@
 			(type default)
 		)
 		(uuid "f9be69ff-889b-47de-b653-24c4113e4fdf")
+	)
+	(wire
+		(pts
+			(xy 128.27 182.88) (xy 130.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa191cfd-8480-474b-b22e-1c76f2b8bd27")
 	)
 	(wire
 		(pts
@@ -5822,7 +5918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Device:NetTie_2")
 		(at 125.73 180.34 0)
 		(mirror y)
 		(unit 1)
@@ -5831,15 +5927,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d0384bc-5747-4e3c-9f79-5cf078361663")
-		(property "Reference" "JP1"
-			(at 125.73 178.562 0)
+		(property "Reference" "NT1"
+			(at 125.73 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "NetTie_2"
 			(at 125.73 177.8 0)
 			(effects
 				(font
@@ -5848,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyPackage:Bridge"
+		(property "Footprint" "MyPackage:NetTie-2_THT_Pad0.43mm"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -5866,7 +5962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Net tie, 2 pins"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -5884,7 +5980,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/d909ad86-0934-4f76-8543-80157c36b198"
-					(reference "JP1")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -6097,7 +6193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Device:NetTie_2")
 		(at 125.73 187.96 0)
 		(mirror y)
 		(unit 1)
@@ -6106,15 +6202,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10829653-ef19-42eb-b62f-0cf681518a55")
-		(property "Reference" "JP4"
-			(at 125.73 186.182 0)
+		(property "Reference" "NT4"
+			(at 125.73 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "NetTie_2"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -6123,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyPackage:Bridge"
+		(property "Footprint" "MyPackage:NetTie-2_THT_Pad0.43mm"
 			(at 125.73 187.96 0)
 			(effects
 				(font
@@ -6141,7 +6237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Net tie, 2 pins"
 			(at 125.73 187.96 0)
 			(effects
 				(font
@@ -6159,7 +6255,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/d909ad86-0934-4f76-8543-80157c36b198"
-					(reference "JP4")
+					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -6507,7 +6603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Device:NetTie_2")
 		(at 125.73 185.42 0)
 		(mirror y)
 		(unit 1)
@@ -6516,15 +6612,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e86368f-5d3f-4a2b-91c2-3edc6ae09ad9")
-		(property "Reference" "JP3"
-			(at 125.73 183.642 0)
+		(property "Reference" "NT3"
+			(at 125.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "NetTie_2"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -6533,7 +6629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyPackage:Bridge"
+		(property "Footprint" "MyPackage:NetTie-2_THT_Pad0.43mm"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -6551,7 +6647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Net tie, 2 pins"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -6569,7 +6665,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/d909ad86-0934-4f76-8543-80157c36b198"
-					(reference "JP3")
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -8134,7 +8230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Device:NetTie_2")
 		(at 146.05 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -8143,15 +8239,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e977036-fde5-439e-893f-5db403041afe")
-		(property "Reference" "JP6"
-			(at 146.05 181.102 0)
+		(property "Reference" "NT6"
+			(at 146.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "NetTie_2"
 			(at 146.05 180.34 0)
 			(effects
 				(font
@@ -8160,7 +8256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyPackage:Bridge"
+		(property "Footprint" "MyPackage:NetTie-2_THT_Pad0.43mm"
 			(at 146.05 182.88 0)
 			(effects
 				(font
@@ -8178,7 +8274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Net tie, 2 pins"
 			(at 146.05 182.88 0)
 			(effects
 				(font
@@ -8196,7 +8292,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/d909ad86-0934-4f76-8543-80157c36b198"
-					(reference "JP6")
+					(reference "NT6")
 					(unit 1)
 				)
 			)
@@ -10163,7 +10259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Device:NetTie_2")
 		(at 146.05 180.34 0)
 		(mirror y)
 		(unit 1)
@@ -10172,15 +10268,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acabfacc-a9ae-469b-a1c4-4da70415e38b")
-		(property "Reference" "JP5"
-			(at 146.05 178.562 0)
+		(property "Reference" "NT5"
+			(at 146.05 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "NetTie_2"
 			(at 146.05 177.8 0)
 			(effects
 				(font
@@ -10189,7 +10285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyPackage:Bridge"
+		(property "Footprint" "MyPackage:NetTie-2_THT_Pad0.43mm"
 			(at 146.05 180.34 0)
 			(effects
 				(font
@@ -10207,7 +10303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Net tie, 2 pins"
 			(at 146.05 180.34 0)
 			(effects
 				(font
@@ -10225,7 +10321,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/d909ad86-0934-4f76-8543-80157c36b198"
-					(reference "JP5")
+					(reference "NT5")
 					(unit 1)
 				)
 			)
@@ -11293,7 +11389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Device:NetTie_2")
 		(at 125.73 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -11302,15 +11398,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc1a859a-0ffa-4b43-b4ce-49875e76f145")
-		(property "Reference" "JP2"
-			(at 125.73 181.102 0)
+		(property "Reference" "NT2"
+			(at 125.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "NetTie_2"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -11319,7 +11415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyPackage:Bridge"
+		(property "Footprint" "MyPackage:NetTie-2_THT_Pad0.43mm"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -11337,7 +11433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Net tie, 2 pins"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -11355,7 +11451,7 @@
 		(instances
 			(project "ClassicIIRevB"
 				(path "/08c23af6-72f1-4a8f-a60c-b986fe71300f/d909ad86-0934-4f76-8543-80157c36b198"
-					(reference "JP2")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
