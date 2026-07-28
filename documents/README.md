@@ -1,5 +1,9 @@
 # Documents
 
+## Classic_II_Schematic.pdf
+
+Classic II schematics from Apple, posted to 68kmla forums after I did my reverse-engineering.
+
 ## Bomarc schematics - corrected.pdf
 
 The Classic II schematics, as reverse-engineered by Bomarc Services, with corrections added by me.
