@@ -1,4 +1,4 @@
-# ClassicII
+# Classic II
 
 Reproduction of Macintosh Classic II
 
@@ -20,4 +20,6 @@ It's likely some of the signals of the undocumented Apple ASICs in [my schematic
 
 The silkscreen markings of the PCB aren't as nice as I'd like yet.
 
-There should be a "reloaded" version that will better serve those who need to replace their damaged boards. It should have footprints for both the older and the newer revision ROM chips. The footprints for the electrolytic caps should be widened to make them friendlier to replace with tantalums. The battery should accommodate a 2032 coin cell.
+## Reloaded
+
+If you want to build one of these, you might find it easier to use the "Reloaded" version [here](./ClassicIIReloaded/).
