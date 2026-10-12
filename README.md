@@ -14,6 +14,8 @@ The inner layers are used for various ground and power planes - you can make out
 
 The [Bomarc schematics](documents/Bomarc%20schematics%20-%20corrected.pdf) for this board were useful as a reference, but they are for the earlier revision, and they do contain some inaccuracies.
 
+There is also an [interactive BOM](https://htmlpreview.github.io/?https://github.com/btb/ClassicII/blob/main/ClassicIIRevB/bom/ibom.html).
+
 ## Issues
 
 It's likely some of the signals of the undocumented Apple ASICs in [my schematic](ClassicIIRevB/ClassicIIRevB.pdf) aren't classified correctly.
