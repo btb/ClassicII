@@ -1,5 +1,7 @@
 # Classic II Reloaded
 
+![Rendering of Classic II Reloaded logic board](ClassicIIReloaded.png)
+
 Started with my reverse-engineered later-revision [Classic II](../ClassicIIRevB/), and made some changes for convenience:
 
 - Can use ROM chips from the earlier or later revisions.
